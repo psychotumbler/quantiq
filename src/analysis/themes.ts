@@ -313,11 +313,27 @@ export function dealIn(text: string): DealSignal | null {
   return kind ? { kind, ...amountIn(text) } : null;
 }
 
-/** The first stated money amount in `text`, as written and in US$ million. */
-export function amountIn(text: string): { amount: string | null; usdMillion: number | null } {
-  const m = text.match(AMOUNT);
-  if (!m) return { amount: null, usdMillion: null };
+/** Context that marks an amount as a valuation, not a deal size. */
+const VALUATION_BEFORE = /\b(valuation of|valued at|value of|market cap of|m-?cap of|net worth of)\s*(about|around|nearly|over)?\s*$/i;
+const VALUATION_AFTER = /^\s*(valuation|market cap|m-?cap)\b/i;
 
+/**
+ * The first stated money amount in `text` that is not a valuation, as
+ * written and in US$ million. "Seeks ₹90,000 crore valuation in ₹8,981 crore
+ * IPO" yields the IPO size, not the valuation.
+ */
+export function amountIn(text: string): { amount: string | null; usdMillion: number | null } {
+  const global = new RegExp(AMOUNT.source, "gi");
+  let m: RegExpExecArray | null = null;
+  for (let hit = global.exec(text); hit; hit = global.exec(text)) {
+    const before = text.slice(Math.max(0, hit.index - 30), hit.index);
+    const after = text.slice(hit.index + hit[0].length, hit.index + hit[0].length + 14);
+    if (!VALUATION_BEFORE.test(before) && !VALUATION_AFTER.test(after)) {
+      m = hit;
+      break;
+    }
+  }
+  if (!m) return { amount: null, usdMillion: null };
   let usdMillion: number | null = null;
   if (m[1] || m[7]) {
     const value = Number.parseFloat((m[2] ?? m[7]).replace(/,/g, ""));

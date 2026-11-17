@@ -56,6 +56,12 @@ describe("deal extraction", () => {
     expect(dealIn("L&T secures 2,500-crore metro project order")!.amount).toMatch(/2,500-?crore/);
   });
 
+  it("skips a valuation and takes the deal size", () => {
+    expect(dealIn("Mahanadi Coalfields seeks ₹90,000 crore valuation in ₹8,981 crore IPO")!.amount).toBe("₹8,981 crore");
+    expect(dealIn("Startup raises $200 million at a valuation of $5 billion")!.amount).toBe("$200 million");
+    expect(dealIn("Claude maker eyes $1.33 trillion valuation in IPO")!.amount).toBeNull();
+  });
+
   it("returns null when the headline is not a deal", () => {
     expect(dealIn("Sensex ends 200 points higher")).toBeNull();
     expect(dealIn("Company wins award for best workplace")).toBeNull();
