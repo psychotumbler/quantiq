@@ -7,6 +7,7 @@ import type { PortfolioRouteData } from "@/app/api/portfolio/route";
 import type { BaseCurrency } from "@/analysis/portfolio";
 import { holdingsToCsv, parseHoldingsCsv, type CsvHolding } from "@/lib/portfolioCsv";
 import { useLocalStorage } from "@/lib/useLocalStorage";
+import { TickerSearch } from "@/components/TickerSearch";
 import { formatPercent, formatRatio } from "@/lib/format";
 import {
   formatChange,
@@ -152,12 +153,12 @@ export function PortfolioView({ onAnalyze }: { onAnalyze: (symbol: string) => vo
         }
       >
         <form onSubmit={addHolding} className="grid gap-3 sm:grid-cols-[1.4fr_1fr_1fr_auto]">
-          <input
+          <TickerSearch
             value={symbol}
-            onChange={(e) => setSymbol(e.target.value)}
-            placeholder="Ticker"
-            aria-label="Ticker"
-            className="rounded-md border border-gray-700 bg-gray-950 px-3 py-2 text-sm text-gray-100 placeholder-gray-600 outline-none focus:border-emerald-500"
+            onChange={setSymbol}
+            onPick={(r) => setSymbol(r.symbol)}
+            placeholder="Search ticker — RELIANCE.NS, AAPL…"
+            inputClassName="w-full rounded-md border border-gray-700 bg-gray-950 px-3 py-2 text-sm text-gray-100 placeholder-gray-600 outline-none focus:border-emerald-500"
           />
           <input
             value={quantity}

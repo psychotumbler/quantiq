@@ -49,6 +49,7 @@ function parseBots(body: unknown): BotConfig[] | null {
       startingCapital: Math.min(1e12, Number(b.startingCapital)),
       startDate: String(b.startDate),
       costBps: Number(b.costBps) >= 0 ? Math.min(500, Number(b.costBps)) : undefined,
+      currency: typeof b.currency === "string" ? b.currency.slice(0, 8).toUpperCase() : undefined,
     });
   }
   return bots;
@@ -108,7 +109,9 @@ export async function POST(request: Request): Promise<Response> {
         warning = `No price data came back for ${result.skipped.join(", ")} — they may be mistyped or temporarily unavailable.`;
       }
 
-      return { ...result, currency: priced ? (currency.get(priced) ?? "") : "", warning };
+      // The user's chosen currency wins for display; else infer from the data.
+      const displayCurrency = bot.currency || (priced ? (currency.get(priced) ?? "") : "");
+      return { ...result, currency: displayCurrency, warning };
     });
 
     const data: AlgoRouteData = { results, sampleData: sample };

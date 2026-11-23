@@ -43,6 +43,10 @@ export interface BotConfig {
   startDate: string;
   /** Round-trip cost in basis points. Default 20 (0.20%). */
   costBps?: number;
+  /** Display currency the user chose (e.g. "INR", "USD"). Display only; the
+   *  engine computes in each symbol's native prices. Defaults to the first
+   *  priced symbol's currency when unset. */
+  currency?: string;
 }
 
 export type TradeSide = "BUY" | "SELL";

@@ -25,6 +25,7 @@ import type { AlgoRouteData } from "@/app/api/algo/route";
 import type { BotConfig, BotResult } from "@/algo/engine";
 import { STRATEGIES, type StrategyId } from "@/analysis/backtest";
 import { useLocalStorage } from "@/lib/useLocalStorage";
+import { TickerSearch } from "@/components/TickerSearch";
 import {
   formatChange,
   formatMoney,
@@ -63,14 +64,20 @@ function BotBuilder({ onCreate }: { onCreate: (bot: BotConfig) => void }) {
   const [draft, setDraft] = useState("");
   const [capital, setCapital] = useState(100000);
   const [startDate, setStartDate] = useState("2023-01-01");
+  const [currencyOverride, setCurrencyOverride] = useState<string | null>(null);
 
-  const addSymbol = () => {
-    const s = draft.trim().toUpperCase();
+  // Default the currency from the tickers (.NS/.BO → ₹), but let the user pick.
+  const inferredCurrency = symbols.some((s) => /\.(NS|BO)$/.test(s)) ? "INR" : "USD";
+  const currency = currencyOverride ?? inferredCurrency;
+
+  const addSymbolValue = (raw: string) => {
+    const s = raw.trim().toUpperCase();
     if (/^[A-Z0-9.^=&-]{1,20}$/.test(s) && !symbols.includes(s) && symbols.length < 20) {
       setSymbols([...symbols, s]);
     }
     setDraft("");
   };
+  const addSymbol = () => addSymbolValue(draft);
 
   const create = () => {
     if (symbols.length === 0) return;
@@ -82,9 +89,11 @@ function BotBuilder({ onCreate }: { onCreate: (bot: BotConfig) => void }) {
       startingCapital: Math.max(1000, capital),
       startDate,
       costBps: 20,
+      currency,
     });
     setName("");
     setSymbols([]);
+    setCurrencyOverride(null);
   };
 
   return (
@@ -127,20 +136,20 @@ function BotBuilder({ onCreate }: { onCreate: (bot: BotConfig) => void }) {
         <div className="space-y-3">
           <div>
             <span className="text-xs text-gray-400">Stocks</span>
-            <form
-              onSubmit={(e) => { e.preventDefault(); addSymbol(); }}
-              className="mt-1 flex gap-2"
-            >
-              <input
+            <div className="mt-1 flex gap-2">
+              <TickerSearch
                 value={draft}
-                onChange={(e) => setDraft(e.target.value)}
-                placeholder="RELIANCE.NS, AAPL…"
-                className="flex-1 rounded-md border border-gray-700 bg-gray-950 px-3 py-2 text-sm text-gray-100 placeholder-gray-600 outline-none focus:border-emerald-500"
+                onChange={setDraft}
+                onPick={(r) => addSymbolValue(r.symbol)}
+                onEnter={addSymbol}
+                placeholder="Search a ticker — RELIANCE.NS, AAPL…"
+                className="flex-1"
+                inputClassName="w-full rounded-md border border-gray-700 bg-gray-950 px-3 py-2 text-sm text-gray-100 placeholder-gray-600 outline-none focus:border-emerald-500"
               />
-              <button type="submit" className="rounded-md bg-emerald-500 px-3 py-2 text-sm font-semibold text-gray-950">
+              <button type="button" onClick={addSymbol} className="shrink-0 rounded-md bg-emerald-500 px-3 py-2 text-sm font-semibold text-gray-950 hover:bg-emerald-400">
                 Add
               </button>
-            </form>
+            </div>
             <div className="mt-2 flex flex-wrap gap-1.5">
               {symbols.map((s) => (
                 <span key={s} className="flex items-center gap-1 rounded-full border border-gray-700 bg-gray-950 py-0.5 pl-2.5 pr-1 text-xs">
@@ -161,14 +170,25 @@ function BotBuilder({ onCreate }: { onCreate: (bot: BotConfig) => void }) {
           <div className="grid grid-cols-2 gap-3">
             <label className="block">
               <span className="text-xs text-gray-400">Starting capital</span>
-              <input
-                type="number"
-                value={capital}
-                min={1000}
-                step={10000}
-                onChange={(e) => setCapital(Number(e.target.value))}
-                className="mt-1 w-full rounded-md border border-gray-700 bg-gray-950 px-3 py-2 font-mono text-sm text-gray-100 outline-none focus:border-emerald-500"
-              />
+              <div className="mt-1 flex rounded-md border border-gray-700 bg-gray-950 focus-within:border-emerald-500">
+                <select
+                  value={currency}
+                  onChange={(e) => setCurrencyOverride(e.target.value)}
+                  aria-label="Currency"
+                  className="rounded-l-md border-r border-gray-700 bg-gray-900 px-2 py-2 text-sm text-gray-200 outline-none"
+                >
+                  <option value="INR">₹ INR</option>
+                  <option value="USD">$ USD</option>
+                </select>
+                <input
+                  type="number"
+                  value={capital}
+                  min={1000}
+                  step={10000}
+                  onChange={(e) => setCapital(Number(e.target.value))}
+                  className="w-full rounded-r-md bg-transparent px-3 py-2 font-mono text-sm text-gray-100 outline-none"
+                />
+              </div>
             </label>
             <label className="block">
               <span className="text-xs text-gray-400">Start date</span>
@@ -387,7 +407,8 @@ export function AlgoView({ onAnalyze }: { onAnalyze: (symbol: string) => void })
   const [data, setData] = useState<AlgoRouteData | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const payload = JSON.stringify(bots);
+  // The API expects { bots: [...] }, not a bare array.
+  const payload = JSON.stringify({ bots });
   const firstLoad = useRef(true);
 
   useEffect(() => {
