@@ -156,6 +156,7 @@ export function parseChart(symbol: string, body: unknown): ChartBundle | null {
 const TTL_MS: Record<string, number> = {
   "1mo": 3 * 60 * 1000,
   "1y": 30 * 60 * 1000,
+  "5y": 6 * 60 * 60 * 1000,
 };
 
 const bundleCache = new Map<string, { at: number; value: ChartBundle }>();
@@ -168,7 +169,7 @@ export interface ChartResult {
 /** One symbol's chart, cached. A failed refresh returns the last good value. */
 export async function getChart(
   symbol: string,
-  range: "1mo" | "1y" = "1mo",
+  range: "1mo" | "1y" | "5y" = "1mo",
 ): Promise<ChartResult> {
   const key = `${symbol}|${range}`;
   const hit = bundleCache.get(key);
