@@ -6,8 +6,11 @@
  * positions — is DERIVED by replaying the strategy over the symbols' price
  * history. There is no stored running state to drift out of sync: re-run it and
  * you get the same past plus any new day. That is deliberate, and it means the
- * paper bot and the backtest share one signal engine (`positions`), so what you
- * backtested is exactly what trades live.
+ * paper bot and the backtest share one signal engine (`positions`), so the
+ * signals are identical. They differ only in execution timing: the backtest
+ * trades close-to-close (decision and fill on the same close), while the paper
+ * bot fills the NEXT session — a signal at tonight's close, bought at tomorrow's
+ * — which is how an after-hours retail workflow actually trades.
  *
  * Design, stated once:
  * - **No look-ahead.** A signal at the close of day t is acted on at the close
@@ -110,6 +113,8 @@ export interface BotResult {
   skipped: string[];
   /** Currency of the first priced symbol, for display. */
   currency: string;
+  /** Non-fatal caveat for the UI (e.g. symbols span more than one currency). */
+  warning?: string;
 }
 
 interface CleanBars {

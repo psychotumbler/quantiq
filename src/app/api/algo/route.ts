@@ -97,7 +97,18 @@ export async function POST(request: Request): Promise<Response> {
       const barsBySymbol = Object.fromEntries(bot.symbols.map((s) => [s, bars.get(s) ?? []]));
       const result = runPaperBot(bot, barsBySymbol);
       const priced = bot.symbols.find((s) => !result.skipped.includes(s));
-      return { ...result, currency: priced ? (currency.get(priced) ?? "") : "" };
+
+      // A bot holds one cash pool, so mixing currencies (e.g. INR + USD) would
+      // add unlike prices together. Flag it rather than show a nonsense curve.
+      const currencies = [...new Set(bot.symbols.map((s) => currency.get(s)).filter(Boolean))];
+      let warning: string | undefined;
+      if (currencies.length > 1) {
+        warning = `This bot mixes ${currencies.join(" and ")}. A paper account holds one currency, so returns across currencies aren't meaningful — use one market per bot.`;
+      } else if (!sample && result.skipped.length > 0 && result.skipped.every((s) => (bars.get(s)?.length ?? 0) === 0)) {
+        warning = `No price data came back for ${result.skipped.join(", ")} — they may be mistyped or temporarily unavailable.`;
+      }
+
+      return { ...result, currency: priced ? (currency.get(priced) ?? "") : "", warning };
     });
 
     const data: AlgoRouteData = { results, sampleData: sample };

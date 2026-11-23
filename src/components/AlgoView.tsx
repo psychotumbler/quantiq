@@ -150,6 +150,12 @@ function BotBuilder({ onCreate }: { onCreate: (bot: BotConfig) => void }) {
               ))}
               {symbols.length === 0 && <span className="text-xs text-gray-600">Add one or more tickers.</span>}
             </div>
+            {symbols.some((s) => /\.(NS|BO)$/.test(s)) && symbols.some((s) => !/\.(NS|BO)$/.test(s)) && (
+              <p className="mt-1.5 text-xs text-amber-400">
+                Looks like you&apos;re mixing Indian (.NS/.BO) and other tickers. A bot holds one
+                currency — keep each bot to a single market.
+              </p>
+            )}
           </div>
 
           <div className="grid grid-cols-2 gap-3">
@@ -227,10 +233,15 @@ function BotCard({
         </button>
       }
     >
+      {result.warning && (
+        <p className="mb-4 rounded-md border border-amber-500/30 bg-amber-500/10 px-3 py-2 text-xs text-amber-300">
+          {result.warning}
+        </p>
+      )}
       {result.equityCurve.length === 0 ? (
         <p className="text-sm text-amber-300">
           Not enough price history to run this bot
-          {result.skipped.length > 0 ? ` (no data for ${result.skipped.join(", ")})` : ""}.
+          {result.skipped.length > 0 ? ` (no usable data for ${result.skipped.join(", ")})` : ""}.
         </p>
       ) : (
         <>
