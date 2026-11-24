@@ -29,6 +29,9 @@ export interface ResolvedEntity {
   matchedAs: string;
   inTitle: boolean;
   mentions: number;
+  /** True when this looks like a story about the global parent, not the
+   *  Indian listed entity that happens to share its name. */
+  parentStory?: boolean;
 }
 
 const PRIMARY_THRESHOLD = 0.5;
@@ -122,6 +125,29 @@ export function buildIndex(universe: NamedCompany[], aliases: Record<string, str
  * `title` is weighted far more heavily than `body` - a name in the headline is
  * what the story is about; a name in paragraph nine usually is not.
  */
+
+/**
+ * Many Indian listed companies are subsidiaries that share a name with a far
+ * larger global parent: Sanofi India, Siemens India, 3M India, Bosch, ABB.
+ * A wire story about the parent ("Sanofi strikes $41bn deal to acquire US
+ * drugmaker Insmed") must not be attributed to the Indian subsidiary, whose
+ * entire market cap is a fraction of that number. Getting this wrong is the
+ * kind of error that destroys trust in a signal instantly.
+ *
+ * The rule is general rather than a hardcoded brand list: if the listed
+ * entity's registered name carries "India" but the article names only the bare
+ * brand and talks about foreign markets, it is a parent-company story.
+ */
+const FOREIGN_CUE =
+  /\b(US|U\.S\.|American|Europe(an)?|UK|British|German|French|Japan(ese)?|China|Chinese|global(ly)?|worldwide|international markets?|Nasdaq|NYSE|FTSE)\b/;
+const INDIA_CUE = /\b(India|Indian|Mumbai|Delhi|NSE|BSE|Nifty|Sensex|crore|lakh|rupee)\b/i;
+
+function isParentCompanyStory(companyName: string, matchedAs: string, text: string): boolean {
+  if (!/\bIndia\b/i.test(companyName)) return false;
+  if (/\bIndia\b/i.test(matchedAs)) return false;
+  return FOREIGN_CUE.test(text) && !INDIA_CUE.test(text);
+}
+
 export function resolveEntities(title: string, body: string, index: EntityIndex): ResolvedEntity[] {
   const text = `${title}\n${body}`;
   const lead = body.slice(0, 220);
@@ -162,6 +188,11 @@ export function resolveEntities(title: string, body: string, index: EntityIndex)
     salience += Math.min(0.2, (mentions - 1) * 0.07);
     // Multi-word matches are far less likely to be coincidence.
     if (best.text.split(/\s+/).length > 1) salience += 0.1;
+    // The Indian-subsidiary guard: demote hard rather than drop, so the
+    // company still surfaces as a mention and the call stays auditable.
+    const parentStory = isParentCompanyStory(company.name, best.text, text);
+    if (parentStory) salience *= 0.3;
+
     salience = Math.min(1, Number(salience.toFixed(3)));
 
     out.push({
@@ -174,6 +205,7 @@ export function resolveEntities(title: string, body: string, index: EntityIndex)
       matchedAs: best.text,
       inTitle,
       mentions,
+      parentStory,
     });
   }
 

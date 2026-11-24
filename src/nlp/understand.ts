@@ -43,6 +43,8 @@ export interface ArticleUnderstanding {
   url: string;
   publishedAt: string | null;
   sector?: string;
+  /** Multi-company wrap: no single subject, no amount attribution. */
+  isRoundup: boolean;
 
   event: DetectedEvent | null;
   secondaryEvents: DetectedEvent[];
@@ -199,18 +201,45 @@ function writeSummary(
   return parts.join(" ");
 }
 
+
+/**
+ * Round-ups list several companies and several unrelated numbers. Attributing
+ * the largest amount in the article to whichever company happened to resolve
+ * first produces confident nonsense - "Vikram Solar, $2.8bn" from a wrap whose
+ * headline was actually about Waaree. When we detect one, nothing gets treated
+ * as the subject and no amount is pinned to anyone.
+ */
+const ROUNDUP_TITLE =
+  /\b(round[-\s]?up|roundup|wrap|at a glance|in focus|stocks? to watch|movers|top (gainers|losers|picks|stocks)|market live|highlights|key takeaways|news briefs?|digest|what to watch|buzzing stocks)\b/i;
+
+function looksLikeRoundup(title: string, body: string, primaryCount: number): boolean {
+  if (ROUNDUP_TITLE.test(title)) return true;
+  // Several companies each paired with their own action verb in one headline.
+  const actions = (title.match(/\b(wins?|bags?|secures?|gets?|rises?|falls?|jumps?|slips?|gains?)\b/gi) ?? []).length;
+  if (actions >= 2 && primaryCount >= 2) return true;
+  return primaryCount >= 4 && body.length < 400;
+}
+
 export function understand(article: ArticleInput, ctx: UnderstandContext): ArticleUnderstanding {
   const body = article.body ?? "";
   const text = `${article.title}\n${body}`;
   const trust = article.trust ?? 0.6;
 
   const entities = resolveEntities(article.title, body, ctx.index);
-  const primary = entities.filter((e) => e.role === "primary");
-  const mentioned = entities.filter((e) => e.role === "mentioned");
+  let primary = entities.filter((e) => e.role === "primary");
+  let mentioned = entities.filter((e) => e.role === "mentioned");
+
+  const isRoundup = looksLikeRoundup(article.title, body, primary.length);
+  if (isRoundup) {
+    // No single subject: everything becomes a mention.
+    mentioned = [...primary, ...mentioned];
+    primary = [];
+  }
 
   const events = detectEvents(text);
   const event = events[0] ?? null;
-  const amount = extractAmount(text);
+  // In a round-up the amount belongs to some company, but we cannot say which.
+  const amount = isRoundup ? null : extractAmount(text);
   const counterparty = event ? extractCounterparty(text, event.trigger) : null;
 
   // Size relative to the company is the difference between "big number" and
@@ -261,6 +290,7 @@ export function understand(article: ArticleInput, ctx: UnderstandContext): Artic
 
   return {
     id: article.id,
+    isRoundup,
     title: article.title,
     source: article.source,
     url: article.url,

@@ -161,3 +161,66 @@ describe("understanding", () => {
     expect(u.summary.length).toBeGreaterThan(5);
   });
 });
+
+describe("attribution guards", () => {
+  const ctx = { index, marketCaps, peers };
+
+  it("does not pin a global parent's deal on the Indian subsidiary", () => {
+    const idx = buildIndex(
+      [{ symbol: "SANOFI.NS", name: "Sanofi India Limited", industry: "Pharma", market: "IN", core: true }],
+      { "SANOFI.NS": ["Sanofi"] });
+    const u = understand({
+      id: "p1",
+      title: "Sanofi strikes $41 billion deal to acquire US drugmaker Insmed",
+      body: "The French group said the transaction would close next year.",
+      source: "Reuters", url: "x", trust: 0.85,
+    }, { index: idx });
+
+    expect(u.primary.find((p) => p.symbol === "SANOFI.NS")).toBeUndefined();
+    const m = u.mentioned.find((p) => p.symbol === "SANOFI.NS");
+    expect(m?.parentStory).toBe(true);
+  });
+
+  it("still attributes a genuine India story to the Indian entity", () => {
+    const idx = buildIndex(
+      [{ symbol: "SANOFI.NS", name: "Sanofi India Limited", industry: "Pharma", market: "IN", core: true }],
+      { "SANOFI.NS": ["Sanofi"] });
+    const u = understand({
+      id: "p2",
+      title: "Sanofi India wins approval for new plant in Mumbai",
+      body: "The company said the Rs 400 crore facility will start next year.",
+      source: "ET", url: "x", trust: 0.8,
+    }, { index: idx });
+    expect(u.primary.some((p) => p.symbol === "SANOFI.NS")).toBe(true);
+  });
+
+  it("refuses to pin an amount to one company in a round-up", () => {
+    const u = understand({
+      id: "r1",
+      title: "INDIA ROUND-UP: Waaree wins 300MW EPC contract, Gujarat bags Rs 2,000 crore order",
+      body: "Several renewable names were active.", source: "trade", url: "x", trust: 0.5,
+    }, ctx);
+
+    expect(u.isRoundup).toBe(true);
+    expect(u.amount).toBeNull();
+    expect(u.primary).toHaveLength(0);
+  });
+
+  it("detects a wrap from two companies each with their own verb", () => {
+    const u = understand({
+      id: "r2",
+      title: "HAL wins order, Reliance gains 3% on results",
+      body: "", source: "x", url: "y", trust: 0.6,
+    }, ctx);
+    expect(u.isRoundup).toBe(true);
+  });
+
+  it("leaves a normal single-company story alone", () => {
+    const u = understand({
+      id: "r3", title: "HAL wins Rs 8,000 crore order from Ministry of Defence",
+      body: "", source: "ET", url: "x", trust: 0.8 }, ctx);
+    expect(u.isRoundup).toBe(false);
+    expect(u.primary[0].symbol).toBe("HAL.NS");
+    expect(u.amount).not.toBeNull();
+  });
+});
