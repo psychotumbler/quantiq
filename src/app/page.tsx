@@ -19,11 +19,13 @@ import { ToolsView } from "@/components/ToolsView";
 import { NexusView } from "@/components/NexusView";
 import { CompareView } from "@/components/CompareView";
 import { AlgoView } from "@/components/AlgoView";
+import { IntelView } from "@/components/IntelView";
 
-type View = "markets" | "nexus" | "analyze" | "compare" | "portfolio" | "algo" | "tools";
+type View = "markets" | "intel" | "nexus" | "analyze" | "compare" | "portfolio" | "algo" | "tools";
 
 const TABS: { id: View; label: string }[] = [
   { id: "markets", label: "Markets" },
+  { id: "intel", label: "Intelligence" },
   { id: "nexus", label: "News Nexus" },
   { id: "analyze", label: "Analyze" },
   { id: "compare", label: "Compare" },
@@ -182,6 +184,7 @@ export default function Home() {
         {view === "compare" && <CompareView key={symbol || "blank"} initial={symbol} onAnalyze={analyze} />}
         {view === "portfolio" && <PortfolioView onAnalyze={analyze} />}
         {view === "algo" && <AlgoView onAnalyze={analyze} />}
+        {view === "intel" && <IntelView onAnalyze={analyze} />}
         {view === "tools" && <ToolsView />}
       </main>
 
