@@ -1007,3 +1007,74 @@ export const yahooProvider: DataProvider = {
   getFinancials,
   getFundamentalMetrics,
 };
+
+/* ------------------------------------------------------------------ */
+/* Bulk market caps                                                    */
+/* ------------------------------------------------------------------ */
+
+/**
+ * Market cap for several symbols, for the news engine.
+ *
+ * Size is the difference between "big number" and "big deal": a Rs 500 crore
+ * order is routine for Reliance and transformative for a small cap. The
+ * materiality score needs the denominator.
+ *
+ * Cached for twelve hours. Market caps move a few percent a day, the news
+ * engine only needs the order of magnitude, and this runs against dozens of
+ * symbols per sweep — re-fetching hourly would be wasteful and rude.
+ */
+const MCAP_TTL_MS = 12 * 60 * 60 * 1000;
+const mcapCache = new Map<string, { at: number; value: number | null }>();
+
+async function fetchMarketCap(symbol: string): Promise<number | null> {
+  try {
+    const { series } = await fetchTimeseries(symbol, [VALUATION_TS.marketCap], 2);
+    // TypeSeries is a Map keyed by period end date; take the most recent.
+    const points = series.get(VALUATION_TS.marketCap);
+    if (!points || points.size === 0) return null;
+    const latestDate = [...points.keys()].sort().pop();
+    const value = latestDate ? points.get(latestDate) ?? null : null;
+    return value !== null && value > 0 ? value : null;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Returns symbol -> market cap in USD millions.
+ * Indian listings report in rupees, so they are converted; the news engine
+ * compares against deal sizes it has already normalised to USD millions.
+ */
+export async function getMarketCapsUsdMillions(
+  symbols: string[],
+  inrPerUsd = 88,
+): Promise<Map<string, number>> {
+  const out = new Map<string, number>();
+  const now = Date.now();
+  const toFetch: string[] = [];
+
+  for (const s of symbols) {
+    const hit = mcapCache.get(s);
+    if (hit && now - hit.at < MCAP_TTL_MS) {
+      if (hit.value !== null) out.set(s, hit.value);
+    } else {
+      toFetch.push(s);
+    }
+  }
+
+  const results = await Promise.all(
+    toFetch.map(async (s) => ({ symbol: s, raw: await fetchMarketCap(s) })),
+  );
+
+  for (const { symbol, raw: value } of results) {
+    let usdMillions: number | null = null;
+    if (value !== null) {
+      const isRupee = /\.(NS|BO)$/.test(symbol);
+      usdMillions = (isRupee ? value / inrPerUsd : value) / 1_000_000;
+    }
+    mcapCache.set(symbol, { at: now, value: usdMillions });
+    if (usdMillions !== null) out.set(symbol, usdMillions);
+  }
+
+  return out;
+}

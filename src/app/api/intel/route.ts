@@ -16,6 +16,7 @@ import type { APIResponse } from "@/types/stock";
 import { getProvider, isSampleData } from "@/services";
 import { getUniverse } from "@/services/universe";
 import { getMarketFilings } from "@/services/nse";
+import { getMarketCapsUsdMillions } from "@/services/yahooFinance";
 import { filingToHeadline } from "@/services/newsNexus";
 import { ALIASES_FOR_NLP } from "@/analysis/themes";
 import { sweep, rollupByCompany, rollupBySector, type SweepStats } from "@/nlp/pipeline";
@@ -64,6 +65,8 @@ async function run(depth: "core" | "full"): Promise<IntelRouteData> {
     aliases: ALIASES_FOR_NLP,
     // Exchange filings are primary documents, so they carry the highest trust.
     extra: filings.map((f) => ({ item: filingToHeadline(f), trust: 0.95 })),
+    fetchMarketCaps: (symbols) => getMarketCapsUsdMillions(symbols),
+    rescoreTop: 40,
   });
 
   return {
@@ -92,7 +95,7 @@ export async function GET(request: Request): Promise<Response> {
           articles: [], companies: [], sectors: [],
           stats: { feedsTried: 0, feedsOk: 0, feedsFailed: 0, rawHeadlines: 0,
                    uniqueHeadlines: 0, understood: 0, withEvent: 0, withCompany: 0,
-                   highMateriality: 0, elapsedMs: 0, failures: [] },
+                   highMateriality: 0, rescoredWithMarketCap: 0, elapsedMs: 0, failures: [] },
           feeds: feedStats(), generatedAt: timestamp, sampleData: true,
         },
         timestamp,

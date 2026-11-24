@@ -36,6 +36,8 @@ export interface SweepStats {
   withEvent: number;
   withCompany: number;
   highMateriality: number;
+  /** Stories re-scored once the subject's market cap was known. */
+  rescoredWithMarketCap: number;
   elapsedMs: number;
   failures: { source: string; reason: string }[];
 }
@@ -75,6 +77,16 @@ export interface SweepOptions {
   /** Extra headlines (exchange filings) already fetched elsewhere. */
   extra?: { item: RichHeadline; trust: number; sector?: string }[];
   concurrency?: number;
+  /**
+   * Optional second pass. Market cap is what separates "big number" from
+   * "big deal", but fetching it for every company named across five thousand
+   * headlines would be absurd. So we rank once without it, then look up sizes
+   * only for the subjects of the stories that already look material, and
+   * re-score just those.
+   */
+  fetchMarketCaps?: (symbols: string[]) => Promise<Map<string, number>>;
+  /** How many top stories get the second pass. */
+  rescoreTop?: number;
 }
 
 /** Industry peers, derived from the universe we already have. */
@@ -151,6 +163,33 @@ export async function sweep(opts: SweepOptions): Promise<SweepResult> {
 
   articles.sort((a, b) => b.materiality.score - a.materiality.score);
 
+  let rescored = 0;
+  if (opts.fetchMarketCaps) {
+    const topN = opts.rescoreTop ?? 40;
+    const symbols = [...new Set(
+      articles.slice(0, topN).flatMap((a) => a.primary.slice(0, 1).map((p) => p.symbol)),
+    )];
+    if (symbols.length) {
+      const caps = await opts.fetchMarketCaps(symbols).catch(() => new Map<string, number>());
+      if (caps.size) {
+        const withCaps: UnderstandContext = { ...ctx, marketCaps: caps };
+        for (let i = 0; i < Math.min(topN, articles.length); i += 1) {
+          const a = articles[i];
+          if (!a.primary.length || !caps.has(a.primary[0].symbol)) continue;
+          const q = queue[Number(a.id.slice(1))];
+          if (!q) continue;
+          articles[i] = understand({
+            id: a.id, title: q.item.title, body: q.item.summary ?? "",
+            source: q.item.source, url: q.item.url,
+            publishedAt: q.item.publishedAt ?? null, sector: q.sector, trust: q.trust,
+          }, withCaps);
+          rescored += 1;
+        }
+        articles.sort((x, y) => y.materiality.score - x.materiality.score);
+      }
+    }
+  }
+
   const stats: SweepStats = {
     feedsTried: feeds.length,
     feedsOk: results.filter((r) => !r.error).length,
@@ -161,6 +200,7 @@ export async function sweep(opts: SweepOptions): Promise<SweepResult> {
     withEvent: articles.filter((a) => a.event).length,
     withCompany: articles.filter((a) => a.primary.length > 0).length,
     highMateriality: articles.filter((a) => a.materiality.band === "high").length,
+    rescoredWithMarketCap: rescored,
     elapsedMs: Date.now() - started,
     failures: failures.slice(0, 20),
   };
