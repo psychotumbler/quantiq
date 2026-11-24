@@ -227,6 +227,10 @@ const ALIASES: Record<string, string[]> = {
   NVDA: ["Nvidia"], MSFT: ["Microsoft"], AAPL: ["Apple"], TSLA: ["Tesla"],
 };
 
+/** Same alias table, exported for the NLP entity index. */
+export const ALIASES_FOR_NLP: Record<string, string[]> = ALIASES;
+
+
 const LEGAL_SUFFIX = /\s*\b(limited|ltd\.?|incorporated|inc\.?|corporation|corp\.?|company|co\.?|plc)\b\.?/gi;
 
 /** Names too generic to match on their own, even though a company is called this. */
