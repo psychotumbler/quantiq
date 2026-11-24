@@ -224,3 +224,23 @@ describe("attribution guards", () => {
     expect(u.amount).not.toBeNull();
   });
 });
+
+describe("counterparty filtering", () => {
+  it("does not report a month as the counterparty", () => {
+    const text = "L&T bags order worth Rs 5,000 crore from July deliveries onward";
+    const ev = detectEvents(text);
+    expect(extractCounterparty(text, ev[0].trigger)).toBeNull();
+  });
+
+  it("still finds a real organisation", () => {
+    const text = "BEML secures Rs 5,400 crore order from NHSRCL for the corridor";
+    const ev = detectEvents(text);
+    expect(extractCounterparty(text, ev[0].trigger)).toMatch(/NHSRCL/);
+  });
+
+  it("rejects a bare number as a counterparty", () => {
+    const text = "Company wins contract from 2026 onwards";
+    const ev = detectEvents(text);
+    expect(extractCounterparty(text, ev[0].trigger)).toBeNull();
+  });
+});

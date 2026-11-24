@@ -212,11 +212,29 @@ export function detectEvents(text: string): DetectedEvent[] {
   return hits.sort((a, b) => b.confidence - a.confidence);
 }
 
+/**
+ * Words that follow "from"/"by" but are not organisations. Without this the
+ * extractor happily reports that L&T won an order "from July".
+ */
+const NOT_A_COUNTERPARTY =
+  /^(January|February|March|April|May|June|July|August|September|October|November|December|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|Q[1-4]|FY\d*|The|This|That|Its|His|Her|Their|Rs|INR|USD|About|Around|Over|Nearly|Last|Next|Now|Today|Yesterday|Tomorrow|Year|Month|Week|Analysts?|Investors?|Shares?|Markets?)$/i;
+
 export function extractCounterparty(text: string, trigger: string): string | null {
   const at = text.indexOf(trigger);
   const window = at >= 0 ? text.slice(at, at + 220) : text.slice(0, 220);
   const m = COUNTERPARTY_RE.exec(window);
   if (!m) return null;
-  const name = m[1].replace(/\s+/g, " ").trim().replace(/[.,;:]$/, "");
+  let name = m[1].replace(/\s+/g, " ").trim().replace(/[.,;:]$/, "");
+  // Drop a leading article ("the Ministry of Defence" -> "Ministry of Defence")
+  // before the checks below, which test the first real word.
+  name = name.replace(/^(the|a|an)\s+/i, "").trim();
+  // Trim a trailing stop-word the greedy capture pulled in.
+  name = name.replace(/\s+(the|a|an|of|and|&|to|for|in|on|at)$/i, "").trim();
+
+  if (!name || NOT_A_COUNTERPARTY.test(name)) return null;
+  // A counterparty starting with a month/date word is a date phrase.
+  if (NOT_A_COUNTERPARTY.test(name.split(/\s+/)[0])) return null;
+  if (/^\d/.test(name)) return null;
+
   return name.length >= 3 && name.length <= 60 ? name : null;
 }
