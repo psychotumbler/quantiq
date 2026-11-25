@@ -23,7 +23,7 @@ import { pooled } from "@/services/market";
 import { fetchFeedRich, type RichHeadline } from "@/services/news";
 import { ALL_FEEDS, type FeedSource } from "@/nlp/sources";
 import { buildIndex, type EntityIndex } from "@/nlp/entities";
-import { understand, type ArticleUnderstanding, type UnderstandContext } from "@/nlp/understand";
+import { understand, type ArticleInput, type ArticleUnderstanding, type UnderstandContext } from "@/nlp/understand";
 import type { NamedCompany } from "@/analysis/themes";
 
 export interface SweepStats {
@@ -44,6 +44,9 @@ export interface SweepStats {
 
 export interface SweepResult {
   articles: ArticleUnderstanding[];
+  /** Raw inputs, indexed by article id ("a12" -> inputs[12]). Kept so an
+   *  article can be re-run later, audited, or archived exactly as read. */
+  inputs: ArticleInput[];
   stats: SweepStats;
   generatedAt: string;
 }
@@ -148,18 +151,17 @@ export async function sweep(opts: SweepOptions): Promise<SweepResult> {
     peers: buildPeerMap(opts.universe),
   };
 
-  const articles = queue.map((q, i) =>
-    understand({
-      id: `a${i}`,
-      title: q.item.title,
-      body: q.item.summary ?? "",
-      source: q.item.source,
-      url: q.item.url,
-      publishedAt: q.item.publishedAt ?? null,
-      sector: q.sector,
-      trust: q.trust,
-    }, ctx),
-  );
+  const inputs: ArticleInput[] = queue.map((q, i) => ({
+    id: `a${i}`,
+    title: q.item.title,
+    body: q.item.summary ?? "",
+    source: q.item.source,
+    url: q.item.url,
+    publishedAt: q.item.publishedAt ?? null,
+    sector: q.sector,
+    trust: q.trust,
+  }));
+  const articles = inputs.map((input) => understand(input, ctx));
 
   articles.sort((a, b) => b.materiality.score - a.materiality.score);
 
@@ -176,13 +178,9 @@ export async function sweep(opts: SweepOptions): Promise<SweepResult> {
         for (let i = 0; i < Math.min(topN, articles.length); i += 1) {
           const a = articles[i];
           if (!a.primary.length || !caps.has(a.primary[0].symbol)) continue;
-          const q = queue[Number(a.id.slice(1))];
-          if (!q) continue;
-          articles[i] = understand({
-            id: a.id, title: q.item.title, body: q.item.summary ?? "",
-            source: q.item.source, url: q.item.url,
-            publishedAt: q.item.publishedAt ?? null, sector: q.sector, trust: q.trust,
-          }, withCaps);
+          const input = inputs[Number(a.id.slice(1))];
+          if (!input) continue;
+          articles[i] = understand(input, withCaps);
           rescored += 1;
         }
         articles.sort((x, y) => y.materiality.score - x.materiality.score);
@@ -205,7 +203,7 @@ export async function sweep(opts: SweepOptions): Promise<SweepResult> {
     failures: failures.slice(0, 20),
   };
 
-  return { articles, stats, generatedAt: new Date().toISOString() };
+  return { articles, inputs, stats, generatedAt: new Date().toISOString() };
 }
 
 /* ------------------------------------------------------------------ */

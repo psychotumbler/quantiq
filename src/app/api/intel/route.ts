@@ -14,15 +14,12 @@
 import { connection } from "next/server";
 import type { APIResponse } from "@/types/stock";
 import { getProvider, isSampleData } from "@/services";
-import { getUniverse } from "@/services/universe";
-import { getMarketFilings } from "@/services/nse";
 import { getMarketCapsUsdMillions } from "@/services/yahooFinance";
-import { filingToHeadline } from "@/services/newsNexus";
 import { ALIASES_FOR_NLP } from "@/analysis/themes";
+import { gatherInputs } from "@/nlp/inputs";
 import { sweep, rollupByCompany, rollupBySector, type SweepStats } from "@/nlp/pipeline";
 import { CORE_FEEDS, SECTOR_FEEDS, feedStats } from "@/nlp/sources";
 import type { ArticleUnderstanding } from "@/nlp/understand";
-import type { NamedCompany } from "@/analysis/themes";
 
 // A full sweep needs more than the default serverless budget.
 export const maxDuration = 60;
@@ -43,28 +40,13 @@ let cached: { at: number; value: Promise<IntelRouteData> } | null = null;
 async function run(depth: "core" | "full"): Promise<IntelRouteData> {
   const feeds = depth === "core" ? CORE_FEEDS : [...CORE_FEEDS, ...SECTOR_FEEDS];
 
-  const [listed, filings] = await Promise.all([
-    getUniverse(),
-    getMarketFilings(5).catch(() => []),
-  ]);
-
-  // Filings name companies the downloaded equity lists can miss (new listings,
-  // or the fallback list is in use). Fold them in so they resolve.
-  const universe: NamedCompany[] = [...listed];
-  const known = new Set(universe.map((c) => c.symbol));
-  for (const f of filings) {
-    if (!known.has(f.symbol)) {
-      known.add(f.symbol);
-      universe.push({ symbol: f.symbol, name: f.company, industry: f.industry, market: "IN", core: false });
-    }
-  }
+  const { universe, extra } = await gatherInputs();
 
   const result = await sweep({
     feeds,
     universe,
     aliases: ALIASES_FOR_NLP,
-    // Exchange filings are primary documents, so they carry the highest trust.
-    extra: filings.map((f) => ({ item: filingToHeadline(f), trust: 0.95 })),
+    extra,
     fetchMarketCaps: (symbols) => getMarketCapsUsdMillions(symbols),
     rescoreTop: 40,
   });

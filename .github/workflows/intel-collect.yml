@@ -1,0 +1,67 @@
+name: intel-collect
+
+# Archives what the news engine sees, every four hours, onto the `data` branch.
+# Run manually with kind=audit to snapshot a labelled-evaluation sample.
+
+on:
+  schedule:
+    - cron: "17 */4 * * *"
+  workflow_dispatch:
+    inputs:
+      kind:
+        description: "collect (archive) or audit (evaluation sample)"
+        required: false
+        default: collect
+      seed:
+        description: "audit sample seed"
+        required: false
+        default: "20261126"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: intel-collect
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      KIND: ${{ github.event.inputs.kind || 'collect' }}
+      SEED: ${{ github.event.inputs.seed || '20261126' }}
+      BASE_URL: https://quantiq-kappa.vercel.app
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Prepare data branch
+        run: |
+          git config --global user.name "quantiq-collector"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin data >/dev/null 2>&1; then
+            git fetch --depth=1 origin data
+            git worktree add databranch origin/data
+            cd databranch && git checkout -q -B data
+          else
+            git worktree add --detach databranch
+            cd databranch
+            git checkout -q --orphan data
+            git rm -rfq . || true
+            printf "# QuantIQ data\n\nNews archive and audit samples. Written by the intel-collect workflow.\n" > README.md
+            git add README.md
+            git commit -q -m "init data branch"
+          fi
+
+      - name: Collect
+        run: python3 scripts/collect.py --out databranch --seed "$SEED"
+
+      - name: Commit
+        run: |
+          cd databranch
+          git add -A
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          git commit -q -m "data: $KIND $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push -q origin data
