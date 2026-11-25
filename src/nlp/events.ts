@@ -46,6 +46,7 @@ export const EVENTS: readonly EventDef[] = [
     /\bsign(s|ed|ing)?\b[^.]{0,50}\b(deals?|contracts?)\b[^.]{0,25}\bfor\b/i,
     /\b(contracts?|deals?) signed\b/i,
     /\bemerge(s|d)? as (the )?(lowest bidder|L1)\b/i,
+    /\b(declared|emerges?|is|as) L1\b|\bL1 (bid|bidder)\b/,
   ]},
   { type: "m&a", label: "Acquisition, merger or stake", polarity: "mixed", weight: 0.9, triggers: [
     /\b(acquir(e|es|ed|ing)|acquisition|takeover|merge(r|s|d)?|buy(s|out)?|to buy)\b[^.]{0,50}\b(stake|shares|business|unit|company|arm|subsidiary|assets)\b/i,
@@ -54,14 +55,15 @@ export const EVENTS: readonly EventDef[] = [
     /(^|:\s*)Acquisitions?\b|\bacquisition of\b/im,
     /\binvest(s|ing)?\b[^.]{0,40}\bin\b[^.]{0,50}\b(arm|unit|subsidiary|business|startup)\b/i,
   ]},
-  { type: "fundraise", label: "Fundraise", polarity: "mixed", weight: 0.6, triggers: [
+  { type: "fundraise", label: "Fundraise", polarity: "mixed", weight: 0.62, triggers: [
     /\b(rais(e|es|ed|ing)|fundrais\w+|mobilis\w+)\b[^.]{0,40}\b(crore|cr|billion|million|lakh|funds?|capital)\b/i,
     /\b(QIP|qualified institutional placement|preferential (allotment|issue)|rights issue|FPO|IPO|follow[- ]on)\b/i,
     /\bboard (approves|approved|to consider)\b[^.]{0,40}\b(fund rais|raising|issue of (equity|shares))/i,
-    /\b(secur\w+|rais\w+|bag\w*|gets?|receiv\w+)\b[^.]{0,30}\b(funding|from (\w+\s+){0,3}investors)\b/i,
+    /\b(secur\w+|rais\w+|bag\w*|gets?|receiv\w+)\b[^.]{0,30}\b(funding|investment from|from (\w+\s+){0,3}investors)\b/i,
+    /\banchor (book|investors?|investment|round|portion)\b|\bcorpus\b|\blaunch\w* fund\b|\bfund (launch|close)\b/i,
   ]},
   { type: "earnings", label: "Results", polarity: "mixed", weight: 0.7, triggers: [
-    /\b(Q[1-4](\s?FY\d{2})?|quarter(ly)?|half[- ]year|annual|FY\d{2})\b[^.]{0,40}\b(results?|profit|revenue|earnings|PAT|EBITDA|net (profit|loss)|topline|bottomline)\b/i,
+    /\b(Q[1-4](\s?FY\d{2})?|quarter(ly)?|half[- ]year|annual|FY\d{2})\b[^.]{0,40}\b(results?|profit|revenue|earnings|PAT|EBITDA|net (profit|loss)|topline|bottomline|orders|order inflow|sales)\b/i,
     /\b(profit|revenue|net (profit|loss)|PAT|EBITDA)\b[^.]{0,30}\b(ris(e|es)|jump(s|ed)?|surge(s|d)?|fall(s)?|decline(s|d)?|drop(s|ped)?|up|down|grew|grow(s|th))\b[^.]{0,20}\d/i,
     /\b(beats?|miss(es|ed)?)\b[^.]{0,25}\b(estimates?|expectations?|street)\b/i,
   ]},
@@ -75,14 +77,16 @@ export const EVENTS: readonly EventDef[] = [
     /\b(SEBI|RBI|USFDA|FDA|CCI|ED|GST|DRI|CBI)\b[^.]{0,50}\b(penalt\w+|fine(s|d)?|bars?|barred|action against|raid(s|ed)?|search(es)?|summons|observations?|Form 483|warning letter|import alert)\b/i,
   ]},
   { type: "expansion", label: "Capex or expansion", polarity: "positive", weight: 0.65, triggers: [
-    /\b(invest(s|ment|ing)?|capex|set(s|ting)? up|commission\w+|expan\w+|new (plant|facility|factory|unit|capacity|line))\b[^.]{0,50}\b(crore|cr|billion|million|MW|GW|tonnes?|TPA|MTPA|units?)\b/i,
+    /\b(invest(s|ment|ing)?|capex|set(s|ting)? up|commission\w+|expan\w+(?![^.]{0,30}\bstake)|new (plant|facility|factory|unit|capacity|line))\b[^.]{0,50}\b(crore|cr|billion|million|MW|GW|tonnes?|TPA|MTPA|units?)\b/i,
     /\b(greenfield|brownfield|foundation stone|ground[- ]breaking|capacity (addition|expansion)|final investment decision)\b/i,
-    /\b(crore|cr|billion|million|bn|mn)\b[^.]{0,15}\b(investment|capex|expansion)\b/i,
+    /\b(crore|cr|billion|million|bn|mn)\b[^.]{0,15}(?<!anchor\s)\b(investment|capex|expansion)\b(?!\s+(from|by))/i,
+    /\b(crore|cr|billion|million|bn)\b[^.]{0,25}\b(data cent(er|re)s?|plant|facility|factory|campus|hub|refinery|terminal)\b/i,
+    /\b(plans?|to open|adds?|opens?|launch\w*)\b[^.]{0,30}\b(more|new)\b[^.]{0,20}\b(screens|stores|outlets|branches|plants|facilities|data cent(er|re)s|showrooms)\b/i,
     /\b(plans?|eyes|announc\w+|unveil\w+)\b[^.]{0,30}\bexpansion\b/i,
     /\b(surpass\w*|cross\w*|reach\w*|eyes|target\w*|boost\w*)\b[^.]{0,30}\b(mtpa|capacity|million tonnes)\b/i,
     /\bopen(s|ed)?\b[^.]{0,30}\b(plant|facility|factory|manufacturing unit)\b/i,
   ]},
-  { type: "management", label: "Management change", polarity: "neutral", weight: 0.45, triggers: [
+  { type: "management", label: "Management change", polarity: "neutral", weight: 0.64, triggers: [
     /\b(appoint\w+|nam(es|ed)|elevat\w+|resign\w+|step(s|ping) down|quit(s)?|exits?|take(s)? over as)\b[^.]{0,40}\b(CEO|CFO|MD|managing director|chairman|chairperson|director|CTO|COO|president)\b/i,
     /\b(CEO|CFO|MD|managing director|chairman)\b[^.]{0,30}\b(resign\w+|appoint\w+|quits?|exits?|steps? down)\b/i,
   ]},
@@ -93,14 +97,16 @@ export const EVENTS: readonly EventDef[] = [
   { type: "legal", label: "Legal or insolvency", polarity: "negative", weight: 0.7, triggers: [
     /\b(lawsuit|sue(s|d)?|litigation|arbitration|tribunal|insolvency|bankruptcy|IBC|liquidation|winding up|contempt)\b/i,
     /\b(NCLT|NCLAT|Supreme Court|High Court)\b[^.]{0,40}\b(order|ruling|verdict|plea|petition|stay)\b/i,
+    /\b(HC|SC|NCLT|NCLAT|SAT|DOJ)\b/,
+    /\b(prosecution|ruling|verdict|judg(e)?ment|bail|lawsuit|dispute|arbitral|indict\w*|convict\w*)\b/i,
   ]},
   { type: "product", label: "Product or launch", polarity: "positive", weight: 0.4, triggers: [
     /\b(launch\w+|unveil\w+|introduc\w+|roll(s|ed)? out|debut(s|ed)?)\b[^.]{0,40}\b(product|service|platform|model|variant|range|app|brand|offering)\b/i,
   ]},
-  { type: "stake-change", label: "Stake or block deal", polarity: "mixed", weight: 0.6, triggers: [
+  { type: "stake-change", label: "Stake or block deal", polarity: "mixed", weight: 0.66, triggers: [
     /\b(block deal|bulk deal|promoter(s)? (sell|sold|buy|bought|pledg\w+|rais\w+)|stake (sale|buy|purchase|increase|cut))\b/i,
     /\b(FII|FPI|DII|mutual fund)s?\b[^.]{0,30}\b(buy|bought|sell|sold|increase|cut|rais\w+|trim\w+)\b[^.]{0,20}\bstake\b/i,
-    /\b(offload\w*|sell\w*|sold|trim\w*|reduc\w+|cut\w*|divest\w*|dilut\w+|pare\w*|hike\w*|increas\w+)\b[^.]{0,40}\bstakes?\b/i,
+    /\b(offload\w*|sell\w*|sold|trim\w*|reduc\w+|cut\w*|divest\w*|dilut\w+|pare\w*|hike\w*|increas\w+|expand\w*|rais\w+|ups?)\b[^.]{0,40}\bstakes?\b/i,
   ]},
   { type: "guidance", label: "Guidance or outlook", polarity: "mixed", weight: 0.6, triggers: [
     /\b(guidance|outlook|forecast|target)\b[^.]{0,40}\b(rais\w+|cut(s)?|lower\w+|upgrad\w+|downgrad\w+|maintain\w+|reiterat\w+)\b/i,
@@ -112,6 +118,8 @@ export const EVENTS: readonly EventDef[] = [
     /\b(RBI|SEBI|IRDAI|PFRDA)\b[^.]{0,90}\b(Directions|Circular|Guidelines|Master Direction|Amendment)\b/,
     /\b(propos\w+|impos\w+|hik\w+|slap\w*|cut\w*|levy|levies|raises?)\b[^.]{0,30}\b(tariffs?|duty|duties)\b/i,
     /\ballocat\w+\b[^.]{0,50}\bbudget\b|\bbudget\b[^.]{0,40}\ballocat\w+/i,
+    /\b(tariffs?|levies|customs duty)\b/i,
+    /\b(RBI|SEBI|PNGRB|TRAI|CERC|IRDAI|DGFT|MeitY)\b[^.]{0,40}\b(eases?|tightens?|proposes?|sets?|caps?|mandates?|allows?|issues?|norms|rules|framework|guidelines)\b/,
   ]},
 ];
 
@@ -122,7 +130,7 @@ export const EVENTS: readonly EventDef[] = [
 const INR_PER_USD = 88;
 
 const AMOUNT_RE =
-  /(?:(₹|rs\.?|inr|usd|us\$|\$|€|£)\s*)?(\d[\d,]*(?:\.\d+)?)[\s-]*(lakh crore|lakh-crore|crore|cr\b|lakh|billion|bn\b|million|mn\b|trillion|tn\b|m\b)/gi;
+  /(?:(₹|rs\.?|inr|rupees|usd|us\$|s\$|a\$|c\$|sgd|aed|\$|€|£)\s*)?(\d[\d,]*(?:\.\d+)?)[\s-]*(lakh crore|lakh-crore|thousand crore|crore|cr\b|lakh|billion|bn\b|million|mn\b|trillion|tn\b|m\b)/gi;
 
 /**
  * A number is a valuation only when the cue is immediately adjacent to it.
@@ -131,7 +139,7 @@ const AMOUNT_RE =
  * loose proximity test mislabels the deal size. Anchor both patterns.
  */
 const VALUATION_BEFORE =
-  /\b(valuation of|valued at|market cap(?: of)?|m-?cap(?: of)?|enterprise value(?: of)?|net worth(?: of)?|worth of|valu(?:e|es|ing)\b[^.]{0,40}\bat)\s*(?:about|around|nearly|over|roughly|some|approximately|an estimated)?\s*$/i;
+  /\b(valuation of|valued at|market cap(?:itali[sz]ation)?(?: of)?(?:\s+\w+){0,2}|m-?cap(?: of)?|enterprise value(?: of)?|net worth(?: of)?|worth of|valu(?:e|es|ing)\b[^.]{0,40}\bat)\s*(?:about|around|nearly|over|roughly|some|approximately|an estimated)?\s*$/i;
 /** "Orders valued at Rs 730 crore" - that's the order size, not a valuation. */
 const DEAL_VALUED = /\b(orders?|contracts?|deals?|projects?|tenders?)\s+(valued at|worth)\s*(?:about|around|nearly|over|roughly)?\s*$/i;
 /** An order book or backlog is a stock, not the size of today's event. */
@@ -152,6 +160,7 @@ export interface Amount {
 const UNIT_MULTIPLIER: [RegExp, number][] = [
   // Value expressed in millions of whatever currency was written.
   [/^lakh[\s-]?crore/, 1_000_000],
+  [/^thousand crore/, 10_000],
   [/^crore|^cr$/, 10],
   [/^lakh/, 0.1],
   [/^trillion|^tn$/, 1_000_000],
@@ -160,7 +169,7 @@ const UNIT_MULTIPLIER: [RegExp, number][] = [
 ];
 
 /** Indian units are always rupees, whatever symbol precedes them. */
-const INDIAN_UNIT = /^(lakh|crore|cr$)/;
+const INDIAN_UNIT = /^(lakh|crore|cr$|thousand crore)/;
 
 function toUsdMillion(value: number, unit: string, currency: string | undefined): number {
   const u = unit.toLowerCase().trim();
@@ -168,8 +177,12 @@ function toUsdMillion(value: number, unit: string, currency: string | undefined)
   if (!mult) return 0;
 
   const inCurrencyMillions = value * mult;
-  const isRupees = INDIAN_UNIT.test(u) || (currency ? /₹|rs|inr/i.test(currency) : false);
+  const isRupees = INDIAN_UNIT.test(u) || (currency ? /₹|rs|inr|rupee/i.test(currency) : false);
   if (currency && /€/.test(currency)) return inCurrencyMillions * 1.08;
+  if (currency && /^(s\$|sgd)$/i.test(currency)) return inCurrencyMillions * 0.75;
+  if (currency && /^a\$$/i.test(currency)) return inCurrencyMillions * 0.65;
+  if (currency && /^c\$$/i.test(currency)) return inCurrencyMillions * 0.72;
+  if (currency && /^aed$/i.test(currency)) return inCurrencyMillions * 0.272;
   if (currency && /£/.test(currency)) return inCurrencyMillions * 1.27;
   return isRupees ? inCurrencyMillions / INR_PER_USD : inCurrencyMillions;
 }
@@ -189,8 +202,8 @@ export function extractAmount(text: string): Amount | null {
     if (NOT_MONEY_AFTER.test(after)) continue;
     // "150 Billion Rupees", "25 billion rupees" - the currency comes after.
     let currency = symbol;
-    const word = /^\s*(rupees|inr|dollars|usd|euros?)\b/i.exec(after);
-    if (!currency && word) currency = /rupees|inr/i.test(word[1]) ? "inr" : /euro/i.test(word[1]) ? "€" : "$";
+    const word = /^[\s-]*(rupees?|inr|dollars?|usd|euros?)\b/i.exec(after);
+    if (!currency && word) currency = /rupee|inr/i.test(word[1]) ? "inr" : /euro/i.test(word[1]) ? "€" : "$";
     // "Rs 120 crore per train" for "80 trains" - multiply out, or drop it.
     const per = /^\s*(?:per|each|a|\/)\s+([a-z]+?)s?\b/i.exec(after);
     if (per && !/^(year|annum|month|day|share|cent|unit)$/i.test(per[1])) {
@@ -206,8 +219,8 @@ export function extractAmount(text: string): Amount | null {
   }
   if (!found.length) return null;
   const deal = found.filter((f) => !f.isValuation && !f.isStock);
-  // Never fall back to an order book; a valuation alone is still reported (flagged).
-  const pool = deal.length ? deal : found.filter((f) => !f.isStock);
+  // A valuation or an order book is never the size of the event.
+  const pool = deal;
   if (!pool.length) return null;
   return pool.reduce((a, b) => (b.usdMillion > a.usdMillion ? b : a));
 }

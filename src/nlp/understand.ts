@@ -235,13 +235,14 @@ function writeSummary(
  * as the subject and no amount is pinned to anyone.
  */
 const ROUNDUP_TITLE =
-  /\b(round[-\s]?up|roundup|wrap|at a glance|stocks? (to watch|in focus|in news|to buy)|movers|top (gainers|losers|picks|stocks)|top \d+|\d+ (stocks|companies|shares|smallcaps|midcaps)|companies including|market live|news briefs?|digest|what to watch|buzzing stocks|results calendar|earnings calendar)\b/i;
+  /\b(round[-\s]?up|roundup|wrap|at a glance|stock of the day|week ahead|(\d+|two|three|four|five|six|seven|eight|nine|ten)\s+(other\s+|[\w-]+\s+){0,2}(stocks|firms|companies)|stocks? (to watch|in focus|in news|to buy)|movers|top (gainers|losers|picks|stocks)|top \d+|\d+ (stocks|companies|shares|smallcaps|midcaps)|companies including|market live|news briefs?|digest|what to watch|buzzing stocks|results calendar|earnings calendar)\b/i;
 
 function looksLikeRoundup(title: string, body: string, primaryCount: number): boolean {
   if (ROUNDUP_TITLE.test(title)) return true;
   // Several companies each paired with their own action verb in one headline.
   const actions = (title.match(/\b(wins?|bags?|secures?|gets?|rises?|falls?|jumps?|slips?|gains?)\b/gi) ?? []).length;
-  if (actions >= 2 && primaryCount >= 2) return true;
+  // ...unless both are reacting to one shared deal ("Tata Steel rises, APL Apollo falls on deal").
+  if (actions >= 2 && primaryCount >= 2 && !/\b(deal|merger|acquisition|takeover|open offer|stake sale)\b/i.test(title)) return true;
   if (primaryCount >= 3) return true;
   return primaryCount >= 4 && body.length < 400;
 }
@@ -267,7 +268,9 @@ export function understand(article: ArticleInput, ctx: UnderstandContext): Artic
   // In a round-up the amount belongs to some company, but we cannot say which.
   // Results, approvals and appointments carry numbers (profit, market size)
   // that are not the size of an event, so we do not pin one.
-  const amountless = event && ["earnings", "approval", "management", "guidance"].includes(event.type);
+  const sized = ["order-win", "fundraise", "m&a", "stake-change", "expansion", "order-cancel"];
+  const amountless = event && ["earnings", "approval", "management", "guidance"].includes(event.type)
+    && !events.some((e) => sized.includes(e.type));
   const amount = isRoundup || amountless ? null : extractAmount(text);
   const counterparty = event ? extractCounterparty(text, event.trigger) : null;
 

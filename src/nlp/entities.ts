@@ -81,7 +81,7 @@ const GENERIC = new Set([
 ]);
 
 /** Trailing words a headline drops: "Astra Microwave Products" -> "Astra Microwave". */
-const TRAILING_DROPPABLE = /^(industries|industry|products|mobility|engineering|systems|microsystems|india|enterprises|ventures|solutions|services|technologies|technology|holdings|international|projects|infraprojects|infrastructure|global|works|manufacturing|electricals|of|the|and|&)$/i;
+const TRAILING_DROPPABLE = /^(industries|industry|products|mobility|engineering|systems|microsystems|india|enterprises|ventures|solutions|services|technologies|technology|holdings|international|projects|infraprojects|infrastructure|global|works|manufacturing|electricals|energy|renewable|renewables|tubes|pipes|of|the|and|&)$/i;
 
 const ABBREVIATIONS: [RegExp, string][] = [
   [/\bInfrastructure\b/i, "Infra"], [/\bInfraprojects\b/i, "Infra"],
@@ -155,12 +155,12 @@ function makeSurface(text: string, company: NamedCompany, opts: { ticker?: boole
   const words = trimmed.split(/\s+/).length;
   if (opts.ticker) {
     return { text: trimmed, strict: true, caseSensitive: true,
-             pattern: new RegExp(`(?<![\\w&-])${escape(trimmed)}(?![\\w&])`) };
+             pattern: new RegExp(`(?<![\\w&-])${escape(trimmed)}(?![\\w&]|-[A-Z]?[a-z])`) };
   }
   // A single short token (HAL, BEL, SBI) collides with ordinary words and
   // acronyms, so it only counts when the company is widely covered.
   const strict = words === 1 && (trimmed.length <= 4 || !company.core);
-  const body = escape(trimmed).replace(/\\?&/g, "(?:&|and)").replace(/\s+/g, "\\s+");
+  const body = escape(trimmed).replace(/\\?&/g, "(?:&|and)").replace(/\\\./g, "\\.?").replace(/['’]/g, "['’]?").replace(/\s+and\s+/gi, " (?:and|&) ").replace(/\s+/g, "\\s+");
   return { text: trimmed, strict, caseSensitive: false,
            pattern: new RegExp(`(?<![\\w])${body}(?![\\w])`, "i") };
 }
@@ -196,16 +196,26 @@ export function buildIndex(universe: NamedCompany[], aliases: Record<string, str
       const k = f.toLowerCase();
       if (shortCount.get(k) === 1 && !canonSet.has(k)) forms.add(f);
     }
+    let brand: string | null = null;
     if (company.core) {
       const first = canon.split(/\s+/)[0];
       const k = first.toLowerCase();
-      if (first.length >= 6 && tokenOwners.get(k) === 1 && !GENERIC.has(k)) forms.add(first);
+      if (first.length >= 6 && tokenOwners.get(k) === 1 && !GENERIC.has(k)) brand = first;
     }
     for (const a of aliases[company.symbol] ?? []) forms.add(a);
 
     const list: Surface[] = [];
     for (const f of forms) {
       if (f && f.length >= 2) list.push(makeSurface(f, company));
+    }
+    // A one-word brand ("UltraTech", "Action") must be written as a name:
+    // capitalised, so "enterprise action" is not Action Construction.
+    if (brand) {
+      // Capital first letter, any case after ("RailTel" for "Railtel").
+      const rest = [...brand.slice(1)].map((ch) => /[a-z]/i.test(ch) ? `[${ch.toLowerCase()}${ch.toUpperCase()}]` : escape(ch)).join("");
+      list.push({ text: brand, strict: false, caseSensitive: true,
+                  pattern: new RegExp(`(?<![\\w])${brand[0].toUpperCase()}${rest}(?![\\w])`) });
+      forms.add(brand);
     }
     // "Highway Infrastructure" is all generic words; only trust it written
     // exactly as a name (Title Case) in the headline or lead.
@@ -265,6 +275,7 @@ function isParentCompanyStory(companyName: string, matchedAs: string, text: stri
 
 const ORDER_NOUN = /\b(orders?|contracts?|tenders?|projects?|mandates?|LoAs?|letters? of (award|intent))\b/i;
 const WINNER_VERB = /\b(wins?|won|winning|bags?|bagged|bagging|secures?|secured|securing|receives?|received|clinch(es|ed)?|lands?|landed|gets?|got|emerges?)\b/i;
+const PERSON_BEFORE = /\b(CEO|CFO|COO|CTO|MD|chairman|chairperson|founder|co-founder|chief|director|president|Mr|Ms|Mrs|Dr|Shri|Smt)\.?\s+$/i;
 const SUB_BRAND = /^\s+(Mutual\s+Fund|MF\b|AMC\b|Asset\s+Management|Life\s+Insurance|General\s+Insurance|Cards?\b|Securities\b|Pension\b|Foundation\b)/i;
 
 export type DemotionReason = "customer" | "source" | "group" | "sub-brand" | "contained" | "selling-shareholder";
@@ -279,7 +290,9 @@ function demotionFor(title: string, span: [number, number], company: NamedCompan
   const after = title.slice(span[1], span[1] + 50);
 
   // "order from HAL", "contract awarded by ONGC"
-  if (/\b(from|by)\s+(the\s+)?$/i.test(before) && ORDER_NOUN.test(before)) return "customer";
+  if (/\b(from|by|of)\s+(the\s+)?$/i.test(before) && ORDER_NOUN.test(before)) return "customer";
+  // "order ... for NTPC's battery project"
+  if (/\bfor\s+$/i.test(before) && ORDER_NOUN.test(before) && WINNER_VERB.test(title.slice(0, span[0])) && /^\s*['’]s\b/.test(after)) return "customer";
   // "wins Rs 855 crore SAIL contract" - a company naming the order that
   // someone else just won. Requires the win verb before it, so "HAL order"
   // with no other winner is left alone.
@@ -341,7 +354,7 @@ export function resolveEntities(title: string, body: string, index: EntityIndex)
       if (s.caseSensitive && shouting) continue;
       let mTitle = s.pattern.exec(title);
       let hitBody = s.pattern.test(body);
-      if (s.caseSensitive) {
+      if (s.caseSensitive && /^[A-Z0-9&-]+$/.test(s.text)) {
         // "E2E Transportation Infrastructure" is a different company from E2E Networks.
         const nameTail = (src: string, m: RegExpExecArray | null) => {
           if (!m) return false;
@@ -352,6 +365,24 @@ export function resolveEntities(title: string, body: string, index: EntityIndex)
         if (hitBody && nameTail(body, s.pattern.exec(body))) hitBody = false;
         if (!mTitle && !hitBody) continue;
       }
+      if (!mTitle && !hitBody) continue;
+
+      const oneWord = !/\s/.test(s.text);
+      // "Flipkart CEO Kalyan Krishnamurthy": a brand word used as a person's name.
+      if (oneWord && mTitle && PERSON_BEFORE.test(title.slice(Math.max(0, mTitle.index - 30), mTitle.index))) mTitle = null;
+      // Short acronyms of less-covered companies (MPS, INA, ACE) collide with
+      // ordinary acronyms ("MPS norms"). Ask for corroboration: a share/stock
+      // cue next to it, or a longer form of the name somewhere in the text.
+      if (oneWord && s.text.length <= 4 && !company.core) {
+        const longer = index.surfaces[i].some((o) => o !== s && /\s/.test(o.text) && o.pattern.test(text));
+        const cue = (src: string, m: RegExpExecArray | null) => !!m &&
+          (/^\s+(shares?|stock|share price|Ltd|Limited|Q[1-4]|IPO|order|wins?|bags?|secures?)\b/i.test(src.slice(m.index + m[0].length)) ||
+           /\b(shares of|stock of)\s+$/i.test(src.slice(Math.max(0, m.index - 12), m.index)));
+        if (!longer && !cue(title, mTitle)) mTitle = null;
+        if (!longer && hitBody && !cue(body, s.pattern.exec(body))) hitBody = false;
+      }
+      // "BSE nod", "NSE approval": the exchange acting as regulator.
+      if (mTitle && /^(BSE|NSE|MCX)$/i.test(s.text) && /^\s+(nod|approval|listing|circular|filing|data|notice)/i.test(title.slice(mTitle.index + mTitle[0].length))) mTitle = null;
       if (!mTitle && !hitBody) continue;
 
       // A strict (short) surface only counts from the headline or the lead,
