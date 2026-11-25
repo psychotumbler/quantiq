@@ -73,6 +73,8 @@ export interface ArticleInput {
 
 export interface UnderstandContext {
   index: EntityIndex;
+  /** "Now", in ms. Fixed per sweep so every article is aged against the same clock. */
+  asOf?: number;
   /** symbol -> market cap in USD millions, when known. */
   marketCaps?: Map<string, number>;
   /** symbol -> peers in the same industry. */
@@ -95,12 +97,27 @@ function peerDirection(subject: Direction, type: EventType): Direction {
   return "neutral";
 }
 
+/**
+ * News value decays. A day-old order win is actionable; a week-old one has
+ * been priced, discussed and forgotten. Articles past MAX_AGE_DAYS never get
+ * here - the pipeline drops them - so this only orders the recent ones.
+ */
+function recencyFactor(publishedAt: string | null | undefined, asOf: number): { factor: number; days: number | null } {
+  if (!publishedAt) return { factor: 1, days: null };
+  const t = Date.parse(publishedAt);
+  if (!Number.isFinite(t)) return { factor: 1, days: null };
+  const days = Math.max(0, (asOf - t) / 86_400_000);
+  const factor = days <= 2 ? 1 : days <= 4 ? 0.9 : days <= 7 ? 0.75 : 0.5;
+  return { factor, days };
+}
+
 function scoreMateriality(
   event: DetectedEvent | null,
   amount: Amount | null,
   primary: ResolvedEntity[],
   trust: number,
   mcapPct: number | null,
+  recency: { factor: number; days: number | null },
 ): Materiality {
   const drivers: string[] = [];
   let score = 0;
@@ -136,6 +153,11 @@ function scoreMateriality(
   score += trust * 18;
   drivers.push(`Source trust ${Math.round(trust * 100)}%`);
 
+  if (recency.days !== null && recency.factor < 1) {
+    score *= recency.factor;
+    drivers.push(`Published ${Math.floor(recency.days)} days ago (x${recency.factor})`);
+  }
+
   score = Math.max(0, Math.min(100, Math.round(score)));
   return {
     score,
@@ -164,6 +186,9 @@ function writeSummary(
   switch (event.type) {
     case "order-win":
       parts.push(`${who} won an order${amount && !amount.isValuation ? ` worth about ${fmtUsd(amount.usdMillion)}` : ""}${counterparty ? ` from ${counterparty}` : ""}.`);
+      break;
+    case "order-cancel":
+      parts.push(`An order or contract${primary.length ? ` held by ${who}` : ""} was cancelled${amount ? ` (about ${fmtUsd(amount.usdMillion)})` : ""}.`);
       break;
     case "m&a":
       parts.push(`${who} is involved in an acquisition or stake deal${amount ? ` of about ${fmtUsd(amount.usdMillion)}` : ""}.`);
@@ -210,13 +235,14 @@ function writeSummary(
  * as the subject and no amount is pinned to anyone.
  */
 const ROUNDUP_TITLE =
-  /\b(round[-\s]?up|roundup|wrap|at a glance|in focus|stocks? to watch|movers|top (gainers|losers|picks|stocks)|market live|highlights|key takeaways|news briefs?|digest|what to watch|buzzing stocks)\b/i;
+  /\b(round[-\s]?up|roundup|wrap|at a glance|stocks? (to watch|in focus|in news|to buy)|movers|top (gainers|losers|picks|stocks)|top \d+|\d+ (stocks|companies|shares|smallcaps|midcaps)|companies including|market live|news briefs?|digest|what to watch|buzzing stocks|results calendar|earnings calendar)\b/i;
 
 function looksLikeRoundup(title: string, body: string, primaryCount: number): boolean {
   if (ROUNDUP_TITLE.test(title)) return true;
   // Several companies each paired with their own action verb in one headline.
   const actions = (title.match(/\b(wins?|bags?|secures?|gets?|rises?|falls?|jumps?|slips?|gains?)\b/gi) ?? []).length;
   if (actions >= 2 && primaryCount >= 2) return true;
+  if (primaryCount >= 3) return true;
   return primaryCount >= 4 && body.length < 400;
 }
 
@@ -239,7 +265,10 @@ export function understand(article: ArticleInput, ctx: UnderstandContext): Artic
   const events = detectEvents(text);
   const event = events[0] ?? null;
   // In a round-up the amount belongs to some company, but we cannot say which.
-  const amount = isRoundup ? null : extractAmount(text);
+  // Results, approvals and appointments carry numbers (profit, market size)
+  // that are not the size of an event, so we do not pin one.
+  const amountless = event && ["earnings", "approval", "management", "guidance"].includes(event.type);
+  const amount = isRoundup || amountless ? null : extractAmount(text);
   const counterparty = event ? extractCounterparty(text, event.trigger) : null;
 
   // Size relative to the company is the difference between "big number" and
@@ -303,7 +332,8 @@ export function understand(article: ArticleInput, ctx: UnderstandContext): Artic
     primary,
     mentioned: mentioned.slice(0, 8),
     implications,
-    materiality: scoreMateriality(event, amount, primary, trust, mcapPct),
+    materiality: scoreMateriality(event, amount, primary, trust, mcapPct,
+      recencyFactor(article.publishedAt, ctx.asOf ?? Date.now())),
     summary: writeSummary(event, primary, amount, counterparty, mcapPct),
   };
 }

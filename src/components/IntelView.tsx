@@ -21,6 +21,7 @@ import { Panel, SampleBadge, Tile, toneClass } from "@/components/ui/primitives"
 
 const EVENT_COLORS: Record<string, string> = {
   "order-win": "bg-emerald-500/15 text-emerald-300 border-emerald-500/30",
+  "order-cancel": "bg-rose-500/15 text-rose-300 border-rose-500/30",
   "m&a": "bg-violet-500/15 text-violet-300 border-violet-500/30",
   "approval": "bg-sky-500/15 text-sky-300 border-sky-500/30",
   "enforcement": "bg-red-500/15 text-red-300 border-red-500/30",

@@ -77,7 +77,7 @@ export async function GET(request: Request): Promise<Response> {
           articles: [], companies: [], sectors: [],
           stats: { feedsTried: 0, feedsOk: 0, feedsFailed: 0, rawHeadlines: 0,
                    uniqueHeadlines: 0, understood: 0, withEvent: 0, withCompany: 0,
-                   highMateriality: 0, rescoredWithMarketCap: 0, elapsedMs: 0, failures: [] },
+                   highMateriality: 0, staleDropped: 0, rescoredWithMarketCap: 0, elapsedMs: 0, failures: [] },
           feeds: feedStats(), generatedAt: timestamp, sampleData: true,
         },
         timestamp,

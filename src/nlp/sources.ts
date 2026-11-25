@@ -28,7 +28,14 @@ export interface FeedSource {
   sector?: string;
 }
 
+/**
+ * Google News search is ranked by relevance, not recency. Without a time bound,
+ * "Canara Bank QIP" returns a 2021 story ahead of anything this week - an audit
+ * of 200 articles found 76% of the top-ranked ones were over a month old. The
+ * when:7d operator restricts the search to the last week.
+ */
 const gnews = (query: string, region: "IN" | "US" = "IN") => {
+  query = `${query} when:7d`;
   const locale = region === "IN"
     ? "hl=en-IN&gl=IN&ceid=IN:en"
     : "hl=en-US&gl=US&ceid=US:en";

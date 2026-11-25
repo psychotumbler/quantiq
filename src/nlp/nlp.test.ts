@@ -43,7 +43,16 @@ describe("entity resolution", () => {
 
   it("strips legal suffixes when canonicalising", () => {
     expect(canonical("Hindustan Aeronautics Limited")).toBe("Hindustan Aeronautics");
-    expect(canonical("Acme Corp.")).toBe("Acme");
+    expect(canonical("The South Indian Bank Limited")).toBe("South Indian Bank");
+    expect(canonical("Data Patterns (India) Ltd.")).toBe("Data Patterns");
+  });
+
+  it("keeps Corp/Corporation when it is the distinctive part of the name", () => {
+    // Stripping these left "Jai" and "Birla", which matched "Jai Balaji"
+    // and "Aditya Birla Group" in the audit.
+    expect(canonical("Jai Corp Limited")).toBe("Jai Corp");
+    expect(canonical("Birla Corporation Limited")).toBe("Birla Corporation");
+    expect(canonical("Power Finance Corporation Ltd.")).toBe("Power Finance");
   });
 
   it("does not invent companies that are absent", () => {
@@ -242,5 +251,31 @@ describe("counterparty filtering", () => {
     const text = "Company wins contract from 2026 onwards";
     const ev = detectEvents(text);
     expect(extractCounterparty(text, ev[0].trigger)).toBeNull();
+  });
+});
+
+describe("tier-1 audit regressions", () => {
+  it("reads decimals, plurals and 'project win' as order wins", async () => {
+    const { detectEvents } = await import("@/nlp/events");
+    for (const t of ["Texmaco Rail wins Rs 11.65 crore order from Odisha Power Transmission",
+                     "Shriram EPC wins new orders in Australia & India",
+                     "GR Infra shares gain 5% on ₹2,440 crore project win"])
+      expect(detectEvents(t)[0]?.type).toBe("order-win");
+  });
+  it("treats terminations and arbitration as their own events", async () => {
+    const { detectEvents } = await import("@/nlp/events");
+    expect(detectEvents("NTPC Terminates INR 413 Crore BESS Contract Awarded to GR Infraprojects")[0]?.type).toBe("order-cancel");
+    expect(detectEvents("NHAI wins ₹1,202 cr arbitration award in Karnataka highway project case")[0]?.type).toBe("legal");
+  });
+  it("never sizes an event by its order book, a valuation or a count", async () => {
+    const { extractAmount } = await import("@/nlp/events");
+    expect(extractAmount("Rs 928 Crore Order Book: Defence Stock Secures Rs 53 Crore Order")!.usdMillion).toBeCloseTo(530 / 88, 1);
+    expect(extractAmount("L&T secures order; total orderbook crosses ₹8 lakh crore")).toBeNull();
+    expect(extractAmount("UltraTech crosses 200 million tonnes per annum")).toBeNull();
+    expect(extractAmount("Temasek to invest 25 billion rupees. This will value Godrej Capital at approximately 280 billion rupees.")!.usdMillion).toBeCloseTo(25000 / 88, 0);
+    expect(extractAmount("bags order for 80 Vande Bharat trains at Rs 120 crore per train")!.usdMillion).toBeCloseTo(9600 * 10 / 88, 0);
+    expect(extractAmount("Bharat Electronics Secures Orders Valued At ₹730 Crore")!.isValuation).toBe(false);
+    expect(extractAmount("ARCIL IPO: analysts mixed on ₹733-crore offer")!.usdMillion).toBeCloseTo(7330 / 88, 0);
+    expect(extractAmount("developer secures $105m from three new investors")!.usdMillion).toBe(105);
   });
 });

@@ -26,6 +26,9 @@ import { buildIndex, type EntityIndex } from "@/nlp/entities";
 import { understand, type ArticleInput, type ArticleUnderstanding, type UnderstandContext } from "@/nlp/understand";
 import type { NamedCompany } from "@/analysis/themes";
 
+/** Older than this, a story is history, not news, and is not ranked at all. */
+export const MAX_AGE_DAYS = 14;
+
 export interface SweepStats {
   feedsTried: number;
   feedsOk: number;
@@ -36,6 +39,8 @@ export interface SweepStats {
   withEvent: number;
   withCompany: number;
   highMateriality: number;
+  /** Dropped for being older than MAX_AGE_DAYS. */
+  staleDropped: number;
   /** Stories re-scored once the subject's market cap was known. */
   rescoredWithMarketCap: number;
   elapsedMs: number;
@@ -121,7 +126,14 @@ export async function sweep(opts: SweepOptions): Promise<SweepResult> {
   const results = await pooled(feeds, opts.concurrency ?? 12, fetchOne);
 
   const failures: { source: string; reason: string }[] = [];
+  const asOf = Date.now();
+  const tooOld = (publishedAt?: string | null) => {
+    if (!publishedAt) return false;
+    const t = Date.parse(publishedAt);
+    return Number.isFinite(t) && asOf - t > MAX_AGE_DAYS * 86_400_000;
+  };
   let raw = 0;
+  let staleDropped = 0;
   const seen = new Set<string>();
   const queue: { item: RichHeadline; trust: number; sector?: string }[] = [];
 
@@ -129,6 +141,7 @@ export async function sweep(opts: SweepOptions): Promise<SweepResult> {
     if (r.error) failures.push({ source: r.feed.source, reason: r.error });
     for (const item of r.items) {
       raw += 1;
+      if (tooOld(item.publishedAt)) { staleDropped += 1; continue; }
       const key = dedupKey(item.title);
       if (!key || seen.has(key)) continue;
       seen.add(key);
@@ -137,8 +150,9 @@ export async function sweep(opts: SweepOptions): Promise<SweepResult> {
   }
 
   for (const e of opts.extra ?? []) {
-    const key = dedupKey(e.item.title);
     raw += 1;
+    if (tooOld(e.item.publishedAt)) { staleDropped += 1; continue; }
+    const key = dedupKey(e.item.title);
     if (!key || seen.has(key)) continue;
     seen.add(key);
     queue.push(e);
@@ -146,6 +160,7 @@ export async function sweep(opts: SweepOptions): Promise<SweepResult> {
 
   const index: EntityIndex = buildIndex(opts.universe, opts.aliases ?? {});
   const ctx: UnderstandContext = {
+    asOf,
     index,
     marketCaps: opts.marketCaps,
     peers: buildPeerMap(opts.universe),
@@ -198,6 +213,7 @@ export async function sweep(opts: SweepOptions): Promise<SweepResult> {
     withEvent: articles.filter((a) => a.event).length,
     withCompany: articles.filter((a) => a.primary.length > 0).length,
     highMateriality: articles.filter((a) => a.materiality.band === "high").length,
+    staleDropped,
     rescoredWithMarketCap: rescored,
     elapsedMs: Date.now() - started,
     failures: failures.slice(0, 20),

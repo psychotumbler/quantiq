@@ -202,7 +202,7 @@ export interface NamedCompany {
  * registered name. Case-sensitive entries are acronyms.
  */
 const ALIASES: Record<string, string[]> = {
-  "TCS.NS": ["TCS"], "INFY.NS": ["Infosys"], "HDFCBANK.NS": ["HDFC Bank"],
+  "TCS.NS": ["TCS"], "INFY.NS": ["Infosys"], "GROWW.NS": ["Groww"], "HDFCBANK.NS": ["HDFC Bank"],
   "ICICIBANK.NS": ["ICICI Bank"], "SBIN.NS": ["SBI", "State Bank of India"],
   "LT.NS": ["L&T", "Larsen & Toubro", "Larsen and Toubro"], "HAL.NS": ["HAL", "Hindustan Aeronautics"],
   "BEL.NS": ["BEL", "Bharat Electronics"], "BHEL.NS": ["BHEL"], "NTPC.NS": ["NTPC"],
