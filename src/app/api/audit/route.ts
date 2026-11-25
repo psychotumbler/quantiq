@@ -18,6 +18,7 @@ import { connection } from "next/server";
 import { ALIASES_FOR_NLP } from "@/analysis/themes";
 import { gatherInputs } from "@/nlp/inputs";
 import { sweep, dedupKey } from "@/nlp/pipeline";
+import { getMarketCapsUsdMillions } from "@/services/yahooFinance";
 import type { ArticleInput, ArticleUnderstanding } from "@/nlp/understand";
 
 export const maxDuration = 60;
@@ -80,7 +81,12 @@ export async function GET(request: Request): Promise<Response> {
 
   try {
     const { universe, extra } = await gatherInputs();
-    const result = await sweep({ universe, aliases: ALIASES_FOR_NLP, extra });
+    // Collected records keep size-vs-market-cap, which the Tier 2 backtest needs.
+    // Audits skip it so a sample is reproducible from the text alone.
+    const result = await sweep({
+      universe, aliases: ALIASES_FOR_NLP, extra,
+      ...(kind === "collect" ? { fetchMarketCaps: (s: string[]) => getMarketCapsUsdMillions(s), rescoreTop: 60 } : {}),
+    });
 
     if (kind === "audit") {
       const n = Math.min(400, Math.max(20, Number(url.searchParams.get("n")) || 200));
