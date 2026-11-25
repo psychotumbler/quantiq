@@ -1,0 +1,21 @@
+{
+ "at": "2026-11-25T20:40:00.490Z",
+ "engineVersion": "f231a60",
+ "relevant": 1504,
+ "new": 1504,
+ "sweep": {
+  "feedsTried": 85,
+  "feedsOk": 85,
+  "feedsFailed": 0,
+  "rawHeadlines": 3111,
+  "uniqueHeadlines": 2716,
+  "understood": 2716,
+  "withEvent": 1029,
+  "withCompany": 958,
+  "highMateriality": 77,
+  "staleDropped": 28,
+  "rescoredWithMarketCap": 0,
+  "elapsedMs": 5269,
+  "failures": []
+ }
+}
