@@ -1,0 +1,5266 @@
+[
+ {
+  "sid": "s000",
+  "stratum": "top",
+  "raw": {
+   "title": "L&T Bags Rs 1,000-2,500 Cr Gujarat Battery Storage Order",
+   "body": "",
+   "source": "Equitypandit",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbklVM0JqVWhTUnhfcFF6cDFaOHl2elZVeWplRDZleXpFbl9RRTh1M3BkMnJEazRLZmMzNFluNmktVl8wZmp0TGVQYVBpUFF2VEtRZGsxdjUyd3E1UHIzZGZSdTlmOEk4VF9BdVdSYTF6cWowSmdBb2RCekJCZnlzQjU5X2ttSDBDd21v?oc=5",
+   "publishedAt": "2026-11-25T09:01:38.000Z",
+   "sector": "Infrastructure",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "Bags Rs 1,000-2,500 Cr Gujarat Battery Storage Order",
+   "primary": [
+    "LT.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 284.09,
+   "amountRaw": "2,500 Cr",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 76,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s001",
+  "stratum": "top",
+  "raw": {
+   "title": "Sterling & Wilson Renewable Energy wins Rs 2050 crore order from Gujarat PSU",
+   "body": "",
+   "source": "scanx.trade",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUUI2T0FMWGRSVnRDTUhIUWJnT3VtWlpLbTNlZTJFUXp2ejdoRkFLbE54QlU5Z1NPT2pEMlo4WU9DWFE1bWMyOFZnQ3V4OWFOOExrWnlkS3QyQVdEdUd1alI2dkVvWTFXVXd2LTRwMEpHb29uTjBmMWllajJnOUViNGtvQnBBVlhLMEo5RWlFTHdscmNGSWE3NFB4MGhCR2lTUDBQcjRTSXJsd0JBQktwYnlPUXdydzRrWHozenpjcjRJR3Z1?oc=5",
+   "publishedAt": "2026-11-23T06:54:47.000Z",
+   "sector": "Energy & Power",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "wins Rs 2050 crore order",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 232.95,
+   "amountRaw": "Rs 2050 crore",
+   "counterparty": "Gujarat PSU",
+   "isRoundup": false,
+   "materiality": 48,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s002",
+  "stratum": "top",
+  "raw": {
+   "title": "SWREL secures over Rs 20.5 billion renewable energy orders",
+   "body": "",
+   "source": "Renewable Watch",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVmtZWkpnRlI0eVRrY0dFdENRNTd6SDREMG9wSkliQlA3OEsxenhha3pEYWR6Y3RsTW5zR1FIODBkVjRsYW1tc0ZCb053U3hMQm1WZlNJVmMxRlhOSjBCcXR4al9TcHlQRUR1SjVLaDY3MHVhNm5FaHpFdzhBWENfX1RkVU5naThiaEIyR3VBU2lLXzgwZmZLcEc4VUJLdw?oc=5",
+   "publishedAt": "2026-11-25T09:07:34.000Z",
+   "sector": "Energy & Power",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "secures over Rs 20,5 billion renewable energy orders",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 232.95,
+   "amountRaw": "Rs 20.5 billion",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 53,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s003",
+  "stratum": "top",
+  "raw": {
+   "title": "Airtel Assam Data Centres: Bharti Airtel to Invest Rs 1,200 Crore in Three Facilities by 2028",
+   "body": "",
+   "source": "theopenpress.in",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZHZOcmhyaTFXR2tKNW9WVllnS1U0Y2hnTWM4OUk2Q0tLOGRFLXJEcF9EVWlsaThXblcyMzNnTmhMU3M5THVVMkw4Z2d5N2h6OGo4aE5GalVINGwxSkh5OEtTSlhTZ2ZHbGd0M1owdDlKN0JVMm1uZXpCbUxobUNud2x4SkFKVWVxemdz?oc=5",
+   "publishedAt": "2026-11-25T19:22:37.000Z",
+   "sector": "Technology",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "expansion",
+   "trigger": "Invest Rs 1,200 Crore",
+   "primary": [
+    "BHARTIARTL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 136.36,
+   "amountRaw": "Rs 1,200 Crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 65,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s004",
+  "stratum": "top",
+  "raw": {
+   "title": "PTC Industries: Bagging/Receiving of orders/contracts",
+   "body": "",
+   "source": "NSE filing",
+   "url": "https://nsearchives.nseindia.in/corporate/PTCINDUSTRIES_23112026133047_20261123_Press_Release_Indian_Defence_Order.pdf",
+   "publishedAt": "2026-11-23T08:00:57.000Z",
+   "sector": null,
+   "trust": 0.95
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "Bagging/Receiving of orders/contracts",
+   "primary": [
+    "PTCIL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 57,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s005",
+  "stratum": "top",
+  "raw": {
+   "title": "Shadowfax Technologies: A press release dated November 24, 2026, titled \" Shadowfax to Acquire WeFast, Marking Its Entry into India's Fast-Growing On-Demand Intra-City Logistics\".",
+   "body": "",
+   "source": "NSE filing",
+   "url": "https://nsearchives.nseindia.in/corporate/9900590024_24112026204514_Press_Release.pdf",
+   "publishedAt": "2026-11-24T15:15:55.000Z",
+   "sector": null,
+   "trust": 0.95
+  },
+  "engine": {
+   "event": "m&a",
+   "trigger": "to Acquire",
+   "primary": [
+    "SHADOWFAX.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 65,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s006",
+  "stratum": "top",
+  "raw": {
+   "title": "Nupur Recyclers Ltd (NSE:NRL) (Q2 2027) Earnings Call Highlights",
+   "body": "",
+   "source": "GuruFocus",
+   "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNSmJYN1FtRk02TGZDbjBZODktYm5CSjRLTm5NOXhmU1V1REtlbnhXblB3Ym9WXzFWaXdSZDNBdENtY2hwdHNTZmQ3cTN4Wndqb1ptRVJaMFJxQlBscjUyT0pqWXJVMHd3QU1oZWI4VWstZmNSZFk2ZXJPYUg3QjdMREU4dVkxazdadmt0dzZqYW9ScFRLODVfWlBHaFctM21uN2JhOTVxOFd3TU00MkJMSnJFeDNNZ0dybWkxV3BSendYRTd3SDR0YXd5dGpUTDlJZVlqd1hEQTJzd2hJbVZiNEhVQXQzWEpYT3hBUFNYbGJNOE9kNlRKT1FDWi0xaFZJelVhRmR5aFZxcGJxWDdaRA?oc=5",
+   "publishedAt": "2026-11-24T01:22:16.000Z",
+   "sector": "Auto & EV",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "earnings",
+   "trigger": "Q2 2027) Earnings",
+   "primary": [
+    "NRL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 50,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s007",
+  "stratum": "top",
+  "raw": {
+   "title": "AXISCADES Technologies: Acquisition",
+   "body": "",
+   "source": "NSE filing",
+   "url": "https://nsearchives.nseindia.in/corporate/AXISCADES_24112026141426_IncorporationUSA24112026.pdf",
+   "publishedAt": "2026-11-24T08:45:01.000Z",
+   "sector": null,
+   "trust": 0.95
+  },
+  "engine": {
+   "event": "m&a",
+   "trigger": ": Acquisition",
+   "primary": [
+    "AXISCADES.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 65,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s008",
+  "stratum": "top",
+  "raw": {
+   "title": "Bollywood is not the play: Bain Capital looks to strike gold in India’s regional entertainment",
+   "body": "Bain Capital has launched Ivy Entertainment to invest in regional music and films in India. The firm has committed around $150 million since its founding in 2020 and plans further investments. As smartphone usage rises, the Indian music market is expected to grow significantly in the coming years. Bain aims to acquire music-linked intellectual property and develop local talent while navigating ind",
+   "source": "Economic Times",
+   "url": "https://economictimes.indiatimes.com/industry/media/entertainment/bollywood-is-not-the-play-bain-capital-looks-to-strike-gold-in-indias-regional-ivy-entertainment/articleshow/136150321.cms",
+   "publishedAt": "2026-11-25T06:13:24.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": "m&a",
+   "trigger": "to acquire",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 150,
+   "amountRaw": "$150 million",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 58,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s009",
+  "stratum": "top",
+  "raw": {
+   "title": "AI debt worries grow as Nvidia rebound masks Big Tech spending squeeze",
+   "body": "Big Tech could find it increasingly tough to secure funding from debt markets critical to the AI build-out, as lenders become pickier over corporate bonds.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/25/ai-debt-big-tech-spending-nvidia.html",
+   "publishedAt": "2026-11-25T06:29:46.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": "fundraise",
+   "trigger": "secure funding",
+   "primary": [
+    "NVDA"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 50,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s010",
+  "stratum": "top",
+  "raw": {
+   "title": "TITAGARH RAIL SYSTEMS: A press release dated November 23, 2026, titled \"Titagarh Rail Systems bags new order from JSW for 181 BFNSM1 wagons and 3 BVCM wagons; Gets approval to manufacture auto carrier wagons expanding its product offering\".",
+   "body": "",
+   "source": "NSE filing",
+   "url": "https://nsearchives.nseindia.in/corporate/TWL_23112026124022_PressRelease23112026ACTwagons.pdf",
+   "publishedAt": "2026-11-23T07:10:31.000Z",
+   "sector": null,
+   "trust": 0.95
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "bags new order",
+   "primary": [
+    "TITAGARH.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": "JSW",
+   "isRoundup": false,
+   "materiality": 57,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s011",
+  "stratum": "top",
+  "raw": {
+   "title": "Waaree Transpower secures inverter duty transformer order worth over INR 100 crore for NTPC’s battery energy storage project",
+   "body": "",
+   "source": "pv magazine India",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOanI5UDlmT2s1Y2lQNTJSSy1iV2QxVUQyNVRsUG16V09SR0w4WkpxZ1kxQm5vY3JIZzRUdmRFZU15ekRJX1pXczR0aU13ZXRBYzJpYTVRMUdIY0FQVlJHUTZOTEh0akFPQzIyODlmdEZCWHE4ZHFJcFlZNUY5bnVTUVR2cFFFb2dtMG5aZFVoU0JqTldNVnBRMENLaW00T2NMZVVLWTFFaFRsWU9LQlIxdDlvY3hWb2RyT19wMExJczU4MnZSZUpTS3o3dHN5Q3Jld1JrNnhEdmtHRFFia1U1SFA1VWRDcXZCN1kxXzBrSXBlNWNULWJidTF5YV92Zw?oc=5",
+   "publishedAt": "2026-11-19T08:22:49.000Z",
+   "sector": "Energy & Power",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "secures inverter duty transformer order",
+   "primary": [
+    "NTPC.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 11.36,
+   "amountRaw": "INR 100 crore",
+   "counterparty": "NTPC",
+   "isRoundup": false,
+   "materiality": 48,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s012",
+  "stratum": "top",
+  "raw": {
+   "title": "Stock Of The Day Buy Diamond Power (Cash): SL 362 Tgt 370, 375, 380 Company received big order of 707 Cr from Adani energy Buy HDFC Bank Futures on decline: SL 800 Tgt 828, 835, 842 New MD Anup Bagchi is meeting with Investors in Singapore is v",
+   "body": "",
+   "source": "Facebook",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOcUp1ckFkX2hqMkN1NVN3RE5aR2RIS201cV9rWmMxYmJOZXBwZ1JjLUNpN2pBY1pCM2FHRkx4NmE4bnFyWGtPYS1FSGVrbE15YzUxcnlmRXhMQmM5ZGNnU3l2Q1VKUGI5VW5YRlNyQzhaRHdLMDZvR2g3Q1ZwaDBqVHpzcGRfcDdwMkxlZkhDSGJ4djFOYm9mN0NHSkZ5TTRkeGR3VXVPcjhMR2ZlVGRZRTRJV2owQ09neDlYN1FTdm5qZE5GYU00V0FIMzZiRXhydmdUbGVtZWp2MkNpeEpxY3d3?oc=5",
+   "publishedAt": "2026-11-20T04:08:32.000Z",
+   "sector": null,
+   "trust": 0.6
+  },
+  "engine": {
+   "event": "m&a",
+   "trigger": "Buy Diamond Power (Cash): SL 362 Tgt 370, 375, 380 Company",
+   "primary": [
+    "DIACABS.NS",
+    "HDFCBANK.NS"
+   ],
+   "mentioned": [
+    "ADANIENSOL.NS"
+   ],
+   "amountUsdM": 80.34,
+   "amountRaw": "707 Cr",
+   "counterparty": "Adani",
+   "isRoundup": false,
+   "materiality": 47,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s013",
+  "stratum": "top",
+  "raw": {
+   "title": "APL Apollo control sale requires a Tata Steel open offer",
+   "body": "",
+   "source": "Multibagg AI",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcWExeXhHT2lUU3NkUWIyZERTZDYtb2lGTEUzRU5FM1JVM1dDWFVHNlJoUGRrcjB6aHRhZTZHVW4zSjliMkJNR1dLMjB0SEJOWlVwZElnTWlVMTJId29yNjI2dWdiQldna2J2ckFFVGhPTUNEZWlXSWNPY3dhTU9lNGNHOC1JSmZYa3RkTGEyWVU3X1p1TUdpdFRpQjdvNS1GUy1mYlJzcDY0UzRtQVJEdXI1TkVQQQ?oc=5",
+   "publishedAt": "2026-11-23T02:21:15.000Z",
+   "sector": "Capital markets",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "m&a",
+   "trigger": "open offer",
+   "primary": [
+    "TATASTEEL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 52,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s014",
+  "stratum": "top",
+  "raw": {
+   "title": "Advanced Enzyme Technologies: Acquisition",
+   "body": "",
+   "source": "NSE filing",
+   "url": "https://nsearchives.nseindia.in/corporate/AETL_25112026205325_Intimation__4_.pdf",
+   "publishedAt": "2026-11-25T15:23:35.000Z",
+   "sector": null,
+   "trust": 0.95
+  },
+  "engine": {
+   "event": "m&a",
+   "trigger": ": Acquisition",
+   "primary": [
+    "ADVENZYMES.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 65,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s015",
+  "stratum": "top",
+  "raw": {
+   "title": "This small-cap multibagger stock hits 20% upper circuit after prolonged losing run; what's driving the sudden recovery?",
+   "body": "RMC Switchgears shares rose 20% to  ₹196 after the company received a Letter of Intent for a Maharashtra distribution-infrastructure project valued at about  ₹522 crore.",
+   "source": "Mint",
+   "url": "https://www.livemint.com/market/stock-market-news/this-small-cap-multibagger-stock-hits-20-upper-circuit-after-prolonged-losing-run-whats-driving-the-sudden-recovery-11795603484331.html",
+   "publishedAt": "2026-11-25T11:23:06.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "received a Letter of Intent",
+   "primary": [],
+   "mentioned": [
+    "RMC.NS"
+   ],
+   "amountUsdM": 59.32,
+   "amountRaw": "₹522 crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 53,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s016",
+  "stratum": "top",
+  "raw": {
+   "title": "Ambuja Cements Plans 30 MTPA Expansion Across East, West and North - News and Statistics",
+   "body": "",
+   "source": "IndexBox",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWmJqX3pvVFd1aWlqMGp2U0ZMdWZJWVRWN1J2eFhoMERGUTFjVWhYLWVHd3ZNWldVZGY5RFlNOGx2ZVNTaXNTaDZ4eGozb2FEa1p1NC11NnNKbkxmUGJpSGV5Q0UtSkt5M3o1UkRONE9MN0lOc0t3djFqM0tFNTRvd3YyRmc2VUFVMGU1eHZxN21JMGJHTDJZS05qVU14a0tLbnRSaHNyTQ?oc=5",
+   "publishedAt": "2026-11-25T11:22:38.000Z",
+   "sector": "Metals & Mining",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "expansion",
+   "trigger": "Plans 30 MTPA Expansion",
+   "primary": [
+    "AMBUJACEM.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 48,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s017",
+  "stratum": "top",
+  "raw": {
+   "title": "Sterling and Wilson Renewable Energy secures orders worth over INR 2050 crore",
+   "body": "",
+   "source": "Business Upturn",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeE1KWW1OaDk1ZFhXQ3lDcGc1blRLTGdCbURMb2dlYlJyVzZZVTFFMnBUV0g0cE9MbVV4SzB2X0hnQV9Fb1JyY2JIYnFsUTBjWURMMi1yTUxLRUhqbW1kaDA5SDNOckVXUm9DRWVIakxQVzNMdlhGTERheDhOM0o3MVlaSHBuSjR2M05BY1Yzb1J1S3dIczU3QTNCdkVkTko2NExKTVdGbWNnRHRST29feUxxVnA?oc=5",
+   "publishedAt": "2026-11-23T06:20:46.000Z",
+   "sector": "Energy & Power",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "secures orders",
+   "primary": [
+    "SWSOLAR.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 232.95,
+   "amountRaw": "INR 2050 crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 67,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s018",
+  "stratum": "top",
+  "raw": {
+   "title": "Tata Steel shares rise 1%, APL Apollo falls 9% as brokerages turn cautious on ₹28,000 cr deal",
+   "body": "Brokerages largely negative on APL Apollo, mixed on Tata Steel",
+   "source": "BusinessLine",
+   "url": "https://www.thehindubusinessline.com/markets/stock-markets/tata-steel-shares-rise-1-while-apl-apollo-slumps-9-after-brokerages-turn-cautious-on-28000-cr-deal/article71741210.ece",
+   "publishedAt": "2026-11-25T09:09:03.000Z",
+   "sector": null,
+   "trust": 0.78
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [
+    "TATASTEEL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 3181.82,
+   "amountRaw": "₹28,000 cr",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 48,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s019",
+  "stratum": "top",
+  "raw": {
+   "title": "Cipla launches first generic equivalent of Flovent HFA in US after FDA approval",
+   "body": "",
+   "source": "Express Pharma",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSExqU2NuYmhKRWR4aE80TWwwajF3VzZGcW4zTjFJbGxrRThrdWw0WWFUb013UGlZRWdoRFZhQm1MdzJpaTNaVngtQ0JjVS1VQVdleTV5ZXlrRXNrNHFJeDBqS1UzMjRvZk42cGlKVkV3bUs1RkktUWxTTjFEZGVaYWxGaGlYNFowSmZpeTA5NTE0Tm9uSnlfSDl3bG8xeDZONGZaR3JJRTRfVVZmdEcyd3hCcw?oc=5",
+   "publishedAt": "2026-11-25T08:30:23.000Z",
+   "sector": "Pharma & Health",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "approval",
+   "trigger": "FDA approval",
+   "primary": [
+    "CIPLA.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 52,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s020",
+  "stratum": "top",
+  "raw": {
+   "title": "Diamond Power Infrastructure: Receiving orders of Adani Energy Solutions Limited (AESL)",
+   "body": "",
+   "source": "NSE filing",
+   "url": "https://nsearchives.nseindia.in/corporate/DIACABS_25112026183441_FinalIntimation25Nov2026.pdf",
+   "publishedAt": "2026-11-25T13:06:39.000Z",
+   "sector": null,
+   "trust": 0.95
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "Receiving orders",
+   "primary": [
+    "DIACABS.NS",
+    "ADANIENSOL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 51,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s021",
+  "stratum": "top",
+  "raw": {
+   "title": "NLC India Renewables Files DRHP with SEBI for INR 3,300 Crore IPO",
+   "body": "",
+   "source": "Energetica India Magazine",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeDdJcW1mam00blRtWVVEdEtsc0hoZXI0STdHLUJuMGFWdW9FNElUa09MbktHbmp2endqWHJKZ3FRVGVWeU1FeTZGQXhaQWh5SV9vUW5tcVFzNGFvbDZvNUJEYUNtVTBIcTN5SW1hZVVpYmFjb252TnpyTFBmVi1mUjRWX082bjExa3dIT3p3RC1lREluQnpOOVhPNExZeGh5SnhXUQ?oc=5",
+   "publishedAt": "2026-11-19T11:50:12.000Z",
+   "sector": "Auto & EV",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "fundraise",
+   "trigger": "IPO",
+   "primary": [
+    "NLCINDIA.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 375,
+   "amountRaw": "INR 3,300 Crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 50,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s022",
+  "stratum": "top",
+  "raw": {
+   "title": "Ambani Group Stock Jumps 7% After Receiving an Order Worth ₹2,050 Cr for a BESS Project",
+   "body": "",
+   "source": "Trade Brains",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcVZBbUtwekNub2JLaGtqOUpFaFVZMVhPcmdtTWlBdXVIZ296cl92NzlVLVZrWkxmS2tmcmRwX2t3ZVFKZ2N3R3VESjA5X2tMbGJ0eEc4ZkJJY1podzRsTWhzX2p4bGZ1UklIanpZMkZGRFdLQXFxVWxrTmRhcnBRQjRyMmdESGpJMWtzcDNYLWVFdWhVR3cyLXhfUElUR0pSZy1jZjk3V1RoNXJuWUEyTDItY1JsbUFnczBVUHpDZ210T25fSmc1czFGaw?oc=5",
+   "publishedAt": "2026-11-23T09:10:37.000Z",
+   "sector": "Energy & Power",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "Receiving an Order Worth ₹2,050 Cr for a BESS Project",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 232.95,
+   "amountRaw": "₹2,050 Cr",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 48,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s023",
+  "stratum": "top",
+  "raw": {
+   "title": "Jupiter Wagons Wins ₹128.61 Cr Order; Shares Fall 2.55%",
+   "body": "",
+   "source": "HDFC Sky",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQnBWZVNlLVYtek9HUDAzNWNkR2lya2lWZHVBcUJueTF5QVR6UUJ0WURmWFFuY2NlMXZxdE1ucTVsN3JKbFRWZjhJS2VURXR5b1Z2RFBKTnR3VmJKZjF6d0s5OW5XeWhmVHZoU25ScERhZFJVSnNEd004cDhCLVBOOHRCWDlOcFF1N0cwY0tHQVNRQk9iOFFYRGlsZHF3b3p2eDVnTEctcE1sTG9y?oc=5",
+   "publishedAt": "2026-11-20T05:07:28.000Z",
+   "sector": "Railways",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "Wins ₹128,61 Cr Order",
+   "primary": [
+    "JWL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 14.61,
+   "amountRaw": "₹128.61 Cr",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 49,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s024",
+  "stratum": "top",
+  "raw": {
+   "title": "India announces five biomethane plants with a 7.5 billion-rupee investment and output of 110 tonnes per day",
+   "body": "",
+   "source": "CPG Click Oil and Gas",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNeVh6eUxUWVZWbFhDaDl3Y3BoUk5LRFMzSU14Qk1xd2ZlVFZIZlBKTVZpV1RhNGdDdFdJOFhjQ19hblNSeDY5Ti1BMzFHR2xSUXFKX19hTTZuSmRhSWRnRDJ0OE1UdkJsMjcxSlhIZjlKZ0szVndoVEpYX0l4OXVrd3VFSUNRU1VVUWFLR29qXzROV05WZXpOWVlJbTlGcWY2OWQ0OWQyOE1fUHZ2aE5GZmZwSjVHdTJLNUZGY1FtaVo0dG41N1BRb3UyZ1ZpSUZ6Q1VnLU5nbW1pQUxySDQxUDM2cw?oc=5",
+   "publishedAt": "2026-11-24T01:26:00.000Z",
+   "sector": "Energy & Power",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "expansion",
+   "trigger": "investment and output of 110 tonnes",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 7500,
+   "amountRaw": "7.5 billion",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 48,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s025",
+  "stratum": "top",
+  "raw": {
+   "title": "L&T Wins Order for 300 MW Gujarat Battery Storage",
+   "body": "",
+   "source": "Urban Acres",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNak5EWGozRTZQVE43Qno2ckE1QUhBWld1Vzd6WWI3R0NZbTg0YTI0V2I3VnFfQ2x6TEhVc2VUQWNHT0FfTlRNV0U4TkNLZ1Y4bVRXQmotSXRmT0F2RkNVdnVFUHRwaUQ5ZG9CSER0MklnYVNnOHkxSC1adm5xNWJuVFJPdlg4SnV0WVBkYWkyLXhUUlhlWnhPLTVfU2l0VHJHWHluY0RR?oc=5",
+   "publishedAt": "2026-11-25T11:25:37.000Z",
+   "sector": "Energy & Power",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "Wins Order",
+   "primary": [
+    "LT.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 56,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s026",
+  "stratum": "top",
+  "raw": {
+   "title": "Bombay Coated And Special Steels Delivers Strong Q2 Earnings, Eyes Debt Reduction With ₹125 Crore IPO",
+   "body": "",
+   "source": "Free Press Journal",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNNGVPajZLcThuZmtoUHVSTXVoY1hlUjZhNDRFY1hjd05nbXpzUDVEOUx3dHBURmhSck5xRDdkeGdaZ0ZfSWNvU0xzcGZwdzR5VVhkak56UFc5dFRBcVRPZzhOYW1FaFM1cHdHeEN6MDI2ZkhMTklaOUt2SUpoM3FPcEowR3NsckI0S2lZaXpFN2ZSOVFrel9hR3NiUGNNVXlWWXMwcjZnbGlULVhZTDRzRkhTOElHNU5uWEw5UFZobmV3bml3ejdvWnVNc0xnekJlLTVLYi0xWXdCbkhaNTk5dVRWWdIB6AFBVV95cUxOdnRpZ3Itdms0VHhLb3U5bU5PU1hPX0U5SW15QW9TbXROenVGOEtITU1WeE53NG9Od2R5U3JuN1V5UFZOSUxYVV9DUFpVRWc2UFNHb1h6VVF2d3dYV3ctVXVfeVc1aGUxb1JDVEZSMUJTbGJkTDZtZlIwZHRkTndscmtKVmtHakpqR2pjbkRYTDVKaG85QmlkT1JpSUhDQWRzWEdGbzg4UjRDSHhjc1NPSk1XalRnLVlhSWVNRFlQbnk1Q1BHaHFNUkRIY1BULUJ1eDNZSEsycDRDWFl0Z2RabGdOd0lCR2ly?oc=5",
+   "publishedAt": "2026-11-25T04:44:03.000Z",
+   "sector": "Metals & Mining",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "earnings",
+   "trigger": "Q2 Earnings",
+   "primary": [
+    "BCSSL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 50,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s027",
+  "stratum": "top",
+  "raw": {
+   "title": "Airtel to Invest ₹455 Crore in Two Data Centres in Assam, Expand Capacity to 40 MW",
+   "body": "",
+   "source": "TelecomLead",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVmttX0NfOGpBRmhDSkZZMGFRN005T1dsVVBmYmlkWWlDelJucVVZb21fUmZUY2V0ZExhWlZXTVNOOS03MHdSRWNLUFZmR2R4MUdrMHJfdnBlVm9TVTNKNF9HWVFfdU9pZXhtTUhzd2JsNWJPazhkc1AyaktQZnFjOTdvSV9rckJWVDViQnlsUTJGRzM1eWpobi02YUFERjVWOUtQNEdvdjRGWnhETXpvSlk4VWlmTC16bDk1RWxGdUxwdHAwLUpfbHBOVjN0OHJQMWfSAdIBQVVfeXFMTVZrbV9DXzhqQUZoQ0pGWTBhUTdNOU9XbFVQZmJpZFlpQ3pSbnFVWW9tX1JmVGNldGRMYVpWV01TTjktNzB3UkVjS1BWZkdkeDFHazByX3ZwZVZvU1UzSjRfR1lRX3VPaWV4bU1Ic3dibDViT2s4ZHNQMmpLUGZxYzk3b0lfa3JCVlQ1YkJ5bFEyRkczNXlqaG4tNmFBREY1VjlLUDRHb3Y0Rlp4RE16b0pZOFVpZkwtemw5NUVsRnVMcHRwMC1KX2xwTlYzdDhyUDFn?oc=5",
+   "publishedAt": "2026-11-25T14:21:15.000Z",
+   "sector": "Technology",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "expansion",
+   "trigger": "Invest ₹455 Crore",
+   "primary": [
+    "BHARTIARTL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 51.7,
+   "amountRaw": "₹455 Crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 62,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s028",
+  "stratum": "top",
+  "raw": {
+   "title": "Tata Steel to buy controlling stake in APL Apollo",
+   "body": "",
+   "source": "The New Indian Express",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOajg1akY1S1FiX1Nvc2VWdEZyQjNCdUNpNU5BOEc2Vmk3WlpmSUpYMllydXVTb0FKNE9FTVI1Ti1yeXFHMk01eW5uVE5ZZ1VyTGg0amRfeDhTeVBEX01uNTM5RW5TR3JDUHZKOWJBOVR0Q1U3N0dteUlrVFdoVm11SGlaT2k2eUdoMENJdjB2MHNjWldfeUJURVJwZ3ExVGlnamFTZDJn0gGzAUFVX3lxTE8xaXBSSDl5cURMYy1PNzRVNkt2UkpJd3dqOTVGaGdNNG1vSmJOQXJ4REVFRnBaWlV1WGtxckp3cldaQ1J6SWpaSy1vdnpVbWJmbldNai1GX253THVXa1NWSF9IRWdvejBYRlVpS2RsWHlXU0RHZThvQWIwUkk0R3NqZS04d0t4cHZVcHRMcXVZSzBWX3RHQjkwVlFXeVV3U0hkQ0N1MEhXQVlKYXVKZndvTUxz?oc=5",
+   "publishedAt": "2026-11-24T03:07:30.000Z",
+   "sector": "Capital markets",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "m&a",
+   "trigger": "to buy controlling stake",
+   "primary": [
+    "TATASTEEL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 58,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s029",
+  "stratum": "top",
+  "raw": {
+   "title": "Tata Steel acquires 2.77 crore APL Apollo Tubes shares worth Rs 5,825 crore in block deal; promoter S Gupt",
+   "body": "",
+   "source": "The Economic Times",
+   "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQdGFiSnkzRXRST1h4VDQtWWFIXzZFQkhGUDRxdDBRdldZTm52eVZDTVJnZFFaRVB6ZVlfQm8zX2ZqLXdzenUwZjJCbUk2TGZ2UlVFeTdLZjlic0VHZUdhcHFNWHRBR3lFdzdYbjdZcTRWU3NCZk84RmtlT05GeUxoZHZINHlKc3hsd1NWcEhqWlcwbTFIOVphdWg0YWNQWDdJTVoyOGVzRGNJdmMwZTlsUHdsbkhSZTlSTDFIT3dVeWJKSV9YT3l6SUthRnVtM3psR1AzeEFWb1Mxd3pGZTdaUUNSdWdFcFBWOU1hMkdQNXlaTV80VWdfcU50Q3ZTR2wyWmxRWm5TbXNyZFZES1dDUzEza1dvdHcydEI1UGxhT0tWM25BaEHSAasCQVVfeXFMTURzRjdVZ2ZWN1k2MFJmQlhPb1JLdmZob1JmajdMbnpUOWc4em5DWG1YeXk0dFNUWFA2ekROZWVVZlRxSnRLQ3pFcGJtS2NVcXNEMFF4UWJvU2VYUmxXTlJIak14MWxRaGpjTHNteUFyNU9OVmxtd0hQUTlLM2NKTHM1NDYtZURxcThySnBHSjRsUjY0SkJqVHd3SEdEeVRNRHJDT0ZHcU8wVEg4elVNMzBWVVh5UXRRTmdjUFBnNVRTajBBTU9iOFlnZnF3ZDAyb3ZqdnNsUEFGWmZGNHBfVTJmWlZWUFA0NE5xb0lIV1VHek1MU19yWnlYZEJzd1paZ0hFeTU0QnRpQmZpNDliSWtaLWxxUDRFa3RxTGw5enFMdUZtcW1fR2lKejA?oc=5",
+   "publishedAt": "2026-11-23T16:03:34.000Z",
+   "sector": "Capital markets",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "m&a",
+   "trigger": "acquires 2,77 crore APL Apollo Tubes shares",
+   "primary": [
+    "TATASTEEL.NS",
+    "APLAPOLLO.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 661.93,
+   "amountRaw": "Rs 5,825 crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 61,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s030",
+  "stratum": "top",
+  "raw": {
+   "title": "Schaeffler India Shares in Focus as Schaeffler AG Plans ₹3,188 Crore Block Deal at ₹3,400 Per Share",
+   "body": "",
+   "source": "Kotak Neo",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONGJBSFYzeTg1dGpxSjNCUHR3b2FtSWo2TmE2d2tCR2VEYzkwQXIyR0VpNmY2NV8tODN5eFRVeFctVG9WMHE1eUpnUVRiZG9FWHJFcms2SFFMMDc4NGhqMk1xUnhUVDRvT0dvM1VvTjdrRkk0WlFXOHhLT0JJYW9LdVJKWXZVQm4ybEV3MmVQeXNjdDVGM1pUQjZPY0dhQUk?oc=5",
+   "publishedAt": "2026-11-25T15:01:15.000Z",
+   "sector": "Capital markets",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "stake-change",
+   "trigger": "Block Deal",
+   "primary": [
+    "SCHAEFFLER.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 362.27,
+   "amountRaw": "₹3,188 Crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 66,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s031",
+  "stratum": "top",
+  "raw": {
+   "title": "Dilip Buildcon Limited Wins ₹901.43 Crore Srinagar EPC Order",
+   "body": "",
+   "source": "Multibagg AI",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcXF5Rk83dHFweWZzcHp6YVQ0SUFyeExYYzVGazd2SFZpM1RYUjhrdnNjNTBfX1ZJS2RNLWI4aGEwNkN1Y01jVzAzX3YwNDNPSXNmREs0NFJDS0JGWG1vVmZmUjEwLXRCQUZSY3J2MWhQeHZJOGpESzNlU0xFZWNHMWJVX3VRT2lRU29ySnRQaTJQbEFDSVdmVGJab3dqdWhnbkRMdTg5ek9oQQ?oc=5",
+   "publishedAt": "2026-11-23T03:57:26.000Z",
+   "sector": "Energy & Power",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "Wins ₹901,43 Crore Srinagar EPC Order",
+   "primary": [
+    "DBL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 102.44,
+   "amountRaw": "₹901.43 Crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 65,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s032",
+  "stratum": "top",
+  "raw": {
+   "title": "Mahanadi Coalfields IPO Opens Today After ₹2,295 Crore Anchor Investment; LIC, ADIA Among Buyers",
+   "body": "",
+   "source": "Kotak Neo",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPN1AxVUE2VXhhVVZwRTF3X2VWMFllRmNKakR0Ry1uWW1RSk1KZEJNWUJVa212V1VxOEI0aDVvNXdWenF3NUNyLVNWZm0zUkJOWE8wNkJsYTZ6MFZ6WE5jVnBDck9DRndmdkpQSEx6YURKVWRFQUZQYWEwc3YtWWdvUHpkd2ExQ0VJTzRvU29fR0lWN1Z1YXk1UXFvUUI4bkNNbTEzY2tyZ0E0SGxuekppc29YWTltbjhPQm9lb1Z2VENTaUZ4VTc5THM0dHg?oc=5",
+   "publishedAt": "2026-11-19T04:23:38.000Z",
+   "sector": "Financials",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "expansion",
+   "trigger": "Crore Anchor Investment",
+   "primary": [
+    "LICI.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 260.8,
+   "amountRaw": "₹2,295 Crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 50,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s033",
+  "stratum": "top",
+  "raw": {
+   "title": "ICICI Bank rallies 4%, hits all-time high; market cap nears ₹12 trillion",
+   "body": "ICICI Bank's share price hit a new life-time high of ₹1,647 in Wednesday's intraday trade, and its market capitalisation rose to ₹11.8 trillion. The stock gained 18% thus far in November.",
+   "source": "Business Standard",
+   "url": "https://www.business-standard.com/markets/news/icici-bank-rallies-4-hits-all-time-high-market-cap-nears-12-trillion-126112500224_1.html",
+   "publishedAt": "2026-11-25T05:27:12.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [
+    "ICICIBANK.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 136363.64,
+   "amountRaw": "₹12 trillion",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 48,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s034",
+  "stratum": "top",
+  "raw": {
+   "title": "Flipkart CEO Kalyan Krishnamurthy steps down after 11 years amid IPO limbo",
+   "body": "Walmart-owned ecommerce company says it will name a successor in the coming weeks. Its technology chief and the board will run the company until then",
+   "source": "Business Standard",
+   "url": "https://www.business-standard.com/companies/news/kalyan-krishnamurthy-exit-flipkart-ceo-ipo-esop-walmart-126112500495_1.html",
+   "publishedAt": "2026-11-25T08:22:35.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": "fundraise",
+   "trigger": "IPO",
+   "primary": [
+    "KALYANKJIL.NS"
+   ],
+   "mentioned": [
+    "WMT"
+   ],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 50,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s035",
+  "stratum": "top",
+  "raw": {
+   "title": "RVNL emerges as lowest bidder for ₹348 crore East Coast Railway wagon workshop project",
+   "body": "",
+   "source": "ET Infra",
+   "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNeVFaMTRkd0JQR21KMWFDenlKaUZLTEJaV1kya2o3WnZ5dkw2TFZ4czhYRG5ySm1OTHhZLUpBTnlHTnpPNXRSVDhPbmlrWkZZeWlhdXVJUEktajl1cWdnVHlNdnRaMEwzN3lNY1NZWDFRdFU1RF8yMXZ5djFpRElyVGV6aVNRUjFKVThVOTJhR1Q0eVJBRXVLNXJyZVY3ZmNlZy1RelFwbW1mWkc4X3l2bEhRWmJCRXpwLVZMTnZZR19SSFU1cm5CRm1maDJRdk04aWNtenVCY25RNDcwMnRCbElqZW1FMF9LUkZrMDNtMHJsTnZ0LS0yU2RiclY2b0JGMnU2V1NjOUZ5RU1LSkVhMUc1NHEybHhnQm1JX0lCd0fSAesBQVVfeXFMUGoxRUFwWWxEWTVPdG1rcGpPRTNXZG55MzZEdzRpY2lxaGtyRFM0VndVZlFBalpqb0hoak1US1hIQXMxb0xldHNvVThhNVpacTFrVWNRMmFTMWFIcC1sUGlqUTgwRXBIcXFBOXdneTBON0JGQWFsTDRRd2FOTE9lZlRsVXpkdTVBQ0l2R1Q5OHhjZWZqeUJ2VG9QeURKR1NGU1A3RWgyX3lWTndGZ3dVRDY4UXQyZ19yMm1pODNhblQ0dVdwM2hCOGk5eG5RZTY0d1hmT3J5aGVMbUt1dmlKOXVzc0p0eW9mYk5ZQQ?oc=5",
+   "publishedAt": "2026-11-22T11:40:05.000Z",
+   "sector": "Railways",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "emerges as lowest bidder",
+   "primary": [
+    "RVNL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 39.55,
+   "amountRaw": "₹348 crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 62,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s036",
+  "stratum": "top",
+  "raw": {
+   "title": "Tata Steel buys 9.99% APL Apollo stake for Rs 5.82 thousand crore",
+   "body": "",
+   "source": "Multibagg AI",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSkJTZFI5UE1QVGQzbDI2QkVhY3c1VjVDT2hBcHNPejNRb1U5MTlndGx3UHBZWlBqUFhJOUw2TjN6N2lIRlNpNnp1VWdTcmVPN01mZzRkeXRZVFR4X1BkNk9Ta1FBTGtYWDdRcUNka2duaWV6eDV6VmpRLXhfakczNkpYQ3FSYk1pOHNqRl9vYkRTbl85SGZBeTc4MlZ4R0NPd2J0YnJGNW9NZ1kzZUE2Y3duSQ?oc=5",
+   "publishedAt": "2026-11-25T05:39:05.000Z",
+   "sector": "Capital markets",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "m&a",
+   "trigger": "buys 9,99% APL Apollo stake",
+   "primary": [
+    "TATASTEEL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 58,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s037",
+  "stratum": "top",
+  "raw": {
+   "title": "Why APL Apollo Tubes shares crashed 15% today to plunge at 52-week low; downgrade from brokerages after Tata Steel deal",
+   "body": "APL Apollo Tubes fell 15% to its lower circuit after brokerages downgraded the stock following its proposed  ₹28,000-crore acquisition of Tata Steel’s tubes and colour-coated businesses. Analysts cited debt, financing costs, earnings dilution and valuation concerns.",
+   "source": "Mint",
+   "url": "https://www.livemint.com/market/stock-market-news/why-apl-apollo-tubes-shares-crashed-15-today-to-plunge-at-52-week-low-downgrade-from-brokerages-after-tata-steel-deal-11795579639211.html",
+   "publishedAt": "2026-11-25T04:55:55.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": "m&a",
+   "trigger": "acquisition of",
+   "primary": [
+    "APLAPOLLO.NS",
+    "TATASTEEL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 3181.82,
+   "amountRaw": "₹28,000-crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 72,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s038",
+  "stratum": "top",
+  "raw": {
+   "title": "Alembic Pharmaceuticals APLLTD USFDA Bosutinib 400mg Approval",
+   "body": "",
+   "source": "Kalkine India",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNM2ltMzFFSXlWd01Wd0NncGVGOWl5Y3FHekhpXzlhM1VpWWJGRktxQWtyNzh0R3E5MEYzV3NHMThVb2xwdXhqUzJzc1JYZlphTjdYZC1rRjJDaTRRTmNkSEhjVWc1TkI2U1V1Mk9pZHdCQ2xEWDhISk5BS0pndUVvSkxDblZEa1lVTW9TQmJUSmg0LUY1UW9fUWY1WUJxM3AxZTNKMzNDZDNvS0RUWXpHQkZYcDRaZUVBWVFpVG5Eb2c?oc=5",
+   "publishedAt": "2026-11-24T14:04:00.000Z",
+   "sector": "Pharma & Health",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "approval",
+   "trigger": "USFDA Bosutinib 400mg Approval",
+   "primary": [
+    "APLLTD.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 52,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s039",
+  "stratum": "top",
+  "raw": {
+   "title": "Rail Vikas Nigam: Bagging/Receiving of orders/contracts",
+   "body": "",
+   "source": "NSE filing",
+   "url": "https://nsearchives.nseindia.in/corporate/RVNL_23112026230754_LOA231126.pdf",
+   "publishedAt": "2026-11-23T17:38:57.000Z",
+   "sector": null,
+   "trust": 0.95
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "Bagging/Receiving of orders/contracts",
+   "primary": [
+    "RVNL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 57,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s040",
+  "stratum": "top",
+  "raw": {
+   "title": "Tamil Nadu to Sign Investment Deals Worth Over S$6.94 Billion: Sources",
+   "body": "",
+   "source": "https://www.tabla.com.sg/",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWktvaHZwWFZKcHpsRndBLW9ERFJaenJaTTB6VzUzQi1sM0JWd2JPV1NHUmdEb1BfLTh5aUl2WWpGX1hoU1ZmaGRtcE1CWFhlTy13cC10U0Q1NzRlYUozWWFIMlhaWUI4QkY4WDQ1UVhob0hFaXdXWmVQTnhIVVJIblAwT2xmVmlPaGF2YzVjQWZZLWNEdFBPdFpVY1MwVHdMTFNF?oc=5",
+   "publishedAt": "2026-11-25T03:48:42.000Z",
+   "sector": "Infrastructure",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "expansion",
+   "trigger": "Investment Deals Worth Over S$6,94 Billion",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 6940,
+   "amountRaw": "$6.94 Billion",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 48,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s041",
+  "stratum": "top",
+  "raw": {
+   "title": "Indian Railways plans Rs 348-crore workshop upgrade; RVNL emerges as lowest bidder",
+   "body": "",
+   "source": "The Financial Express",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbmxiQmpGYlFsWFlZMVd3MTM4V255dFY1dmpyRG84WG5Fa182eDY1N1NGTkN3aU5QNXY1X1RWU0dlbHE2Q3g2ckxfbWFJaXZiY19yUVhvbGVoVkRnWUVZLTFudGZBMzg3RHk3OFFHRDhoSE5kRW1uZVdadzJQRXZkakVTRFM0T04zcmNSaTBlS2dENC1KLTJSbjBoRzdHUVB2ZG8ySTFnUkw2LTgxMUQ5OEZucEN1OGNIS2xXNHJPOUxFTHFXM1ZWZUpJeGs0Z2FxWmlidEV6S2PSAd8BQVVfeXFMTnlBRkxtbncxWXFaWkhLR29PdHJ0TU5vRklvNzBLNUNEMmJuMmJ6clpmNXhET1NMRWpycnlXeXRVQjFjMVhGWkdNVmJvZW1LdjlKZlcyMER1VWIwWGRWenBuT1JWdkNRdy1wMGU3RUFNMVlqallmUFdlRkZvb3ctb0ZVWnlQSWpFNFpKcUdpTU5GRDdLSTVYV2F5SG5NbkhHZ2t5bVctY0RFdEJwTUYzckhocW5tU0hrWThkOVVpSEJzbGxvVGZuQU9FeUJhMm5WbDlUNXFPQjdJU09HMHhrTQ?oc=5",
+   "publishedAt": "2026-11-24T00:30:06.000Z",
+   "sector": "Railways",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "emerges as lowest bidder",
+   "primary": [
+    "RVNL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 39.55,
+   "amountRaw": "Rs 348-crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 69,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s042",
+  "stratum": "top",
+  "raw": {
+   "title": "Titagarh Rail Systems wins ₹77 crore JSW order; gets railway clearance for auto carrier wagons",
+   "body": "",
+   "source": "ET Infra",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPdU9UOWI0T21oZ1ctVlY5aU1VSlU1cm5VbktHRjdQaWw1ZlNueVY3RENIT3FxWmlXREpNVVQ5V3lQcnFROS1sSEktemhSUjNiVjlkRzIzTkYySVJqMVpBZkQ2enR0dV90NHI5N2pMN2JsNTJlZFplQ2tPLVJXQnZLeDlwcUc4dDlLeE9ad2RISDU2bDFId3cyMWttNDV2ekVkRkhUTGNXSkVNaUlyMnpCUWNLY0oweGhKb1drdkxmeHE5dy01a2FyS2pKMzZBNDZMSlYzeUc5RXhHaFZuVkVJLWxfRG85OWU0UkZCTmgyVGU?oc=5",
+   "publishedAt": "2026-11-23T09:58:54.000Z",
+   "sector": "Railways",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "wins ₹77 crore JSW order",
+   "primary": [
+    "TITAGARH.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 8.75,
+   "amountRaw": "₹77 crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 57,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s043",
+  "stratum": "top",
+  "raw": {
+   "title": "Highway Infrastructure: Bagging/Receiving of orders/contracts",
+   "body": "",
+   "source": "NSE filing",
+   "url": "https://nsearchives.nseindia.in/corporate/HIGHWAY123_25112026102627_HIL_Reg30_Rev_WO_251126.pdf",
+   "publishedAt": "2026-11-25T04:56:39.000Z",
+   "sector": null,
+   "trust": 0.95
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "Bagging/Receiving of orders/contracts",
+   "primary": [
+    "HILINFRA.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 63,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s044",
+  "stratum": "top",
+  "raw": {
+   "title": "Highway Infrastructure Limited Wins ₹198.31 Crore CPWD Order",
+   "body": "",
+   "source": "Multibagg AI",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQ0tIZHkwdjNHTWFWa3BXUU9PNHRQMWFfenh2RDVlME15RkpJTEVVNGQ1LTN4anVqUmk2dTY3TDBoSHBLRUxZQmdaZlgyQkgwaGE3cVJOaXp5dFFjRGdrSGFONWQ2MjdrOFZrcDh5TDdWUnlBNUxwaThQNlptaldPVVg3WlQtOFBVXzZQN1ZjNFBGSjE0V3pFaFE2cjFMVzhXWks0WkE1Zk9kd0RvZ3c?oc=5",
+   "publishedAt": "2026-11-19T15:46:50.000Z",
+   "sector": "Infrastructure",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "Wins ₹198,31 Crore CPWD Order",
+   "primary": [
+    "HILINFRA.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 22.54,
+   "amountRaw": "₹198.31 Crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 50,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s045",
+  "stratum": "top",
+  "raw": {
+   "title": "L&T wins order worth up to ₹2,500 cr for battery storage project in Gujarat",
+   "body": "The 300 MW/900 MWh battery energy storage project at Khavda will help maximise renewable energy utilisation, strengthen grid stability and enhance the reliability of power supply",
+   "source": "Business Standard",
+   "url": "https://www.business-standard.com/companies/news/l-t-wins-order-worth-up-to-2-500-cr-for-battery-storage-project-in-gujarat-126112500803_1.html",
+   "publishedAt": "2026-11-25T11:07:54.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "wins order worth up to ₹2,500 cr for battery storage project",
+   "primary": [
+    "LT.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 284.09,
+   "amountRaw": "₹2,500 cr",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 80,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s046",
+  "stratum": "top",
+  "raw": {
+   "title": "Bharti Airtel to invest ₹1,200 crore in three data centres in Assam",
+   "body": "The three data centres in Guwahati, Jorhat and Silchar will have a combined capacity of 40 MW and could be operational by 2028, with land already available for all three facilities",
+   "source": "Business Standard",
+   "url": "https://www.business-standard.com/companies/news/bharti-airtel-to-invest-1-200-crore-in-three-data-centres-in-assam-126112501173_1.html",
+   "publishedAt": "2026-11-25T16:57:32.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": "expansion",
+   "trigger": "invest ₹1,200 crore",
+   "primary": [
+    "BHARTIARTL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 136.36,
+   "amountRaw": "₹1,200 crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 70,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s047",
+  "stratum": "top",
+  "raw": {
+   "title": "Diamond Power secures Rs 7.08 billion conductor order for AESL’s HVDC project",
+   "body": "",
+   "source": "Powerline Magazine",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUnAyTkNYOGF5czExalNzU1JfVWhaX2xEc25aaW5SSXhnckczQzc1TmgtM0FUcm80Yy1DMmEtV2JVd0ZacmF2OHAzS2RwUEFCbVVLbVJFMFRxNFZfb0wwN0dfbU5KWkVSR3l5cHNHM0g1MVJVOGNSOUJLSkctbzlMMlJ3SXVGUGt1UDQ0Vm9RNENpMUp2Q1NvTVUtbm52OTA3bTFac2lTM2pnbFVabDg1TVhZc0E?oc=5",
+   "publishedAt": "2026-11-25T05:33:11.000Z",
+   "sector": "Energy & Power",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "secures Rs 7,08 billion conductor order for AESL’s HVDC project",
+   "primary": [
+    "DIACABS.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 80.45,
+   "amountRaw": "Rs 7.08 billion",
+   "counterparty": "AESL",
+   "isRoundup": false,
+   "materiality": 71,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s048",
+  "stratum": "top",
+  "raw": {
+   "title": "Rajshree Polypack: The update on the capacity addition/installation and commencement of production.",
+   "body": "",
+   "source": "NSE filing",
+   "url": "https://nsearchives.nseindia.in/corporate/RPPL_23112026145706_RPPL_Capacity.pdf",
+   "publishedAt": "2026-11-23T09:27:18.000Z",
+   "sector": null,
+   "trust": 0.95
+  },
+  "engine": {
+   "event": "expansion",
+   "trigger": "capacity addition",
+   "primary": [
+    "RPPL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 50,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s049",
+  "stratum": "top",
+  "raw": {
+   "title": "Premier Explosives bags Rs 311 crore defence export order, execution within 12 months",
+   "body": "",
+   "source": "The Financial Express",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOSjR6WkNMeEllUEcyMnYxWk5DYk9uRFR2Z3U3cHdxZ2dURmdxQnkzX3VVUWEyXzBKOHhTOC13bDRBZTR0bmJuR2pxb3draFEwSEJWblJHLVFWbzlsVE9LdjR5RlBzZl9OcTRLMTJpeDUySUNCR1pxUkdLTW5kOVYxX3RfOExSeFFLSUpicTBna3N6Sko5bEg5XzVUV3BOOEpwQVJqZFE0UXluSWh2dFlZMW5zVkJYeU1HaXhFOHZSa2JzX3hsVEcwOGFvMlJ6TWh0YkZGLXZLb0pRd3gt0gHjAUFVX3lxTE9jenR0UVVVblBQS3MwWGtXc2dtYUdaNW81czNtakxmNWRrM3p1TTlQMVNIYnpNa3RhRkpMLXBvcEVqamdNQ082SjNtcVRkWjllQ21VcXU1QjZMNWgzTFpuTmRnSjF3RVc0a1pKbDgtcXdJN0JpWF9qOFFjVGdPd0VPVUtWT1pWa05vWVJLNXF4cW5MMGZfN1JOUmdVTUdHLUNzTTNTaTFqNS1iazQ5ZE5CVVBxUnh3dmJFeC1mdGttMG52M2h0dXJ5VzFESXl6cHpydkptSzh0NDdtV2xrNFN4aGZj?oc=5",
+   "publishedAt": "2026-11-21T17:20:57.000Z",
+   "sector": "Defence",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "bags Rs 311 crore defence export order",
+   "primary": [
+    "PREMEXPLN.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 35.34,
+   "amountRaw": "Rs 311 crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 51,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s050",
+  "stratum": "top",
+  "raw": {
+   "title": "Shree Cement to Cross 100 MTPA Capacity in 3-4 Years",
+   "body": "",
+   "source": "Construction World",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZjI4eFdFdTU5ZFZFX3NJd1lDcFYwaDdWbmdaeFJRTmE5RWxyaklNbUtHdGl6ZWJCeTRnaVJTaWRFN3poZGlDOGFMNTlUYkdlVkdjZUc1bFQ1b0JlOUJJcEE4WXEzV0lpWEhfZjZoQy1ZZFVtekI0MVRVSzVaLTlzam1OWXJZT1RhaXN3V0hod2pJbXV1RWNpTUJSa2NIR3VfaXphRUl4bw?oc=5",
+   "publishedAt": "2026-11-24T16:41:15.000Z",
+   "sector": "Metals & Mining",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "expansion",
+   "trigger": "Cross 100 MTPA Capacity",
+   "primary": [
+    "SHREECEM.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 48,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s051",
+  "stratum": "top",
+  "raw": {
+   "title": "Ashoka Buildcon Limited Wins ₹865.90 Crore NHAI Expressway Mandate",
+   "body": "",
+   "source": "Multibagg AI",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRzQwUVlwakw2WDFtcHF5ZkVkMTJ6Qkd1cWpidVlGRHZ6YmY2UHNBQmhHUXJpcUxzTFVPakdaU05ETTFZRDY5Sk50aU1ZYVNMQkxIZ2hWZ0ZaN0Y5NzZVU3M5cC0ySXJJWUpTTmVNZDRNWm1tcUZnZTF6Q0NVWlctUlZBU2hCNEkzUWY0V0RmOVhfbTFzeVBEWjI1UVkwSXdfLUxqMXdoRnhfbXpTb2E2Sk9B?oc=5",
+   "publishedAt": "2026-11-20T13:06:27.000Z",
+   "sector": "Infrastructure",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "Wins ₹865,90 Crore NHAI Expressway Mandate",
+   "primary": [
+    "ASHOKA.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 98.4,
+   "amountRaw": "₹865.90 Crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 54,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s052",
+  "stratum": "top",
+  "raw": {
+   "title": "GTA VI made $3.79 billion in a day, but who really wins? Why Take-Two isn’t the only one cashing in on the record debut",
+   "body": "GTA VI generated $3.79 billion in first-day sales, but Take-Two isn't the only winner. Gaming platforms, retailers and GTA Online could also benefit.",
+   "source": "Mint",
+   "url": "https://www.livemint.com/companies/news/gta-vi-made-3-79-billion-in-a-day-but-who-really-wins-why-take-two-isn-t-the-only-one-cashing-in-on-the-record-debut-11795604645129.html",
+   "publishedAt": "2026-11-25T12:05:51.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [
+    "TAKE.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 3790,
+   "amountRaw": "$3.79 billion",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 48,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s053",
+  "stratum": "top",
+  "raw": {
+   "title": "HEC Infra Projects Ltd receives order worth Rs. 136.29 crores",
+   "body": "",
+   "source": "EquityBulls",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcGhta3RCSDJBQThEaGprYm13bTNkMXc1Mml0MDkwUmJFYm9kQ2ViLVF5R2dXWGdYSXIydW1QdGNVMXk2Z3E1bVBOMGdrbHZhYzZTaGtZNzZWUDZfVFB4RkZWbUhTcXNMSHlFSmNSZEpjcklrOXdnQ0FKXzRHbnJzSm9jYWNyUDRQUWZVaVFyVQ?oc=5",
+   "publishedAt": "2026-11-23T16:42:10.000Z",
+   "sector": "Energy & Power",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "receives order",
+   "primary": [
+    "HECPROJECT.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 15.49,
+   "amountRaw": "Rs. 136.29 crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 59,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s054",
+  "stratum": "top",
+  "raw": {
+   "title": "TVS Motor plans to invest ₹2,000 crore in Tamil Nadu, create 1,000 jobs",
+   "body": "TVS Motor Company on Wednesday said it plans to invest Rs 2,000 crore in Tamil Nadu over four years and create 1,000 jobs.\r\nThe two-and three-wheeler maker has entered into a non-binding memorandum of understanding with the Government of Tamil Nadu, according to an exchange filing.\r\nTamil Nadu government, through its nodal agency \"Guidance\", will provide facilitation and support to TVS Motor in th",
+   "source": "Business Standard",
+   "url": "https://www.business-standard.com/companies/news/tvs-motor-plans-to-invest-2-000-crore-in-tamil-nadu-create-1-000-jobs-126112500502_1.html",
+   "publishedAt": "2026-11-25T08:46:28.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": "expansion",
+   "trigger": "invest ₹2,000 crore",
+   "primary": [
+    "TVSMOTOR.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 227.27,
+   "amountRaw": "₹2,000 crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 71,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s055",
+  "stratum": "top",
+  "raw": {
+   "title": "HEC Infra Projects Limited wins Rs 136.29 crore Hindalco order",
+   "body": "",
+   "source": "Multibagg AI",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOV3BzV2ljYWdyYlVCMHA0NFFuQUR5S1gySnlOcG8ta0NiZ1JVc054UnN4MmtYT1RTcjNFSW5Pcl96V0JlbXVUdjhOS2l1VVNQd193QnJhQm9kazNTekNYWUhZcHlydlZBUGsxUUpmU0U5Z245amxUU3dwajNQbVFNaTBWNDBrWE9KTktxODcyWWZxU1dpbHpYUmxJUmtOb2hQcjhMdVZxdUF1dXJSVW94RXFoalJRTTdxcEI0?oc=5",
+   "publishedAt": "2026-11-20T23:10:25.000Z",
+   "sector": "Energy & Power",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "wins Rs 136,29 crore Hindalco order",
+   "primary": [
+    "HECPROJECT.NS"
+   ],
+   "mentioned": [
+    "HINDALCO.NS"
+   ],
+   "amountUsdM": 15.49,
+   "amountRaw": "Rs 136.29 crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 49,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s056",
+  "stratum": "top",
+  "raw": {
+   "title": "Kshitij Polyline: A press release dated November 23, 2026, titled Kshitij Polyline Limited Announces AED 25 Million (Rupees 650 million) Investment to Build State of the Art Recycling Plant in UAE.",
+   "body": "",
+   "source": "NSE filing",
+   "url": "https://nsearchives.nseindia.in/corporate/KSHITIJPOL_23112026183525_PressRelease.pdf",
+   "publishedAt": "2026-11-23T13:07:05.000Z",
+   "sector": null,
+   "trust": 0.95
+  },
+  "engine": {
+   "event": "expansion",
+   "trigger": "million) Investment",
+   "primary": [
+    "KSHITIJPOL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 650,
+   "amountRaw": "650 million",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 69,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s057",
+  "stratum": "top",
+  "raw": {
+   "title": "Flipkart CEO Kalyan Krishnamurthy set to exit after 11 years, amid IPO delay",
+   "body": "Flipkart’s chief product and technology officer Balaji Thiagarajan is set to take over as interim CEO. Krishnamurthy’s last day will be 4 December.",
+   "source": "Mint",
+   "url": "https://www.livemint.com/companies/news/kalyan-krishnamurthy-flipkart-ipo-walmart-11795596685318.html",
+   "publishedAt": "2026-11-25T09:12:37.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": "fundraise",
+   "trigger": "IPO",
+   "primary": [
+    "KALYANKJIL.NS"
+   ],
+   "mentioned": [
+    "TAKE.NS"
+   ],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 50,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s058",
+  "stratum": "top",
+  "raw": {
+   "title": "Capri Global Capital: A press release dated November 25, 2026, titled \"Capri Global Raises USD 30 Million from the BlueOrchard Microfinance Fund in Its First-Ever Impact Fundraise\".",
+   "body": "",
+   "source": "NSE filing",
+   "url": "https://nsearchives.nseindia.in/corporate/CGCL_25112026140052_CGCL_PressRelease.pdf",
+   "publishedAt": "2026-11-25T08:31:01.000Z",
+   "sector": null,
+   "trust": 0.95
+  },
+  "engine": {
+   "event": "fundraise",
+   "trigger": "Raises USD 30 Million",
+   "primary": [
+    "CGCL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 30,
+   "amountRaw": "USD 30 Million",
+   "counterparty": "BlueOrchard Microfinance Fund",
+   "isRoundup": false,
+   "materiality": 65,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s059",
+  "stratum": "top",
+  "raw": {
+   "title": "Lupin: A press release dated November 25, 2026, titled \"Lupin Receives Approval from U.S. FDA for Sitagliptin and Metformin Hydrochloride Tablets, in the United States\".",
+   "body": "",
+   "source": "NSE filing",
+   "url": "https://nsearchives.nseindia.in/corporate/Lupin2_25112026174059_SELetterPressRelease.pdf",
+   "publishedAt": "2026-11-25T12:15:25.000Z",
+   "sector": null,
+   "trust": 0.95
+  },
+  "engine": {
+   "event": "approval",
+   "trigger": "Receives Approval",
+   "primary": [
+    "LUPIN.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": "U.S. FDA",
+   "isRoundup": false,
+   "materiality": 59,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s060",
+  "stratum": "top",
+  "raw": {
+   "title": "Haldyn Glass share price zooms 10% on acquiring Heinz Glas's stake in JV",
+   "body": "Haldyn Glass in an exchange filing on Wednesday said it completed the acquisition of Heinz Glas's entire 43.2 per cent stake in its joint venture Haldyn Heinz Fine Glass.",
+   "source": "Business Standard",
+   "url": "https://www.business-standard.com/markets/news/haldyn-glass-share-price-zooms-10-on-acquiring-heinz-glas-s-stake-in-jv-126112500483_1.html",
+   "publishedAt": "2026-11-25T08:16:16.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": "m&a",
+   "trigger": "acquiring Heinz Glas's stake",
+   "primary": [
+    "HALDYNGL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 62,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s061",
+  "stratum": "top",
+  "raw": {
+   "title": "Jupiter Wagons wins ₹128.61-crore JSW order for 302 freight wagons",
+   "body": "",
+   "source": "Maritime Gateway",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYm1fMmZpbzJfS1ItRWNlV2RCaWo4aExRYm1VOHZCblBHd2xsQVp3OGNqd3lFRFlGcjdjWk56d2RvTkpLV3lnTjZ6YW5rRTVSWnNvVHlqWVRLUXBza0RRa0RNUF9CVW1NOHExUmNUbVByY0JQbUMyZHZvcExnb0g4UzhHTHRTSC1KcTlUQTduRFNLb2lDMmQ1OUxoUmFBR1JoSGpBU1lCbVV2S1E?oc=5",
+   "publishedAt": "2026-11-21T00:36:00.000Z",
+   "sector": "Railways",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "wins ₹128,61-crore JSW order",
+   "primary": [
+    "JWL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 14.61,
+   "amountRaw": "₹128.61-crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 49,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s062",
+  "stratum": "top",
+  "raw": {
+   "title": "Alembic Pharma receives USFDA approval for Bosutinib 400 mg tablets",
+   "body": "",
+   "source": "Express Pharma",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQa3VYU1VDTktpU2FmU0pMdmJfcVNWOUtGdHpaYmpvWWd5MXcxcWlVVzhJYUNEY0RtVzVnc1dZc1lZWlFCQTZxRWtlT3hZTTRFbGw1VVp4NkZEcTU0VXczc1hvLXVUeFQ4QVJQQWFmYWFrek1rWmNGV015akg0UGZSV3pKelItZXZTWGhTTWxHUGpnOW1Fd0F1a1BqTnBJdw?oc=5",
+   "publishedAt": "2026-11-25T07:37:30.000Z",
+   "sector": "Pharma & Health",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "approval",
+   "trigger": "USFDA approval",
+   "primary": [
+    "APLLTD.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": "Bosutinib",
+   "isRoundup": false,
+   "materiality": 52,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s063",
+  "stratum": "top",
+  "raw": {
+   "title": "Fairfax likely expands IIFL Capital stake through $164.8 million India block deal",
+   "body": "",
+   "source": "Traders Union",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTmVZcEpPa0JvWmJrQlZIb3p0NTU0WExZZU5fYlFlTXhKT2dibUh5VllFQ19OcEk4OXg1bTVWZ1FkM05fbEVqSldFN2FhUElSMDRHZWpLN3l4WG85ZEJWQUprNG5PNDRqYS1JQ2djUFhhZEJfdlVZR29nampXelVXVUVLMWFhNTNXd2pXQVhwZ1hHNkItM2c?oc=5",
+   "publishedAt": "2026-11-19T04:24:23.000Z",
+   "sector": "Capital markets",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "expansion",
+   "trigger": "expands IIFL Capital stake through $164,8 million",
+   "primary": [
+    "IIFLCAPS.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 164.8,
+   "amountRaw": "$164.8 million",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 49,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s064",
+  "stratum": "top",
+  "raw": {
+   "title": "Krystal Integrated Services: Bagging/Receiving of orders/contracts",
+   "body": "",
+   "source": "NSE filing",
+   "url": "https://nsearchives.nseindia.in/corporate/KISL123_23112026153148_Reg30intimation23112026.pdf",
+   "publishedAt": "2026-11-23T10:01:58.000Z",
+   "sector": null,
+   "trust": 0.95
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "Bagging/Receiving of orders/contracts",
+   "primary": [
+    "KRYSTAL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 57,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s065",
+  "stratum": "top",
+  "raw": {
+   "title": "HEC Infra Projects Wins ₹136.29 Crore Hindalco Transmission Order",
+   "body": "",
+   "source": "Multibagg AI",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbEF4U19rNV9FOTBEQVUyMEU0X1hTQWNKVUtnam9sZkVlUFNEcWMyZ0JkMWdGX29EUEJOUGhVZXBmNzZBN0p4SUIwbkxPV24zVUR5WWFQRDhTSE14V0d1Mk5TMG1GWGJYNTFOb05qN29QcE5Fc2M1a295N1otVVVCT3hyMVlCRThldzZvckt2dHg0QmZhUlhRQzZCNVdfRlg0SXBGdS15NjZOOEgxZFB3?oc=5",
+   "publishedAt": "2026-11-20T23:10:24.000Z",
+   "sector": "Infrastructure",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "Wins ₹136,29 Crore Hindalco Transmission Order",
+   "primary": [
+    "HECPROJECT.NS"
+   ],
+   "mentioned": [
+    "HINDALCO.NS"
+   ],
+   "amountUsdM": 15.49,
+   "amountRaw": "₹136.29 Crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 49,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s066",
+  "stratum": "top",
+  "raw": {
+   "title": "RailTel bags Rs 27 crore order to develop AI-powered legal platform for Andhra Pradesh government",
+   "body": "",
+   "source": "ETLegalWorld",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPbkZRTDR3cDVnY1BEcWZ2OTlkRlNxdUE4Sk5LVXhiU0FTR1VjaE1ZRVh0UEpkSHMzZWVJdjVPOUktdjZsYmEtVXBrWkh5bzZfamdzN1VyU3BLUmFtMm1qSEpWcGRJbFd6RkFvWDg5OWtOelpVNVFGc0JEZEIxeDUzWG5Vc28zck1WVFNOenQyYVQ0NkNYNTRTSFpvLW0zbWQyRVpYelVOZ0FjX09WZ0Q2TlQ1dEFqMzBIRE1aTVZ2RjN3Zm1oUTktN1BHb3BPTW9WV09BcGp6czZvWC1XcllPZjdvZ0p6M1JZSHFYSXlYd0t4M29fS0xKRThB0gH-AUFVX3lxTE9hM3RNdGcxdVAyVmJqQXdqMUxpaElZSkk1cUt2c3dkcjNGZ1I2ZGF6RU1rYTE5c1J0ZnhvQ21jQm4tcGpUUmx3V3NqcGkyZGoxcmRVWE5SRDlxc2pDd0docEhZTVZEZUh6WHB6djdRYlFvakFPeTF2S19pelVOYVVpRURaVGZSVVZxVDU1eU1uSW5yaXJ6cmhvb2UxdTJjXzFZajJBaGZpNWRvS2hFNklzREh3MDFOaGV2VXBRYnBMNkhZRW5hYThfbWNkSDUzdjdXNVZIb3B2dDBjN3FOa2pMT09fdFFBM0sxMGtFZ0pISTM1cmFCdkVIVmpudFdR?oc=5",
+   "publishedAt": "2026-11-23T04:02:43.000Z",
+   "sector": "Technology",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "bags Rs 27 crore order",
+   "primary": [
+    "RAILTEL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 3.07,
+   "amountRaw": "Rs 27 crore",
+   "counterparty": "Andhra Pradesh",
+   "isRoundup": false,
+   "materiality": 55,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s067",
+  "stratum": "top",
+  "raw": {
+   "title": "Sterling and Wilson shares gain 7% on winning orders worth ₹2,050 crore",
+   "body": "",
+   "source": "Business Standard",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVlF3alEtai1hNlgyaFBhMU1BUnJNbGRkeDdvbDV1eklXbWM5ZmZEN09reFYtQmNZNFVqVEtudEV4STEwY1RmeURra1ludDhGVWkydUV6dHU5YXhNeGJrTl9XSEpOR3V6bW41YlVlZnJ4cTRDeWxCTlcxMUpWYjN4YU5jSVYyUGlEM1hrMHhPaUNNaFFIRWhSQ2RuVDFNWElsaXJJMER0eG9xQUdFaDlYLTBURnVSNERLeVhpVFhYRDFxY2JSWWN6eU1vRkhEejhRWEHSAdcBQVVfeXFMTXI1aWRHWjhtbDZzYWFGeHRaY09LcVRpYl8wQ0NTRW1kTGtRM29UQ05sWkhrQVdlNU1Mc0NZY3FzY09GckgwSTdOTFFONk8wbVRaVFQ5NVd0Z0JrZ3NPY3ZrUTVhRGhKX21oV2RJdUM2Y2laTTRRS3dtVERWYlJXS0ZQWmNoQmZEaVVTZFg5aVM0MVFlSV9mN1RJWE1ZdTNodHVWQy01VW5ZOFA4REF0a0hWdk1pZ21vM2k1cWJfYlF3aFNldlZvS0l0eml3anhoU1Nfc3ZtWmM?oc=5",
+   "publishedAt": "2026-11-23T08:11:59.000Z",
+   "sector": "Energy & Power",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "winning orders",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 232.95,
+   "amountRaw": "₹2,050 crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 48,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s068",
+  "stratum": "top",
+  "raw": {
+   "title": "Meta pauses Class C share issuance amid shareholder lawsuit",
+   "body": "The social media giant agreed not to issue the shares during the pre-trial and trial proceedings in the lawsuit brought by shareholders in Delaware's Court of Chancery. The trial is scheduled to begin on April 19, 2027.",
+   "source": "Economic Times",
+   "url": "https://economictimes.indiatimes.com/tech/technology/meta-pauses-class-c-share-issuance-amid-shareholder-lawsuit/articleshow/136123722.cms",
+   "publishedAt": "2026-11-24T07:59:45.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": "legal",
+   "trigger": "lawsuit",
+   "primary": [
+    "META"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 54,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s069",
+  "stratum": "top",
+  "raw": {
+   "title": "Alembic Pharma gets USFDA nod for additional strength of leukemia drug",
+   "body": "",
+   "source": "ET Manufacturing",
+   "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNNUQwVGQ0ZWJTOUgyb011TTdxUFBoVWhUa2JUcThHakdwUHlST0FITkNDUnJyVGRYcGtXbVFHZ2s2cTFWZ1FBTzMxbVVQVnpNWmdIaERHUzFEdEhSRVZtTDlZU2J3T1pvWFFlN3U5aFdXQzBoUk9XcXZNaDdtTUdydjJ4dDR6VXp6QlNKT0swUVZfZ2VWcDl2RG9hTnhLQ1BGYzBWUnBrZ0NZM2pVWXNXZU1DVVlmN1FFTFpVelVJakpzVzZtUE0ycVVpaEZfMF80Z3BJdG9PME5SWFU4dEwtNzNBX0tkX2ZXd09rTGp6WXYxSHZoN2JjVUF0Z3haelJHS2RkR1AwcnZPX2RjQVphSEFOR1pDWExxMlV2QUl4TknSAeoBQVVfeXFMTjFKV3dzZzFxV25BWk1PbHV2a0FqOVNHS0FpeHBrN05UWG5fd09uMXZBYzFlMDVsY3NJUVVUZVg2X1NEU0ZVSDBRNEZuSXo4REhLR3Y0QWU4clVudnpkRVhzdW56X1BLNGpoR3p2VU45dlkwd0p5ejE4NV9YWGVwS0dWeThCUHVaQ3p6Z3ZPVkVjWlplUmJrOFhkR2hIZWxqU3c1c1RURDI4MzJ6U1hKTFRlQUFwY0Y3SHBTUUl5Uzk2UVVPYmxRS0syMmpBZEJfQlR6TWZjTnA3OGlIMDA1TmNXa3o1ODlldnV3?oc=5",
+   "publishedAt": "2026-11-25T08:33:53.000Z",
+   "sector": "Pharma & Health",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "approval",
+   "trigger": "USFDA nod",
+   "primary": [
+    "APLLTD.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 52,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s070",
+  "stratum": "top",
+  "raw": {
+   "title": "NBCC Wins ₹84.87 Crore Project Management Consultancy Order from Ravenshaw University",
+   "body": "",
+   "source": "EquityBulls",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcnZna0JZaURUblV5c2NIZDZ2YlZqRjVqcHI2OUxoTnV2b2NINUtkUTh6RFZRV1RuTzktZkd3SzJ3Ny1aLUo5V2staG5GdWhrdXgtVTZ0N1J4R016UDlUaXNKRGU0RVMzLUhYSVNIWXc4MHhBd0c3VTh0RnZtcm12MzB2aDN1UkxJU0FMMkZTU1NFSFdFVjRZ?oc=5",
+   "publishedAt": "2026-11-23T16:27:56.000Z",
+   "sector": "Railways",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "Wins ₹84,87 Crore Project Management Consultancy Order",
+   "primary": [
+    "NBCC.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 9.64,
+   "amountRaw": "₹84.87 Crore",
+   "counterparty": "Ravenshaw University",
+   "isRoundup": false,
+   "materiality": 58,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s071",
+  "stratum": "top",
+  "raw": {
+   "title": "EMS Wins Rs. 139.6 mn NHAI Fee Plaza Contract in Assam",
+   "body": "",
+   "source": "Construction World",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQc1hUMVlBeUNhR01VdUtYOWJ6bHRHenQ3Skl4M3NmNEtwcG9lSHlNSFVYSDBBYU1vNDNkZUhGaGFNMU1IRjY4UFAwWFBlbzNQR2FJbkhfUEZkYlEzQ012NHNQRGJvZWJqakRjZFlCbG15Qy02OUh5U2h0MXpiQXM4S3A0bzhMOGw4WlQwRVVDdVNPdzBmUXVGZEZuYmY1MV8wdzZ5bXJvWmdnV195a0lFazdPdWk2cTNBNFJQTmxidnR0Snh0TXdrZndxSmY1WHItVzB5OHVWMHBwUUROUWJkb1hXVWRfb2VO?oc=5",
+   "publishedAt": "2026-11-25T07:19:03.000Z",
+   "sector": "Infrastructure",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "Wins Rs 139,6 mn NHAI Fee Plaza Contract",
+   "primary": [
+    "EMSLIMITED.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 1.59,
+   "amountRaw": "Rs. 139.6 mn",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 59,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s072",
+  "stratum": "top",
+  "raw": {
+   "title": "Fairfax Raises IIFL Capital Stake to 52.63% After ₹1,540 Crore Block Deal as Shares Fall 4.99%",
+   "body": "",
+   "source": "Kotak Neo",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZDF5eDViRks1bUM4cTVxS2lQVGVaQ2ZiMnpyMS16ZHd4NHF2RjI3VzBBNDgya0RIVW8zRnBLVm9UbUFrS0lOOFBhQmVOWGkyYkNzblQwUnQ3UlNTbXBuRkhKNzhsaU9xaE5XbUhQanFmOUZ6a2lKaUo4d0JRYVJmbWNIbWtaMncwM2VkZkNia3hsSlNFaUh1d1hDMy1heTJCWllxaGtReDk2OTRyWUlKVk5lWVp2TmZiNUxF?oc=5",
+   "publishedAt": "2026-11-20T05:11:32.000Z",
+   "sector": "Capital markets",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "fundraise",
+   "trigger": "Raises IIFL Capital",
+   "primary": [
+    "IIFLCAPS.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 175,
+   "amountRaw": "₹1,540 Crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 48,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s073",
+  "stratum": "top",
+  "raw": {
+   "title": "Tata Steel: A press release dated November 23, 2026, titled \"Tata Steel and Promoters of APL Apollo Enter into a Comprehensive Agreement to Build an Indian Steel Tubes and Colour Coated Products Powerhouse Targeting 15.5 Million Tonnes o…",
+   "body": "",
+   "source": "NSE filing",
+   "url": "https://nsearchives.nseindia.in/corporate/NIDHIFADNAVIS_23112026081530_BSENSEPRIR.pdf",
+   "publishedAt": "2026-11-23T02:46:50.000Z",
+   "sector": null,
+   "trust": 0.95
+  },
+  "engine": {
+   "event": "expansion",
+   "trigger": "Targeting 15,5 Million Tonnes",
+   "primary": [
+    "TATASTEEL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 50,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s074",
+  "stratum": "top",
+  "raw": {
+   "title": "Tata Steel share price: What should investors do after APL Apollo Tubes  ₹5,825 crore deal; buy, sell or hold?",
+   "body": "Tata Steel completed its acquisition of a 9.91% stake in APL Apollo Tubes for about  ₹5,825 crore, buying 2.77 crore shares at  ₹2,100 each from a promoter-group entity. The deal was executed through a BSE block transaction on November 23.",
+   "source": "Mint",
+   "url": "https://www.livemint.com/market/stock-market-news/tata-steel-share-price-what-should-investors-do-after-apl-apollo-tubes-rs-5-825-crore-deal-buy-sell-or-hold-11795585659415.html",
+   "publishedAt": "2026-11-25T05:57:29.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": "m&a",
+   "trigger": "acquisition of a 9,91% stake",
+   "primary": [
+    "TATASTEEL.NS",
+    "APLAPOLLO.NS"
+   ],
+   "mentioned": [
+    "BSE.NS"
+   ],
+   "amountUsdM": 661.93,
+   "amountRaw": "₹5,825 crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 72,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s075",
+  "stratum": "top",
+  "raw": {
+   "title": "Highway Infrastructure Limited Secures Rs 431.86 Crore NHAI Contracts",
+   "body": "",
+   "source": "Multibagg AI",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNkVoU3ZrYzM1al90TkVnY2JBZUh1UjhmS1cyQ3lBTkplT01NYV9RaU5JdnNWSGUzRXNRejN0Z2YyMU1jY25lUG5MT2pMMnBTYXd2YmRpVkJxaUE1RlVrMEFWVHRyWTJ6MlFPSjRIREc3ZWxBejcwTXJDUVZsTXN0V2VVY1Z3Nm5haHVMRjE5UTlKcVB3MzBPVS1pSWhzR082T0wwdkJ5UHVUdTBFZC1kQXRUNllaUQ?oc=5",
+   "publishedAt": "2026-11-19T14:29:01.000Z",
+   "sector": "Infrastructure",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "Secures Rs 431,86 Crore NHAI Contracts",
+   "primary": [
+    "HILINFRA.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 49.08,
+   "amountRaw": "Rs 431.86 Crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 52,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s076",
+  "stratum": "top",
+  "raw": {
+   "title": "Gabriel India approves ₹3,165 crore deals to acquire stakes in HL Mando, HL Klemove India",
+   "body": "",
+   "source": "ET Auto",
+   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQdzJfbGxaX01jTUN3d0VVNVYzdld2ejZ2NmQyLU5pQW9EWnpaMTZhbHREMmxKNFVaR3gzYm5BRXJ3NzBobm42TUVsdTlQWjViTkpLVjBld1Mwdl9Memk5RkhHbFJNeFJiZ29Ud2RuN0d4Y1ZudjQwejhmTVUtMk42azY3Yi1yX3VfUDFrYkhVQ1Axdl9aY01sSlFET3RqeWlNNmpWNzFmNmRKWVViQnQtNXJPTkkzUERzT0tVZFFWWW1EbmFyVDBGcHdFQlhMcHdlb3pybGUteVpEaWROOWpBT0pQLTNmU25ZVXFqdXpRdlBTWlFsWnN2SFVLcmNIVm9uZ3ow0gH-AUFVX3lxTE4yTmFQWTduMS12Y0VTUmR4M0RSTVA3eENzRjN1a3Ntczhob1JMeUE4S3MwN1M3QVZSUWFfeHluSVkyUXk2by15ekdRYUpyN0tqeG9uUzl0ZW44em5BZTE4V2tKbHgxMXJCMUpDY1g3eXJXb2Q4S3NhcWh0a1hGUXc3SnNSSFBNQm1tdkZNcy1FSjFTelRlSUd2ZEk1MFFDRC1zcVFGVjdzaWEtVGpONV9HZzRWQW1XQXhJMjlvZDh5VmdwY1pOR25WVUdGMTRlcktkTXRTemlBU3dkbHpvTHpLRXJJQm04akY3M3hMV1VTVFhtMzUtdnBoTlBNT01R?oc=5",
+   "publishedAt": "2026-11-19T16:28:15.000Z",
+   "sector": "Capital markets",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "m&a",
+   "trigger": "to acquire",
+   "primary": [
+    "GABRIEL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 359.66,
+   "amountRaw": "₹3,165 crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 59,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s077",
+  "stratum": "top",
+  "raw": {
+   "title": "Armee Infotech wins ₹1,629 crore solar order, exceeds market cap",
+   "body": "",
+   "source": "scanx.trade",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWVFxNnp2UW5Mc2RRcXpwbjRLOHVWR1dxSEowOTBMLVd0MklGRDdCSUEydkVqTzZIeUpBWm9ZSC01T0lMS2w2ZC0wUk50TXREZWdmemVjQ1pBTEZFVzN5eVplTUJJWmEzV21WdHo0eE14a192MmRFS2pJYVF3dEh5aGR0RDAwYmlXQ2tHZmV3OWM3LU9WYnZYeFh0eWpubF9vMVk5bmtuRmxPUGx5RHc?oc=5",
+   "publishedAt": "2026-11-19T19:15:42.000Z",
+   "sector": "Energy & Power",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "wins ₹1,629 crore solar order",
+   "primary": [
+    "ARMEE.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 185.11,
+   "amountRaw": "₹1,629 crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 56,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s078",
+  "stratum": "top",
+  "raw": {
+   "title": "Jupiter Wagons wins Rs 128.61 crore order from JSW (South) Rail Logistics for BFNSM1 Wagons",
+   "body": "",
+   "source": "scanx.trade",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNb2E2R0R2N05FVjNmZTFfakd6M0Y2dnZUOUJfM1dQVDk0WEFGZG5uZjdOc0I4MmE1MkdwUXhmeVZENzNZandJbWtHV0FXS1dha3lRajVuX3J0UHZNQ09jZ3dyN0ZXRkYwQ3VlblFVbkUtTjJTVG45WE9ISWNWa1hiQ09vWU1uaTJkbnR3dkFpVjZ5dmNZaFpoTUs1Z1VtdGtHR01oM29MRmxzajdPdDAxS1dvQk1NQkJBdGFBQVdpSTRFeW8?oc=5",
+   "publishedAt": "2026-11-20T21:10:32.000Z",
+   "sector": "Railways",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "wins Rs 128,61 crore order",
+   "primary": [
+    "JWL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 14.61,
+   "amountRaw": "Rs 128.61 crore",
+   "counterparty": "JSW",
+   "isRoundup": false,
+   "materiality": 49,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s079",
+  "stratum": "top",
+  "raw": {
+   "title": "Fairfax exits IIFL Finance, sells stake for Rs 3,454 crore",
+   "body": "",
+   "source": "The Economic Times",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQ0hyX3hIN2NHdElMaHE5WHFzbWJWYmJ1VkJwQXgzYzAtRGJUYXFTdDdJUHgxSzBVci1tLVR2cmNLbUpxRmthSGRSUlhFY2JoWXpmUWVaNFd1bklXNG5jOUVsUVFSYWtFYlhxMmhzWjRaR3MzelVJbEJBVFVCWHRkN0YtUGlUbXBDVDdDOWlGYW1GUFVOQ3Z2XzRuSHloRVpMbmhIQzc3UWlIOGdQWHF0aTF1RlJNQS1qbk0xeURhTkxmTWpTOGdWaFZ30gHPAUFVX3lxTE53aGVEdzFuQUdvUHJjTHJ3LUZFOGhOcGhQbDVKUXl5TWFRWGZqTHFSQjg2VWoxVHRnenJfT0Z6RFFFZTR2QVR0cWVHcEsxdWJnZXA0LU5oV2swVkJDczFjTnJjcUxGVnpaamhBQ1FKSzRSZlg1M0pzcUFRS1BBM0poNkhSSThhM0RxaVFKSXFxQ185LW1nTDlWNDNOOFFveWpUM1FtNkJsS3BidkliTDB1eWhZNl9OYkJ0V3dVX3lsOGVOTFV6dmRRSDczY0lFMA?oc=5",
+   "publishedAt": "2026-11-19T02:00:08.000Z",
+   "sector": "Capital markets",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "stake-change",
+   "trigger": "sells stake",
+   "primary": [
+    "IIFL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 392.5,
+   "amountRaw": "Rs 3,454 crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 50,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s080",
+  "stratum": "top",
+  "raw": {
+   "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
+   "body": "Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
+   "publishedAt": "2026-11-23T23:28:19.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": "expansion",
+   "trigger": "million investment",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 150,
+   "amountRaw": "$150 million",
+   "counterparty": "South Korea's Base Group",
+   "isRoundup": false,
+   "materiality": 48,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s081",
+  "stratum": "top",
+  "raw": {
+   "title": "Tata Steel: Acquisition of equity stake in APL Apollo Tubes Limited",
+   "body": "",
+   "source": "NSE filing",
+   "url": "https://nsearchives.nseindia.in/corporate/NIDHIFADNAVIS_23112026201346_BSENSE_Reg30.pdf",
+   "publishedAt": "2026-11-23T14:44:09.000Z",
+   "sector": null,
+   "trust": 0.95
+  },
+  "engine": {
+   "event": "m&a",
+   "trigger": "Acquisition of equity stake",
+   "primary": [
+    "TATASTEEL.NS",
+    "APLAPOLLO.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 48,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s082",
+  "stratum": "top",
+  "raw": {
+   "title": "Jupiter Wagons wins ₹128.61-crore order from JSW for 302 wagons",
+   "body": "",
+   "source": "BusinessLine",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPWGJKMnoxM2d0cDhhMHYzT19jY2RSaEtjaTZKNkl3SThDdjV6Z2xLb3B0WG9MRUx2M3BTWUh4UmVJSjdIZ0c4Nzdzd2hoWVJBLXkzblVaZTNXcVBzSVdtT2o1Y2JZc1NJNU95bElBUFk5Ui1kRHFzeFRyVjNZbzh6TDZ1MUYxR3BULU9zaXRnMUl4YmNWQy1PLUUwQXlsVVJLVGNNNXZlejJ4Nk44RGJtZk5oTndidFNScHFIMEdCbHZ6ZllwY1c5cFJod2V5U2RxUFZVWXpxaVJId9IB4AFBVV95cUxPaUs0bGV6SkZqLVpCQzhTV1ZHb0dsUjRGRWpENDlKc1lZSWN3c09hdW5oc3hBM0E3ekJvYWVtVlVFSTlzckltR2g3YndxeTVrWUhuT1lPSjh1ZlIxTVhJRWFfaGRoMmVYQnpTVmFKUG1IaDNtSm5PeDRmaVRrbWQwT2tBUFRJcjkzZWhxWG9JbmtLbTVpemllWDc0TE9sUDAzVEdUcURVVnlYTW5SOWYxNGRmVlByT19nTW04ZzdWNnZwMUNhaHhIbFNXdGJzbVFiUmt6SkZPaFZEZHpXc19Maw?oc=5",
+   "publishedAt": "2026-11-20T08:39:39.000Z",
+   "sector": "Railways",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "wins ₹128,61-crore order",
+   "primary": [
+    "JWL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 14.61,
+   "amountRaw": "₹128.61-crore",
+   "counterparty": "JSW",
+   "isRoundup": false,
+   "materiality": 49,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s083",
+  "stratum": "top",
+  "raw": {
+   "title": "Britain signs £142m contract for underwater drones — UK Ministry of Defence",
+   "body": "",
+   "source": "UA.NEWS",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVFhvNUJISl84RVBwQ1gyQXN4TU85cHYyTUxNVU1IUzhPRE1aeEhPb0loVEFGZDRDaUVsMXhOcm91RmxNRGt1UkZDdHlscWZZWGkzVE5KczJzX1FMMGxpRXZvWWdmUFFHUW5aVFh2THkxbDZWUENpMzJNandxSGx6NjBjNEg5OThYTEZ5bVhObENxdm1XZy1uQWVUaE0yVnlnSFV1T0VEcjc1dkN6RlhHbm5kR0hvRnY0OURJ?oc=5",
+   "publishedAt": "2026-11-24T22:57:01.000Z",
+   "sector": "Defence",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "signs £142m contract for",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 180.34,
+   "amountRaw": "£142m",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 52,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s084",
+  "stratum": "top",
+  "raw": {
+   "title": "SWREL Wins Rs. 2,050 Crore EPC Orders, Emerges L1 for 350 MW Solar Projects",
+   "body": "",
+   "source": "Saur Energy",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQmpMNy1pOW1McGllRllOUm9JNWJxakpENVd3MmVYeUZpVmE5ajJoZzhMbUV0Uk9jTnBmUHd4TjlCWHJXRklWTzZDaS0tWDBNSHp5WE9vYlFZYmdTNjNsUGdqdWxzdGcybXdPSzBYSFlxWVQtMlJ1OFFiTGo2XzZoU3ZacHhZVm9Ha2J2cWgzcURqLVp5YzdTNW9xaXBndzlWOGZVQW90c2x0bXJ4dXVaTmRqSDRuMUZXQUVGZGNPMEYxaDlt?oc=5",
+   "publishedAt": "2026-11-23T10:04:45.000Z",
+   "sector": "Energy & Power",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "Wins Rs 2,050 Crore EPC Orders, Emerges L1 for 350 MW Solar Projects",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 232.95,
+   "amountRaw": "Rs. 2,050 Crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 48,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s085",
+  "stratum": "top",
+  "raw": {
+   "title": "Carlyle Sells 7% Stake In Piramal Pharma Via ₹2,200 Crore Block Deal: Report",
+   "body": "",
+   "source": "Free Press Journal",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWGgxV2lrNTJoOG5NNkttNjd0S3Ezd2gzWGljNmNlREdqQUxWb0pXdmN2SlFGbkdzN09pdktpdV9PYWF5aUhVYnhPZUJzTmlOWkR2d1BHYkttaWUtQVRVd254ODhXRi1IekV0aVVkM3RpdVdSZHdNNmF1cDJybVFUMktPRzdCaWhLTnZqbzJvTDFyeE9nc0ZzU2dZcnp2QzZVWFJ4MkJHeWtwaW1Sd0ZPb2lzeF9TYUtr0gG4AUFVX3lxTE9YaDFXaWs1Mmg4bk02S202N3RLcTN3aDNYaWM2Y2VER2pBTFZvSld2Y3ZKUUZuR3M3T2l2S2l1X09hYXlpSFVieE9lQnNOaU5aRHZ3UEdiS21pZS1BVFV3bng4OFdGLUh6RXRpVWQzdGl1V1Jkd002YXVwMnJtUVQyS09HN0JpaEtOdmpvMm9MMXJ4T2dzRnNTZ1lyenZDNlVYUngyQkd5a3BpbVJ3Rk9vaXN4X1NhS2s?oc=5",
+   "publishedAt": "2026-11-25T08:57:19.000Z",
+   "sector": "Pharma & Health",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "stake-change",
+   "trigger": "Block Deal",
+   "primary": [
+    "PPLPHARMA.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 250,
+   "amountRaw": "₹2,200 Crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 65,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s086",
+  "stratum": "top",
+  "raw": {
+   "title": "Larsen and Toubro shares gain after winning 'significant' order for BESS project in Gujarat",
+   "body": "",
+   "source": "CNBC TV18",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNZXJ0LW5XZ3VrTS1ySkZqMnBHSmMtNXJSci1HcmJBUnJ3ODVWZ0lEblZvRENpQnFYZDB3d1QweHVZZTJLNWR4ZEVkZWx2SVR1ZE5MVzFJZjZzV0lfVF9UUVBxWmotdUU2aGV3Zkpyb3l0Tm5INk1SRHRQNGN4T21HYTlRVEd3azB0N2RDOEpwQnhyWkFWeUFGUHZNWTkyMkhiY3NkMHYteVN2bUlTN295Tmpvemh1Z3ViUGVCaEZrcG5mSHRQWms4V0JXMmdsVFZqQ3JBM2Roa0FqR3pzZkhIUDRJeUZreko10gHuAUFVX3lxTE5TOG83eW9PV2JGOVNJTlo1dmZCbmQ1Ry1zNktWQXdaSjJnMVFFOXdoeDdLeGkwQXF5emRjci1hUUgtUER1VjRkQjEwcHRNcVFDam56Tm1wci1Pckg0b19KaW41dzdEcmRGVUw5WmNxMjY3VTBtV2RMazRTcEpuTktaQU16dHl6dXhKVGxvZnZReFpIZnZTeTRnZHRUd1pWNDliUTdreU9kMVgwdEt4SnlfSFhVcGFKY1ZpUUYyMldab0FrT2ZCS0ZwSGNfUXhhZ2puc04xRzNTVzdUN3dIazdGN1E3c0U5WDl0ek9uV0E?oc=5",
+   "publishedAt": "2026-11-25T07:48:30.000Z",
+   "sector": "Infrastructure",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "winning 'significant' order for BESS project",
+   "primary": [
+    "LT.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": "BESS",
+   "isRoundup": false,
+   "materiality": 56,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s087",
+  "stratum": "top",
+  "raw": {
+   "title": "SpaceX-Tesla merger: Elon Musk’s companies assemble teams to discuss ‘biggest ever’ $3.2 trillion deal",
+   "body": "Tesla and SpaceX have formed committees, with five directors and three investment banks, to evaluate a potential $3.2 trillion all-stock merger. The companies are reportedly negotiating a deal that could be announced as soon as December.",
+   "source": "Mint",
+   "url": "https://www.livemint.com/companies/news/spacextesla-merger-elon-musk-s-companies-assemble-teams-to-discuss-biggest-ever-3-2-trillion-deal-11795572495864.html",
+   "publishedAt": "2026-11-25T02:19:12.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [
+    "TSLA"
+   ],
+   "mentioned": [],
+   "amountUsdM": 3200000,
+   "amountRaw": "$3.2 trillion",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 48,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s088",
+  "stratum": "top",
+  "raw": {
+   "title": "Ashoka Buildcon bags Rs 2758 crore mega order from Rajasthan Metro Rail Corp",
+   "body": "",
+   "source": "scanx.trade",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOEdpRUNZNVoxNkZpNmJFcVI1Y0xfUzRBbWlua0VDaG9VMjJOSUhqMmsxazhQc3d3WmNvS3hjNmp2WE95VWI1c2gxR1h6TS1ucFZJdGxueGdUdU5JMTdGbmMxX3Z0U0V5V3d4b294TEh3NHVhLV9EanhqNzhYbzl0VlZuQk9QQmsyVjlYazFRM2VVZGtvcE5FUzNFY2JMdXI3VmI5b3pGb19wTUt2bE9iQ1FJWjc3dw?oc=5",
+   "publishedAt": "2026-11-20T21:10:27.000Z",
+   "sector": "Railways",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "bags Rs 2758 crore mega order",
+   "primary": [
+    "ASHOKA.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 313.41,
+   "amountRaw": "Rs 2758 crore",
+   "counterparty": "Rajasthan Metro Rail Corp",
+   "isRoundup": false,
+   "materiality": 57,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s089",
+  "stratum": "top",
+  "raw": {
+   "title": "South Indian Bank Shares in Focus After RBI Allows SBI Mutual Fund to Acquire Up to 9.99% Stake; Check Key Details",
+   "body": "",
+   "source": "Kotak Neo",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUkZBMEhETjZUUHN3TzZ4Zjk4Mlh2S01ZWl96M2tjRnRlbUFlWEJzZ3gtVi1Eb3NaN3JfQTc3VzgxYTFWa0xPWU9Ba1NIcURwSUxBSjBCYjd1SF9QSlI4MklrMnV4bmg0RThjRnlDYUlyUGtFenRjTmJNWnVMbFE0azRXY1hCSmhrUlZlX1hidGpZaXhJ?oc=5",
+   "publishedAt": "2026-11-25T03:48:31.000Z",
+   "sector": null,
+   "trust": 0.6
+  },
+  "engine": {
+   "event": "m&a",
+   "trigger": "Acquire Up to 9,99% Stake",
+   "primary": [
+    "SOUTHBANK.NS"
+   ],
+   "mentioned": [
+    "SBIN.NS"
+   ],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 59,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s090",
+  "stratum": "top",
+  "raw": {
+   "title": "Dilip Buildcon secures ₹901 crore order from NBCC to build satellite township in J&K",
+   "body": "",
+   "source": "ET Infra",
+   "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQQTJydGdGYXVnWjN4cVZIX1l0eUp6S2hTNHF5Q3NOV2hpbEEtZk5aVkQxQUZSSWV4NXNYV2dtNDBKbnJCVGtwaXBPN0V1VXpzWXpoalNJY09pUzZfSnJpYVFXNGJWOWtlY1I5TU1RSkVvU056QkVYelpNQ0FTSThBZGJxZGNtNDBvVGVLc2k3TTh6RnNnaXpCZ1dheXdvT1RRNDhnanl2Y3NVeUIzRVdpZldSNWoyM252UzFBTVJXd3B4NnFnM3hyZGN3MVh3YjdNUW9IWGtLUEVuQWZUS0lsZkVhOWNMQzExbzB2ektR0gHuAUFVX3lxTFBBMnJ0Z0ZhdWdaM3hxVkhfWXR5SnpLaFM0cXlDc05XaGlsQS1mTlpWRDFBRlJJZXg1c1hXZ200MEpuckJUa3BpcE83RXVVenNZemhqU0ljT2lTNl9KcmlhUVc0YlY5a2VjUjlNTVFKRW9TTnpCRVh6Wk1DQVNJOEFkYnFkY200MG9UZUtzaTdNOHpGc2dpekJnV2F5d29PVFE0OGdqeXZjc1V5QjNFV2lmV1I1ajIzbnZTMUFNUld3cHg2cWczeHJkY3cxWHdiN01Rb0hYa0tQRW5BZlRLSWxmRWE5Y0xDMTFvMHZ6S1E?oc=5",
+   "publishedAt": "2026-11-23T05:30:20.000Z",
+   "sector": "Infrastructure",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "secures ₹901 crore order",
+   "primary": [
+    "DBL.NS"
+   ],
+   "mentioned": [
+    "NBCC.NS"
+   ],
+   "amountUsdM": 102.39,
+   "amountRaw": "₹901 crore",
+   "counterparty": "NBCC",
+   "isRoundup": false,
+   "materiality": 65,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s091",
+  "stratum": "top",
+  "raw": {
+   "title": "LG Electronics' parent plans up to $251 mn block deal to meet MPS regulations",
+   "body": "",
+   "source": "FlipItMoney",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVmRZdkw2NlAxd1ZSSmhHVEg4OWNHSkxNTnR1YUljYlE3Y0tvMW94OFJXbGNObFRCYnZtazhWSVp4LXU0MWFJRDRHbHZSanh2M3c4a2ltTjY4X2o5RGZaY2RxZUFmcHdGN05XUXpXUW51bURmMU9VcG5oZU5hc3RvNjM2NEpnUWd4aXFRYWtvVW9kMUs1ZFRQSDZVY2xEdm9aRHBEaw?oc=5",
+   "publishedAt": "2026-11-25T15:44:20.000Z",
+   "sector": "Capital markets",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "stake-change",
+   "trigger": "block deal",
+   "primary": [
+    "LGEINDIA.NS",
+    "MPSLTD.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 251,
+   "amountRaw": "$251 mn",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 53,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s092",
+  "stratum": "top",
+  "raw": {
+   "title": "Budget 2027: Aluminium industry seeks customs duty changes to protect ₹4 lakh crore investment pipeline",
+   "body": "",
+   "source": "ET Manufacturing",
+   "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPM0k3TWl3OUVvRUgzVTlFTWhaZGR1Z05pZWtLOXZMV2RENWhmZmNEdzFRVWc4ZE9lbHdQdzVXdk05OWs5Tll4SEFidS1USTQwVm81bkl6dF9VaGdFZXVvcFR0SlhMcWtfRHExT2RuZ29EczdwLU1BS2dZeldpNE9ZZXlnZ21IbmpRbFVCZnhKSzlNSHpKWXg2SngwWUN3YzlQeW53c25YQm11a09IQm5NdjJySi1ndTQwUzZxVnFhb0FWRlNKc29OajFEVkdBeXVQM0hodXdFZWJTcUNJQVpDbGVvZXpDZFIyQ3UxbUVxYjNqUUlPWmpZRXl6ZW43UXJOaEE3YnFBNHlLSm4yZU1rX0RNbjJ1RmRMY2Vtb2JLc2QyZl9zSHY4YmZKNks4aEppbmcxM0piN2I1RE9lN195M9IBjAJBVV95cUxOV1l0aGMxdS04cW9lZ3p2akN2cjA0b2lDVkFFSDhqZ0pXal96UEZxUFFJa055a3FmazRjMzRMWTlDazE2bGFlRDRqY2M2YjRBYnIwcXFfOU1fckhDTzhJdGtyMHNpM2tKR3N4TkM4aVRNUDJFaW9fc2lHVHJrT1JOdmhEdVUtc3NKTW52elhaeG05RjM0NUpSUzltMDU1cnNHUWRZcnJ4UmlsTkxnYy1zbF9ONHotWHFlOFRQWFlSNUF6eDNxT29rTUV1VDcxOHFiOGRjSWhEb24yelE1S3RmenVTaTNKZ3ZLYXFFNk5COFlNd2x1WEVsUldsRklrRzdJb1Fvd2xrampCRkV0?oc=5",
+   "publishedAt": "2026-11-24T11:23:24.000Z",
+   "sector": "Policy",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "expansion",
+   "trigger": "crore investment",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 45454.55,
+   "amountRaw": "₹4 lakh crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 48,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s093",
+  "stratum": "top",
+  "raw": {
+   "title": "Sanofi strikes $41 billion deal to acquire US drugmaker Insmed",
+   "body": "Sanofi announced plans to acquire US drugmaker Insmed for $41 billion, which equates to $175 per share. This acquisition represents a premium of approximately 17.5% over Insmed's last closing share price. Sanofi expects the transaction to be accretive to its earnings per share by the end of 2028. The deal is anticipated to close in the first half of 2027.",
+   "source": "Economic Times",
+   "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/sanofi-to-acquire-insmed-for-41-billion/articleshow/136122791.cms",
+   "publishedAt": "2026-11-24T07:25:39.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": "m&a",
+   "trigger": "to acquire",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 41000,
+   "amountRaw": "$41 billion",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 62,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s094",
+  "stratum": "top",
+  "raw": {
+   "title": "Mahanadi Coalfields IPO: Coal India arm eyes Rs 17,900 cr solar, EV & rare earth push",
+   "body": "",
+   "source": "The Financial Express",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQLXBLc2dJXzl2aUo0RnpJXzRhelZCQVNSYklFREpMSUdtQk9zMUVQTElDNFlTb3hqc0tPV29tZWJXb2lOYjBZdVdnR3djbjhFbjZ2c29oZ1Q1VThuUXJRRk9qNkVMamRLVjJJYzZ2VE13YVBjcjFnbEJjblBNWTg4amFjT2VEQ0tGQWdyZ3ZGZnFfSENpdzBGZ2ctSnhoRU5wRDJwMkZrWmpDVjdJa3AxS3NvVlRVNkJxa3Z4ZktocjFRQU9YMGFHbm9rdktJUdIB1AFBVV95cUxQNHR5UGF0VWQwVGZGeVBTRUdEMzYxZXJoSVVmbnloOHZ0RFFYZVp0V0MxQXVuaXNhU2o1ZXBWYnBBNzA2bG9vUUcxbXA3RExvSVEtLXNaVExIbV9pZHBuRGdkT2J5LVpKdF91aG1YYndSQ0txdFBFbXNCZXZwTWR1RkZjUXlMMVpkYkt2NHNQaXBkc253ZmdpS1Y2TUthMmpLMS1iSW1GS0ZLdENOU1QwcjVpVHdCb1RSVDgtbkpHOTNnamlEOE4tU05ZUk00SXZCLW85SQ?oc=5",
+   "publishedAt": "2026-11-19T04:47:50.000Z",
+   "sector": "Auto & EV",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "fundraise",
+   "trigger": "IPO",
+   "primary": [
+    "COALINDIA.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 2034.09,
+   "amountRaw": "Rs 17,900 cr",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 51,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s095",
+  "stratum": "top",
+  "raw": {
+   "title": "Sterling and Wilson Renewable Energy Wins Rs 2,050 Crore Orders",
+   "body": "",
+   "source": "Multibagg AI",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMnMtYV9RNVZtTlNGbFROcUJvcDJ1dDB0blEtQkhRdEd0LTBtU3BsT3VwSlF3ZlZMd2hIRTh5RXBDRTU2RXdoeTNMcUFBbmZWRkVoMlZKeWZtRnlxZ2NONHhyNjVncDE3eUJPbkJONnJuNGZtc215ZUtMVG1XWWpjME9fM2pIYnZzM0J1VF9HendYa1E1c3NUa0ZfVGpYdGVCc01XMGdaNTA?oc=5",
+   "publishedAt": "2026-11-23T05:59:41.000Z",
+   "sector": "Energy & Power",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "Wins Rs 2,050 Crore Orders",
+   "primary": [
+    "SWSOLAR.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 232.95,
+   "amountRaw": "Rs 2,050 Crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 67,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s096",
+  "stratum": "top",
+  "raw": {
+   "title": "Vishnu Chemicals: A press release dated November 23, 2026, titled \"Vishnu Chemicals Limited announces Solar Power Capacity Expansion through its Subsidiary\".",
+   "body": "",
+   "source": "NSE filing",
+   "url": "https://nsearchives.nseindia.in/corporate/VISHNU_23112026171436_VCL_Press_Release_on_Solar_Power_signed.pdf",
+   "publishedAt": "2026-11-23T11:44:48.000Z",
+   "sector": null,
+   "trust": 0.95
+  },
+  "engine": {
+   "event": "expansion",
+   "trigger": "Capacity Expansion",
+   "primary": [
+    "VISHNU.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 50,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s097",
+  "stratum": "top",
+  "raw": {
+   "title": "Alembic Pharmaceuticals Limited receives USFDA Final Approval for Bosutinib Tablets, 400 mg",
+   "body": "",
+   "source": "IndiaMedToday",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN2dUTHlmLVlkdTBJWXR4Y0dnQkZ1MmE1VkU5VFlkd0Rlc2pxSU1jSUoxS1B4WHU4aGRNVUc5ZUs1NmE3TXBXLTVIOGxjWGdvbkhBUk9BUGw2emxDS0FOUWg5d0xJWkhqQ1U5d2tfZl9GTWlDbEhOdHg5YmFVVWctTkVuNDl0d2JQU19fWm0taUNNLWFVTlZuV1NUdGxtc3pHRElqaGUzaUNzcVhHcU9iU2tlbmFPQjg0?oc=5",
+   "publishedAt": "2026-11-25T12:22:46.000Z",
+   "sector": "Pharma & Health",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "approval",
+   "trigger": "USFDA Final Approval",
+   "primary": [
+    "APLLTD.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": "Bosutinib Tablets",
+   "isRoundup": false,
+   "materiality": 52,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s098",
+  "stratum": "top",
+  "raw": {
+   "title": "Sterling And Wilson Renewable Energy Secures Over ₹2,050 Crore In Project Wins, Strengthens Clean Energy",
+   "body": "",
+   "source": "Free Press Journal",
+   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOTFRCNWtxbG9IbkR0Y0V5M2hyaHZkZUNRRzIwTUtfYW84WDBKNl9ZTlJLWnFYMDc2Q2F4RmJSVjBuU0h0R3NmR0h3aDZDd2RUY05CZER4Qm9KNVNCdzlZVTlRYTdiU0ppV3BDdHhtMzJDMFdDY2ZqSFhaRzVQSkxuQURnMUo5MDBaNGpuSlgzUm84bUtNeDM1aHcxekRCYnQ5QXpUYl9pUWNWRGJLalU0OWI4Mk5hYm5CT1MwYlZhbVdNOEFSa2FVUm5SMkl4WTkzMVF2TV9feHdyYW1ONFctclNBSEowWGPSAewBQVVfeXFMTzg4bXZMWUk5bDYtRUlfRGpvTzJHcWMyd3AzU01Zekw1TzhUbkJzbDRxUWJranVBREh0b3JpRHlDY2hzVGlfY3NNcW50RXRXdk9Fb2hWbi14M0lRVmVEUFFpWm5qeF9lakFKYWpYRklpRHJpWnVUMjkxdUFLVVo0NlZKM2I2TDJlVEFycFh1WS1COTRNQk1Ud3psdnNQTE9Pakl5WkVRMDJJUlBzQnozczhnYXVud21vUmFtZ1d0SHdOUjhKTGREVHRna21aSDNPTTZPQjJ2Mm1uYnNRWTJqWE1ZamFDVDg5M3V4eVY?oc=5",
+   "publishedAt": "2026-11-24T04:41:43.000Z",
+   "sector": "Energy & Power",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "Secures Over ₹2,050 Crore In Project",
+   "primary": [
+    "SWSOLAR.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 232.95,
+   "amountRaw": "₹2,050 Crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 75,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s099",
+  "stratum": "top",
+  "raw": {
+   "title": "India’s equity market capitalisation crosses ₹500 lakh crore; MF assets touch ₹83 lakh crore",
+   "body": "Corporate bond issuances outstanding crossed ₹62 lakh crore by October, while commitments to Alternative Investment Funds (AIFs) reached ₹18 lakh crore by September, said SEBI Chairman Tuhin Kanta Pandey",
+   "source": "BusinessLine",
+   "url": "https://www.thehindubusinessline.com/markets/indias-equity-market-capitalisation-crosses-500-lakh-crore-mf-assets-touch-83-lakh-crore/article71742462.ece",
+   "publishedAt": "2026-11-25T13:02:26.000Z",
+   "sector": null,
+   "trust": 0.78
+  },
+  "engine": {
+   "event": "expansion",
+   "trigger": "Investment Funds (AIFs) reached ₹18 lakh crore",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 5681818.18,
+   "amountRaw": "₹500 lakh crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 52,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s100",
+  "stratum": "tail",
+  "raw": {
+   "title": "Cyient Semiconductors Secures US$10 Million Strategic Investment from GlobalFoundries",
+   "body": "",
+   "source": "Machine Maker",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdWxrR0VnZnlDVVpRVWttZGdCQjdoc1NLdmFKYWpIdThxZ3B0N3JXUmstSmN0anBNVl9mREdxc0k2QU1kTlhRTzZuSFVpUGY5ME1EaWdxVHpVamc2N1pvbXpiR0RpRFVBZ3VPZmxYcTl0YVRMQWZOTTk5RGowUVVxZmlBY1EzXy05YjBVcUpPX0k2WXpHVk9BaURiSTQ1T3BGa2lpMjktempEX3FlVkpKM3FhVTZibjRQWXc?oc=5",
+   "publishedAt": "2026-11-21T10:43:16.000Z",
+   "sector": "Technology",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "expansion",
+   "trigger": "Million Strategic Investment",
+   "primary": [
+    "CYIENT.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 10,
+   "amountRaw": "US$10 Million",
+   "counterparty": "GlobalFoundries",
+   "isRoundup": false,
+   "materiality": 42,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s101",
+  "stratum": "tail",
+  "raw": {
+   "title": "Nepal and India Agree on Energy Cooperation and Disaster Management",
+   "body": "",
+   "source": "Ratopati",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPckRmdGVIMVhjNFVqYjUxbGtkWDd0Y2N5UWltUHE1QzQtU2hLOGx4dmc4TFNWeHJFT2p0RkFMWFF0YkctNk5Lb01TOWMxQkZ6RGhvX0c1MC1HaDhLN2VLWUd0YzVMUFpsUl9DSVhYRjB3TUpLaTZremRkSzdCX1pMOFlvYWlOT0swSV9lZ051YWw3Zl9NNHNpcDFNeHpRZmtwci1mSWFiUm9GdzRBeEUtY0tYNDN3eU9yS04tM3NxMTJmMmFpQlhFVi1rTmRlOE5sMVNfTHU0NjBES3EwTjJpbGNxZEVPRVBPZ0ExSQ?oc=5",
+   "publishedAt": "2026-11-23T12:29:01.000Z",
+   "sector": "Energy & Power",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 0,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s102",
+  "stratum": "tail",
+  "raw": {
+   "title": "Air India CEO outlines group integration, ₹6,000-crore savings plan",
+   "body": "Common corporate functions, network realignment and new businesses form part of Gebremariam’s profitability push",
+   "source": "BusinessLine",
+   "url": "https://www.thehindubusinessline.com/economy/logistics/air-india-ceo-outlines-group-integration-6000-crore-savings-plan/article71743022.ece",
+   "publishedAt": "2026-11-25T14:59:41.000Z",
+   "sector": null,
+   "trust": 0.78
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 681.82,
+   "amountRaw": "₹6,000-crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 26,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s103",
+  "stratum": "tail",
+  "raw": {
+   "title": "Groww, Navin Fluorine and 3 Other Stocks Hitting New All-Time Highs to Keep on Your Radar",
+   "body": "",
+   "source": "Trade Brains",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX0d4cHYwMUFFMkRUeHZDbE9HbnZWQU5CVkkzMmlyckJnazd0bjdMeTd4NFlZeXpoLUh5U0FGNUhJeU5vWV9QYlI0OG1jWW1ZNU1uTlVxR0Nsa1ZmYktyLVE2bXRRX0RBb0xZZ3V0Vy1oNXZFMUFaQlV5Z1lfaVA2dlFuUUhJVGdQMHhkMkpxTk42ZEE5cWhzTUU2czkwZ1hrNUhZUUFRWW5BWWlUdHJWMUM1RW1EbEI3elE3QWp1cmpWaXlHUHZRWXhBekVZRE9o?oc=5",
+   "publishedAt": "2026-11-19T02:00:37.000Z",
+   "sector": "Pharma & Health",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [
+    "NAVINFLUOR.NS",
+    "GROWW.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 7,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s104",
+  "stratum": "tail",
+  "raw": {
+   "title": "Sachin Tendulkar-Backed TEN x YOU Eyes Rs 100 Cr Business Run Rate",
+   "body": "",
+   "source": "Indian Retailer",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcnc2bW1zeV9SbUhIQ1BGblNmVHZFU0VUdWFIYWV4MnZKNFRxcHJzcDVxNnhQZElMTk05RVlld2pTaVlVaEJyS2hTUGZRTS1YdEFWVWczcXgyQzhPRTU5aVJPOS00RlQ0a1NxSWp5b2xUN0o4bEtZaHRfOUdxSHdQRjR0M1p3TVp3N1dfaHlFSmVJOFUxc05FYUNsNklLMHFYMDZBQQ?oc=5",
+   "publishedAt": "2026-11-25T06:46:51.000Z",
+   "sector": "Consumer",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 11.36,
+   "amountRaw": "Rs 100 Cr",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 9,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s105",
+  "stratum": "tail",
+  "raw": {
+   "title": "Only RBI Can Sanction Prosecution of ICICI Bank’s Former MD & CEO Under PCA: Bombay HC",
+   "body": "",
+   "source": "TaxGuru",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUThtS1VScHlwbUtXWUxacC0ta2pxbGhKLWRtWGkxS0F2UXpoTUNBM0d2THc1bHltaHE2bWpURGxDNTIxcUwtaC1VNXhUMDVrZzVDZ25rV0ZEZ3J3b3NUanlvT0xNMElfWm1wbEdfbDhrb2J2SUJzdVhKLVUtMnk0b0h6UTJQemhzcUpFR0RZZVV2bVczMzY0V2dwRk9Ba0ZuNFdlZTdB?oc=5",
+   "publishedAt": "2026-11-21T07:15:08.000Z",
+   "sector": "Financials",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [
+    "ICICIBANK.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 16,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s106",
+  "stratum": "tail",
+  "raw": {
+   "title": "FEMA Penalty Reduced for Lack of Corroboration of Payments Received on Non-Resident’s Instructions: SAFEMA",
+   "body": "",
+   "source": "TaxGuru",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVFVfUzhRVmF0emdhb1VPa2NfSTNVRDdVZE44SXFIM2gwYjhaNmI1QklLYjlROHRfSi15Mzk5aGVuOEFFd2c5bnVEYXJpVDZfcUY5bUNoMTQtaE5fc1p6am54WFhSdDc0a0kwd0hNcXRJcVcwOVBuZ2w3dGYtU1RrMURwY3o?oc=5",
+   "publishedAt": "2026-11-25T07:10:47.000Z",
+   "sector": "Financials",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 0,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s107",
+  "stratum": "tail",
+  "raw": {
+   "title": "PLI Scheme for Automobile Sector Records ₹4,385 Crore Incentive Disbursement in FY 2026–27",
+   "body": "",
+   "source": "DD India",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcnVSZDh5MFVoQkI3czQwMWpSeXJNQ2ZzNjkzUVlJRXBfWVdyVkdfdzRnNWpZd09yOFAyNm5reGdSalNxYUF5Q3l6dXRNRzNEX3FKcmRsamNLTXo0dWlmdTYyMk5RV2UwLUh0SUJoclBOT01MWEg2NTlDVTcycEYtbkNBeG9TeTNzUzFmbkdBUWJsMU16QlFsdGxGeElONWI2aEN2TGFLTzhOQWs1UE1lZWFkQ1hYeEoxUDU3WG81UUYzUmY0VlNn?oc=5",
+   "publishedAt": "2026-11-25T12:27:00.000Z",
+   "sector": "Auto & EV",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "policy",
+   "trigger": "PLI",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 498.3,
+   "amountRaw": "₹4,385 Crore",
+   "counterparty": "Automobile Sector Records",
+   "isRoundup": false,
+   "materiality": 41,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s108",
+  "stratum": "tail",
+  "raw": {
+   "title": "Section 34 Does Not Permit Modification of Arbitral Awards in NHAI v. M. Hakeem: SC",
+   "body": "",
+   "source": "TaxGuru",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNEEwVVpITjRjUkV6dGdINlh3T3dQNUNpRmdDQTN6WW9Pa1FKelRLMXNZaUt6bjBaaUJENV9ibGh6bWk1TDhxc0VYOEZxZmZXZl9FaUZqNTZtWm1EcFFLSDZWU09CMm5FVDF0ZDgwLVZoMVFYRjUtOFdEWXV5VVJMUnZ1dGF2ZkxFM2puaEtyc3cwVTRoX1FvZmJqV2tLdnN3dWJxQ05n?oc=5",
+   "publishedAt": "2026-11-22T05:02:59.000Z",
+   "sector": "Infrastructure",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 0,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s109",
+  "stratum": "tail",
+  "raw": {
+   "title": "Foxconn clarifies position on contractual dispute with Indian vendor as $15 million claim reaches NCLT",
+   "body": "In a recent statement, Foxconn has acknowledged a payment dispute with BCD Emprassa over alleged unpaid dues of $15 million. The issue stems from unmet contractual responsibilities and ongoing quality standard failures from the supplier. Despite repeated calls for corrective measures, resolutions have not been achieved, leading to legal action. BCD Emprassa has turned to the National Company Law T",
+   "source": "Economic Times",
+   "url": "https://economictimes.indiatimes.com/industry/cons-products/electronics/foxconn-blames-indian-vendor-for-contractual-breach-as-usd-15-mn-dispute-reaches-nclt/articleshow/136159968.cms",
+   "publishedAt": "2026-11-25T11:43:37.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [
+    "ACE.NS"
+   ],
+   "amountUsdM": 15,
+   "amountRaw": "$15 million",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 14,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s110",
+  "stratum": "tail",
+  "raw": {
+   "title": "Tamil Nadu to Open 600-Bed Super Speciality Hospital Block",
+   "body": "",
+   "source": "Voice of Healthcare",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVDJRVzRoM0ZpYlZqc2xndUNOaGFOX0l4WEpRWEhGN0VjZ0loLW1XVmpUYkdDM3haQzN0RWVYZHhWc3BmUjYzSGxmSklKNTFCUjZUYm9XN1BXMjlWaUVzeldzcGRsMGc4anhVbll6VDZTWm90SXI1NW5iazFJbVNtNEk5VENjMlFwbzN2aXVZVFlWQVhGdzZKanhmcTBTdGZxWlE?oc=5",
+   "publishedAt": "2026-11-20T14:06:06.000Z",
+   "sector": "Pharma & Health",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 0,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s111",
+  "stratum": "tail",
+  "raw": {
+   "title": "PLI’s gains, gaps and unfinished agenda",
+   "body": "",
+   "source": "The New Indian Express",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMTI2T3pjNnB1QUIxVmpxNTNrUllJLUpWRmN5SWZ6aWtGajVES0cyOFI1WEQtMUZyc0J1TFVuakp4VHIxVEdmNFdfS1RhdzNFbld4LW1Bcjh0cHJuZF9qZjVfWmt3d0VlV2lEdG5DY08zaFFFMHBPcXdQSjViMmREd1U2X093c2lCX0N2cGRpazV5dGNEZXhzVtIBpgFBVV95cUxOLUV6M19oV19Zd3BkbGFrM2RsajZNekhlNjM2azN0ODJ2MVAtVEJfbkhDUlZtOEdhZ1RzS2gxbGYxQU1OSHdCcXgwblR3QVM3Ykc4NE5lZWpZWUtZbzNNVUF4RlRhcVpuaGEyQWRWN21ONFpYNGlQWUNMSHFTdWtoa0VoTWx4aGxfczJ4ODBPMzFBZ2NYOVVHVm96QnRXOUJ0THFyNnFB?oc=5",
+   "publishedAt": "2026-11-20T13:47:55.000Z",
+   "sector": "Policy",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "policy",
+   "trigger": "PLI",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 15,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s112",
+  "stratum": "tail",
+  "raw": {
+   "title": "Dr Reddys Share Price Highlights: Dr. Reddys Stock Price History",
+   "body": "",
+   "source": "Economic Times",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/dr-reddys-share-price-today-live-25-nov-2026/liveblog/136148268.cms",
+   "publishedAt": "2026-11-25T04:32:54.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 4,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s113",
+  "stratum": "tail",
+  "raw": {
+   "title": "Mahanadi Coalfields IPO, credit growth, IFFI event: key highlights in the week ahead",
+   "body": "A look at the key economic developments, data releases and market events that could shape the week ahead.",
+   "source": "Mint",
+   "url": "https://www.livemint.com/economy/market-events-rbi-data-us-gdp-inflation-mahanadi-ipo-11795328633595.html",
+   "publishedAt": "2026-11-22T07:11:12.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": "fundraise",
+   "trigger": "IPO",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 26,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s114",
+  "stratum": "tail",
+  "raw": {
+   "title": "Strangers on Sunday, Family by Monday: How the APL Apollo–Tata Steel Deal Shortchanged Its Minority Shareholders",
+   "body": "",
+   "source": "Moneylife",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNdXBWdG1Vc3U2RmZRVEU5WEoxZXdBa3NZQm80a2J2ODFtNG9XODJ4dHB6UU5QS1dQRFYtUG91SGZodnY4eVp0eEhQQXIxSFhUZzliVWNyMi1ZaXFKUWk2UEhOa1lILWJtU0VxWjFFSldHRm9jYXlpZ2h1OExZbDhMSllZZlBkakpiZ2xmaXNwb1hQdnd5VTlzRVN0WG1TVnR0Yi0xQ3BkRzdqdXFmMWJBa3QwRWhJeGRfdXRGZlBENmtHN0h1bm9WWFZCdjNCY2poSlBydTB3V2htM1c2QU9seEQ5MnNCRUFl?oc=5",
+   "publishedAt": "2026-11-25T17:48:05.000Z",
+   "sector": "Capital markets",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [
+    "TATASTEEL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 22,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s115",
+  "stratum": "tail",
+  "raw": {
+   "title": "A bitter aftertaste for liquor companies",
+   "body": "",
+   "source": "Finshots",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9uLTlNV0ZLeThKUHd5RXI3bDFkUVZOaWx0Uk9yN2xxeGNLbGlxRHhMTUxhTlBXSlByMUtVVDB3QmpnN2I0MGdDY0R3VGlEeEpGR0Y2cWplNWdwWGZpQ2FRQ1JfMnlSelY0WWNPek94Y0pFRUQzY0tWbw?oc=5",
+   "publishedAt": "2026-11-20T01:32:13.000Z",
+   "sector": "Policy",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 0,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s116",
+  "stratum": "tail",
+  "raw": {
+   "title": "India Faces Fresh US Tariff Threat As Trump Targets Countries Over Industrial Subsidies",
+   "body": "",
+   "source": "ABP Live English",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPSDhWVFdtc244cW5OVHpfQlA2Q0w5RTNCTWxkQjhqeHl3aXFPZmQxclRnUnRUZ0lRa1U2UjFEMlpkZ2hCOXBLQmJqbG5TM1NFUTNuWUh0Z2U4bjhQOFMtOUVVMVZCT1J6MC1fSFowaTJGYWZJMHhXN2FQQlQ4bzlXVTBEQmI3b19JVjNfTUptNFkzaGVQbzl3RGxTTkp1aWNZdEtTaFB6ZGMwMC1jMGp3bnV2SDRDVzVWV3FxbmNOb2xUS2xORzhjSEp5dkFyRUU2Tkd6VnJIRFlZclHSAdsBQVVfeXFMT0g4VlRXbXNuOHFuTlR6X0JQNkNMOUUzQk1sZEI4anh5d2lxT2ZkMXJUZ1J0VGdJUWtVNlIxRDJaZGdoQjlwS0JiamxuUzNTRVEzbllIdGdlOG44UDhTLTlFVTFWQk9SejAtX0haMGkyRmFmSTB4VzdhUEJUOG85V1UwREJiN29fSVYzX01KbTRZM2hlUG85d0RsU05KdWljWXRLU2hQemRjMDAtYzBqd251dkg0Q1c1VldxcW5jTm9sVEtsTkc4Y0hKeXZBckVFNk5HelZySERZWXJR?oc=5",
+   "publishedAt": "2026-11-25T03:12:26.000Z",
+   "sector": "Policy",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 0,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s117",
+  "stratum": "tail",
+  "raw": {
+   "title": "New CEO Tewolde Gebremariam gets free hand from Tata Sons for Air India revamp: Report",
+   "body": "Tata Sons has authorized Air India CEO Tewolde Gebremariam to overhaul management and improve performance. The airline’s plans include reducing expenses, adjusting routes affected by airspace closures, pursuing wide-body aircraft and examining ways to integrate operations.",
+   "source": "Mint",
+   "url": "https://www.livemint.com/companies/news/new-ceo-tewolde-gebremariam-gets-free-hand-from-tata-sons-for-air-india-revamp-report-11795583129626.html",
+   "publishedAt": "2026-11-25T05:17:04.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 4,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s118",
+  "stratum": "tail",
+  "raw": {
+   "title": "GST Implications On Secondment Of Employees By Overseas Companies",
+   "body": "",
+   "source": "Legal 500",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOckdjc2NFT25ZT0h1azV1c0lhWWtYakhqYTlpWWQ1NlR2LV83WlVOTkhkTnlUUDVDRjRfeTdWamJmUlYwTnRCLTNDdU5BWFV3YlRQYkgxdnZuUWlqcXhQbHdmUUlnNmtGRlZWcGc4dkZtNFZGV2I0STJmVW9CeHpKRk81RzlidGdNQ2JlVUVZMFRUbnc2aVFRSThYU1NMQWFZeUtjaVlxSUpyVGFNYkVxMk9Ddw?oc=5",
+   "publishedAt": "2026-11-22T02:47:05.000Z",
+   "sector": "Policy",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 0,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s119",
+  "stratum": "tail",
+  "raw": {
+   "title": "Opendoor (OPEN) Stock Is Up 11.8% Today: Real Estate Stocks Rally",
+   "body": "Opendoor shares rose 11.8% on Wednesday, Nov. 25, as real estate stocks rallied, with no company-specific news.",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/real-estate/articles/opendoor-open-stock-11-8-200019940.html?.tsrc=rss",
+   "publishedAt": "2026-11-25T20:00:19.000Z",
+   "sector": null,
+   "trust": 0.7
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 3,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s120",
+  "stratum": "tail",
+  "raw": {
+   "title": "Coal India unit Mahanadi's IPO fully subscribed on final day, led by institutional investors",
+   "body": "",
+   "source": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTV9acWZoWWwxZ3JhWlJxWUpJYnNGclVKbFk0YjZ2cjhpLXdmYVJ0aTQ2Q09MQ0xyRXZzdWJHTldoOVBhVVdyUUJQVjJ3TjVkVTZoZ19tTE42aFhMUi03dm1Za2RCQ25QZm5NeXFzT0piU1FBVzhZSk9Hd0dHMWVmNkY1SzVfSTl3Y0h0Y1pVdWxGUnJqQzZZSmM1LVpBTDluQ0JRcFNPdXJOV3VySHdpTlR3?oc=5",
+   "publishedAt": "2026-11-23T11:42:32.000Z",
+   "sector": null,
+   "trust": 0.85
+  },
+  "engine": {
+   "event": "fundraise",
+   "trigger": "IPO",
+   "primary": [
+    "COALINDIA.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 46,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s121",
+  "stratum": "tail",
+  "raw": {
+   "title": "Sensex zooms 1,500 pts in opening trade, Nifty gains over 400 pts to reclaim 25,750 level; benchmarks inch closer to record highs",
+   "body": "",
+   "source": "Fortune India",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNNnl2Tm9GeE8zU1FNbnJPX19yRm5SX29oaFBKSmlUdUV4SnhGVHo0QVJyZUpBc0I5RmlST3c3QXEtZUJkNmpncGVVRUhLZU1mak1ITzU5T28wMkt0b0FmVndrSkxhSGNNX1lMS2JuYl92eUZMSHNmQUdEazgxVkNIZ0pBLVY1N25USmVKVzR5REZDTE54R0h5bWlwNW5lYWNiVlRreTVtR085am1LRHc4Rk9xWmZoa0l6cExRZFg4cDRRWjhBWFNuelllOXNBZ0RWY2hGU1l6SFBUdmFBYzJmMktRX2U1RHFEVUlLWGFwQ25tMEtwSWl3WGlnby1EZ9IBiwJBVV95cUxNZ2h2VVBDVVJzLVFReGxWaTVBRm8wTEx1Y2JfcmV6M1Fpa01La3ktVUctMElnZmx4N2JHZVVPejRwUjJDVEJBcGQ1VDd3bmhRSG5Ka1FCT185OTRfZ1l3ZGpWVlplYW9mX1ZyYTUzTVpKQlpRRTBBQl9GOFN6V3ltZVBNYldpYU5rTVNzYXRFaTVvOWU2Ykp4WU1IQnBUc19pN1h2c2pTcVNGSHVFSzVfampIRlBSOUJlM1lYRzRwcENkZllHR2s2dmprRHRMUUxOM3F2QWZpenE4d05yMkxoTFF6RDM5VlZnOWpIdnd0TXhBSlM0eDVOSlhmTE9heVc0aUQtU0IwMUFwa3c?oc=5",
+   "publishedAt": "2026-11-25T04:10:19.000Z",
+   "sector": null,
+   "trust": 0.6
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 1,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s122",
+  "stratum": "tail",
+  "raw": {
+   "title": "IT Companies Get Realistic About AI-Led Deflation",
+   "body": "",
+   "source": "https://www.fintechbiznews.com/",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdEhxNldvMFBpNFVBZlg2ZHp3eWx1WXFpRUdIZm0yYm5Sc19vX1ZodTVMUHVEcG41c2Z0T1A1cGp0NFhsZ1JOMWd1UVEySEZnOXhwRHpxZVU1RjdPeUlCcTMwN3hma05FLVA5T1QwZlU4Q2VPS3ZBSG0tamlwSGE2WVBDN2tSOVVmZ1R4LTVrMjAzOE83RHdoRUx3X3pJd2xtRWRBQ3R0azUwLUZmLUdR?oc=5",
+   "publishedAt": "2026-11-19T12:55:26.000Z",
+   "sector": "Technology",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 0,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s123",
+  "stratum": "tail",
+  "raw": {
+   "title": "Hunter Transmission Project moves into delivery",
+   "body": "",
+   "source": "Utility Magazine",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTWJ3OTByRnlFcTBrREd4SlhTdzFsbm1BYzhjU2hzVllkenNhYVQ2WG9KWTBDSFVSYzhaXzRySEF6aXRzV1BvdzNmVlZrOTFXa29FanNDYVpVdlFkMC1IYXVzRE1RY2hmUURoQ2p5akx4dmwxcnJXYjdwR2d0RDg2QUhERUlrQQ?oc=5",
+   "publishedAt": "2026-11-22T23:54:12.000Z",
+   "sector": "Energy & Power",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 0,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s124",
+  "stratum": "tail",
+  "raw": {
+   "title": "APL Apollo Tubes Share Price Crashes 16% on Tata Steel Deal",
+   "body": "",
+   "source": "Univest",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVTY3VmtuMjJtdEg5LVQ1RzBsLXZaZnNiY09TRVctS3loVHR1cnZGNEw4QTBYUzlwTl93WEpUWWxHSFZyd1o5SkhJY2xodEhmTXM2WGRoMVRoUTZpTl9EZks4THA0aDE3QWlxcm1RMW9NeVpmWFkwTnhqTVpwYXhFTA?oc=5",
+   "publishedAt": "2026-11-25T10:09:43.000Z",
+   "sector": "Capital markets",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [
+    "APLAPOLLO.NS",
+    "TATASTEEL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 10,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s125",
+  "stratum": "tail",
+  "raw": {
+   "title": "LG Electronics Promoter To Sell Up To 2% Stake For Public Shareholding Norms",
+   "body": "",
+   "source": "Sahi",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWVZQQ3V5ay1uS19IRnZVUFg0R013Zi1CMFhBTDA4d2I2S1FYX0NGZVJaOFJlTGxjN25WbFRsVVQ1TktTWXhBa3dacXVCbWIxVnFYaDJBMV9SbmhpQ09vLWxjU2t0cV91ell2YTFFc1BxaWotRXlGcVJSUlZwbzR6UG5yaGV3UmNvZy02bTRlWjFsenIxVTZNVGF1ZkNMQnF1S2Y4?oc=5",
+   "publishedAt": "2026-11-25T10:06:21.000Z",
+   "sector": "Capital markets",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "stake-change",
+   "trigger": "Sell Up To 2% Stake",
+   "primary": [
+    "LGEINDIA.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 46,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s126",
+  "stratum": "tail",
+  "raw": {
+   "title": "Global Wind Day 2026",
+   "body": "",
+   "source": "pib.gov.in",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5KdVljc2VkR2JSLW5tRnlMMW9IdEZDQXVPXzFiVzc1eU1UQjhheEFFekstVHhvRklWVG1JbkNGZUp3M3RYSENiQUZ4TE1HV1Mtem5OM3ZrZFJEU2d4YV81STdSSnoycDNUOFQ4MVM5TUJHaUgyZDZJ?oc=5",
+   "publishedAt": "2026-11-25T14:52:44.000Z",
+   "sector": "Energy & Power",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 0,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s127",
+  "stratum": "tail",
+  "raw": {
+   "title": "Asian Cinemas plans nine more multiplex screens",
+   "body": "",
+   "source": "Projects Today",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRVFRN0Q0WW40akJuSzZKQWVqUzdyMDBuSVZlSjREVkh0WU1YLUhaZm0wOGw0U1RhcTdJUWpEVnhFQzVXQm9SeUt3LUNTSEZ1ZWFTYjRySG1mbXY0Y0FTcFFwMkJua05wclZkQXQ2UTU0aHdiMHhCdVVfUjN3Wk9hM0VNOUtDRjdZbTFhOWRR?oc=5",
+   "publishedAt": "2026-11-21T05:12:54.000Z",
+   "sector": "Metals & Mining",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 0,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s128",
+  "stratum": "tail",
+  "raw": {
+   "title": "Kheria Autocomp Wins Rs 12 Crore Door Trim Order For MG Hector Tomahawk",
+   "body": "",
+   "source": "Autocar Professional",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYUFxT1EtZ25PX3hzbzZTLW0wcFkzbW00WEJDM1pIeS1iSmhIN1pVWkE3aHdlYkZjalREOFpYYWNhYVh1U2M5V05MenVXRFBFczNpcVZFN1VfX2JaZ2VHLXdjN1lRYUp1ZHZKdGRITVBJYXhjY3lHUmZFZmw0M3hyNzNtY09xU01ZeG9kaG8tcnZZZlllS01RbHhSMEZGa0NCTURnZ1IxUmwxN0ktcGfSAbYBQVVfeXFMTlZUbVBSZWt5Mi1CVTRZMDlZRGR2ZmV4WExIVUp1aTJHYXYybEpDSHpha1MwV3VkUUNHOFZicmczVXVlMWp2ZWt5eTNBTk9IY0JqN2taeG5FLVFibTJyNzhoa1Y2TE1odkRqdzluTnVCajVOZVV1SVhEWHk2NEVYWkR3ZFU5MkFnYXczMnItaDhlTy1kNnk0NUlTRi0yY2VfODN2SVlZc0x5S1ZVVURFZklOTU1ta0E?oc=5",
+   "publishedAt": "2026-11-25T12:46:53.000Z",
+   "sector": "Auto & EV",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "Wins Rs 12 Crore Door Trim Order",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 1.36,
+   "amountRaw": "Rs 12 Crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 37,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s129",
+  "stratum": "tail",
+  "raw": {
+   "title": "India’s Out-of-Pocket Spending Remains 46% Despite Coverage Gains",
+   "body": "",
+   "source": "Multibagg AI",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQM3VNXzYwRlQwNUN3dHBqakg4aXJpeDNlZnJ4NW1ndW9MLW1QQUpsMTh4RTJBRmx5YkNVZmJITllPczJZMzBmd0pKSXFyV3dVOUVDdVI0ang4YmUzQ1NCOGFGVnZGV2hYYUFndmplQ05nOHY3dGo3aWg5Q0FzNVo2c1FpLTZxM2ExM2hQWTlCM1BOLU9LM3FuY1dJdGZXc1ZJVWx2NkpwZlRPdTl5VmxR?oc=5",
+   "publishedAt": "2026-11-23T06:38:48.000Z",
+   "sector": "Pharma & Health",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 0,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s130",
+  "stratum": "tail",
+  "raw": {
+   "title": "LG Electronics India promoter plans sale of 2% stake by December 2026",
+   "body": "",
+   "source": "Multibagg AI",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUU1FWjNMU1NNUVlfY20zVlFtS3pIMGdQaERwS0JWRFpKOEo2ZVdoeEYtR2QyYWM2ZGlXaUN0d3BtNlhrUXhiZEtJOHViYi14TmRzNlB0TEZqV1VBN29MdkNuSGFSN3V4eEU4UWd3R1ZwbXVNcklWNjN6dkZ3bXJ1WXBBa280SWM2bXZhQjA5dTh2WGFEd3FRQTJYRE5DNFItZWRjWUFIeFo1cFVZalZpRU93LVg2M09M?oc=5",
+   "publishedAt": "2026-11-25T09:46:58.000Z",
+   "sector": "Capital markets",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [
+    "LGEINDIA.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 22,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s131",
+  "stratum": "tail",
+  "raw": {
+   "title": "Stocks to Watch Today, November 23, 2026: Waaree Energies, Ujjivan Small Finance Bank, Sharda Motor, Raksan Transformers and Ashoka Buildcon",
+   "body": "",
+   "source": "scanx.trade",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON1dHTjA2eWRfRV9vMlNCSU9id19aNWs5WlgyNm5BblFNbzBKcnU2LWVYbjY3OHZaRXFsQ2JNMDdwc3g3NVVvR3U1djZQcjJRTXNmX2VDYjU3M2hCYVhHd3hSM1FjX20tdnBYXzJTZmVsWGFJRGZDOFU5WHlGY0tDQjRUZ0hId180aHFKNFBSNDlTMXZXSHZhdy1INF9vWU5kZlg1N1lWUC1tWklud1JwOU5XUEhTUld5Q0NJWg?oc=5",
+   "publishedAt": "2026-11-23T01:48:54.000Z",
+   "sector": "Infrastructure",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [
+    "WAAREEENER.NS",
+    "UJJIVANSFB.NS",
+    "SHARDAMOTR.NS",
+    "ASHOKA.NS"
+   ],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": true,
+   "materiality": 0,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s132",
+  "stratum": "tail",
+  "raw": {
+   "title": "Explained | While US-China agreement offers trade relief, why firms may not reverse their costly supply-chain moves",
+   "body": "China has extended its suspension of restrictions on exports of key minerals to the US until Jan 27, 2027, easing supply concerns. But repeated trade negotiations have pushed businesses to diversify suppliers, often at higher cost, and many may retain those alternatives despite the extension.",
+   "source": "Mint",
+   "url": "https://www.livemint.com/economy/explained-while-us-china-agreement-offers-trade-relief-why-firms-may-not-reverse-their-costly-supply-chain-moves-11795537295690.html",
+   "publishedAt": "2026-11-24T17:27:47.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 4,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s133",
+  "stratum": "tail",
+  "raw": {
+   "title": "India's Core Industries Growth Accelerates to 10.9% in October",
+   "body": "",
+   "source": "Construction World",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWW81V1NOWklfMmRvUGFlbVJfUEZ6aDNMaklBdnJNdGpZZHZaLUZRZ2U3R3NGQzJmeDA0eW92ektHUXZwV0szdTRhWHRPdGNlSGxaZWNSVGtzSnJmLV9PSm5ZcHpwaFpleXFtcHRENjloZUZNd1F4QTJMQk5CbVpjRVp2Y2JGYjlUX05raTdXeUFRcWpuMGRCTzJPenVYU0VVZk5zazIwWFVTMy1ibll0R29rdXVTUUtfU0pNNWhKTHlPWVJ3aXVZbFQwMklGdw?oc=5",
+   "publishedAt": "2026-11-25T13:05:23.000Z",
+   "sector": "Metals & Mining",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 0,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s134",
+  "stratum": "tail",
+  "raw": {
+   "title": "LiveWire (LVWR) Stock Is Soaring 21.4% Today Without Company News",
+   "body": "On Wednesday, Nov. 25, the shares rose 21.4% without company-specific news",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/livewire-lvwr-stock-soaring-21-194518072.html?.tsrc=rss",
+   "publishedAt": "2026-11-25T19:45:18.000Z",
+   "sector": null,
+   "trust": 0.7
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 3,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s135",
+  "stratum": "tail",
+  "raw": {
+   "title": "Nifty recovers Monday's losses, moves within reach of record high",
+   "body": "Indian equities have emerged as Asia's best-performing market this month, with the Nifty 50 gaining 12% as foreign investors poured nearly $15 billion into domestic stocks.",
+   "source": "Mint",
+   "url": "https://www.livemint.com/market/nifty-recovers-mondays-losses-moves-within-reach-of-record-high-11795608442767.html",
+   "publishedAt": "2026-11-25T15:18:49.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 15000,
+   "amountRaw": "$15 billion",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 26,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s136",
+  "stratum": "tail",
+  "raw": {
+   "title": "Natco Pharma: A press release dated November 21, 2026, titled \" announced conclusion of US FDA Inspection at our Formulation plant located at Kothur, Hyderabad\".",
+   "body": "",
+   "source": "NSE filing",
+   "url": "https://nsearchives.nseindia.in/corporate/NATCOPHARM_21112026113624_PressReleaseKothurFDA_21112026.pdf",
+   "publishedAt": "2026-11-21T06:07:15.000Z",
+   "sector": null,
+   "trust": 0.95
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [
+    "NATCOPHARM.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 22,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s137",
+  "stratum": "tail",
+  "raw": {
+   "title": "Auto PLI payouts hit ₹4,365 crore so far in FY27",
+   "body": "The acceleration comes even as nearly 74% of the total outlay remains undisbursed ahead of its scheduled conclusion in FY28",
+   "source": "BusinessLine",
+   "url": "https://www.thehindubusinessline.com/economy/auto-pli-payouts-hit-4365-crore-so-far-in-fy27/article71738183.ece",
+   "publishedAt": "2026-11-24T16:37:33.000Z",
+   "sector": null,
+   "trust": 0.78
+  },
+  "engine": {
+   "event": "policy",
+   "trigger": "PLI",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 496.02,
+   "amountRaw": "₹4,365 crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 46,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s138",
+  "stratum": "tail",
+  "raw": {
+   "title": "Shukra Medtech: A press release dated November 25, 2026, titled \"Media Release\".",
+   "body": "",
+   "source": "NSE filing",
+   "url": "https://nsearchives.nseindia.in/corporate/SHUKRA_25112026145728_Media_Release.pdf",
+   "publishedAt": "2026-11-25T09:27:36.000Z",
+   "sector": null,
+   "trust": 0.95
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [
+    "SHUKRAMED.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 29,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s139",
+  "stratum": "tail",
+  "raw": {
+   "title": "Ashoka Buildcon L1 bid lifts shares 10% on ₹1,465 crore NHAI project",
+   "body": "",
+   "source": "Multibagg AI",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbnVMSkdTY3h4U20zek56cUFzckhDWnpwMTlxR2pXZWljaml5blNVUjhQd094N0txYWpKbzFTYVo1ZFNJMFhMaG1NMGJwOXpTNWRaWTNXM3NheUZmYkRNbmhBX0RqUU1YTlhXa1pZbm42cXd0VzRRMG01ZXlxNnh2ZC1rYktIbElWY0stNnlGS1VFU0hmUjczaDd0S19KQmlIeWc4eVR1dw?oc=5",
+   "publishedAt": "2026-11-20T12:12:00.000Z",
+   "sector": "Infrastructure",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [
+    "ASHOKA.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 166.48,
+   "amountRaw": "₹1,465 crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 30,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s140",
+  "stratum": "tail",
+  "raw": {
+   "title": "BEL, BDL Share Prices in Focus Today After India Signs ₹1,976 Crore Barak Missile Upgrade Deal With Israel",
+   "body": "",
+   "source": "Kotak Neo",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWFBibEdSd0JDYTRiWjQxUy1kZEpSdWtEUGNrSWVEODlJY21TQlBUbThFSFUwYUJnYlZGVWRobi0wVVVRRmlxSjF0Z0s4b1ZVNFF6TmlTLXZOOUtHS09lNEdEajVIUUt1V20ydkJhMUZRdzJMVWwyYlZwU2txQjN5cFgzRS1zVHlWVjdPRHdGZHNoc3E1UjRsanJ3MC1EVUhucDZNcGt5MHFDWnU1WkNzclNWb2I4MnY4RS1nWGVSYmhIMGlfTHF6VXA4clk3MElX?oc=5",
+   "publishedAt": "2026-11-19T04:38:25.000Z",
+   "sector": "Defence",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [
+    "BEL.NS",
+    "BDL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 224.55,
+   "amountRaw": "₹1,976 Crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 22,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s141",
+  "stratum": "tail",
+  "raw": {
+   "title": "BlogDescription",
+   "body": "",
+   "source": "pib.gov.in",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9fY1VLYjZrOTRBejl3SmZsdmVsR3lUbERBRHZfTDhVVFYxZ0JCMnF0NnBvMDFtdmVDbldoYzg4Qm1jdEMyeDIzUDlyS2hrWTROQ2VrM3hyTFVKSlFvak9SaHRxWkt2UQ?oc=5",
+   "publishedAt": "2026-11-21T23:58:56.000Z",
+   "sector": "Technology",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 0,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s142",
+  "stratum": "tail",
+  "raw": {
+   "title": "DIPAM Secretary calls for mobilising domestic savings, deepening capital markets for financing Viksit Bharat",
+   "body": "Arunish Chawla emphasized the need for improved domestic savings deployment and a diversified financial system. He highlighted the importance of supporting micro, small and medium enterprises through effective policy frameworks. Economic Advisory Council Chairman S Mahendra Dev stated that achieving sustained economic growth requires efficient investment strategies. R Mukundan stressed the necessi",
+   "source": "Economic Times",
+   "url": "https://economictimes.indiatimes.com/news/economy/policy/dipam-secretary-calls-for-mobilising-domestic-savings-deepening-capital-markets-for-financing-viksit-bharat/articleshow/135983279.cms",
+   "publishedAt": "2026-11-19T13:30:07.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": "fundraise",
+   "trigger": "mobilising domestic savings, deepening capital",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 21,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s143",
+  "stratum": "tail",
+  "raw": {
+   "title": "8 reasons India’s over $67 bn AI bet could outpace frontier chipmakers",
+   "body": "",
+   "source": "The Financial Express",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQR1NsOTVzcVhwaFBObHhCWGVsaGJKZzVwTURwdnhva1hob3U0Z3ItV2dkWnpiQlE5NDNrTVl1VHdISVhRdFZBa2VOM1VLX0JJYkVsRkZwbVcxT1JVUUt4TkgzZzhxQmJ1blRVUHFHSkdYdHNuNjhlZWFvM2JjbDJuSzFfQ1ptQzVJSlEySUxpc2JFZlZmX1gxaXd2TkJic0I5QXhubmZFMUdjMHpESUVkTXJ0UWY3MUc30gG_AUFVX3lxTE9neHZHNW1kMG54c0ZRelV2dHNNWEtGOWk4TVByNzNhaG5xQ3pyODV3dHV2SjdxaEtscDlYN2xOdTlUdVFqd05HTEZNNkxZSFJhTVBNZU02Z0Zrem1SNVV4OUtCWUNlWHdMd2VmRjN3eTFsREZURTk3ektMZjVnWGpxR2VPWlJYQlJOZjFkRk43aGx1aHZqOFhBNFlnSVpLWks5TVFFMXlwWldwZnEzWVNEaS1EbzlCX3hveUlJOEVj?oc=5",
+   "publishedAt": "2026-11-23T09:11:25.000Z",
+   "sector": "Technology",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 67000,
+   "amountRaw": "$67 bn",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 20,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s144",
+  "stratum": "tail",
+  "raw": {
+   "title": "Bonds vs equities: India’s stock market rally faces valuation test",
+   "body": "",
+   "source": "BusinessLine",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQLW1LTW5ld0FkN0xFYk8zM1ZVcVZ3U0RIQm5VMm5nNEMyeWhSTUItSW9LakpQWk5hRng1Z3NWWTQ1aDdWZzc1dFJXMTNrRjFpS1gwdEE5d3lOcm8wMVRvVy1IM1hWRFN4d1VhM2tvMEVzNmwyWWRsZDgxZ2tETzNBaEtEcGdMelZQZDYyWEVvZFR3bzQzbWJQUnAtVXlNTXVGTm9QZnQ2RVVrVF9SNG1CVHhuTTFBc21xOXlrWUFDam5wMWkyRHdJeNIBzwFBVV95cUxPMGYtTUJFaFZWWVJydE9SS0t5ZVpWU2U5WmJFejFjM1Jka19fTFFNd0EyMkhuR3B4Vll2ODhNSENaWGxyN2NHUnBSUDB5X0tkSnNtUFVRRHNsMUhGeXhybE01T2tyd2JWTERPVlVfMEQ1VFlUN2liUGtTV0JyM2RHM3JZNDdsZzJFUjJkV2RpX0tFVTRNbzNBU3BQZlFvclc5QXh6d3U1UFcyYjRFR2Eyby1VTXpfdU41YXlMMVJYZXhkZlc0SzlxbTNQWndMcUU?oc=5",
+   "publishedAt": "2026-11-20T03:30:32.000Z",
+   "sector": null,
+   "trust": 0.6
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 1,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s145",
+  "stratum": "tail",
+  "raw": {
+   "title": "How effective is India’s PLI scheme, really?",
+   "body": "",
+   "source": "The Daily Brief by Zerodha",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5qMlpxeFVsWHNHMGVnVWtJaTNMME9aVmlCZ0hkQkQxVkdnNnprb3pFd3cxMWhZQlB2TlVMTXRqUXcxbUtXcnBOYXlydk8zbTVoQ3lTWl91b3pQUWxZNy1TbHFFN1JHcUd3cDc1OGljMnRDR2NETU1HdlNn?oc=5",
+   "publishedAt": "2026-11-23T01:46:18.000Z",
+   "sector": "Auto & EV",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "policy",
+   "trigger": "PLI",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 18,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s146",
+  "stratum": "tail",
+  "raw": {
+   "title": "Godrej Wealth enters Bengaluru, targets ₹1 lakh crore AUM by 2031",
+   "body": "The Bengaluru entry is part of the company’s broader effort to expand its presence in South India",
+   "source": "BusinessLine",
+   "url": "https://www.thehindubusinessline.com/markets/godrej-wealth-enters-bengaluru-targets-1-lakh-crore-aum-by-2031/article71738746.ece",
+   "publishedAt": "2026-11-24T14:51:44.000Z",
+   "sector": null,
+   "trust": 0.78
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 11363.64,
+   "amountRaw": "₹1 lakh crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 26,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s147",
+  "stratum": "tail",
+  "raw": {
+   "title": "ACME Approves $3.6 Billion Investment for Green Ammonia Project in Odisha",
+   "body": "",
+   "source": "Chemical Industry Digest",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNS2kxR2FqUTdzbldOUTJnS1ZwR3hQY2tDSkxSUWpZVXRTai10THVDdVlHaUNyVGRpeVRCYmhseTdxZXIxM1VhZm9sUmFTeXY0Z3lOTTFubnBFcHB0ejA3OXFOYnhTTkhoV0Q4VnpXS1lFX3JxdzFUQnF2ZDBtbVNqUnpnZlkxZGlyc3NXeVhJWkZPd3o5WjdiRzVYbmRvOUU?oc=5",
+   "publishedAt": "2026-11-19T06:58:32.000Z",
+   "sector": "Energy & Power",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "expansion",
+   "trigger": "Billion Investment",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 3600,
+   "amountRaw": "$3.6 Billion",
+   "counterparty": "Green Ammonia Project",
+   "isRoundup": false,
+   "materiality": 36,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s148",
+  "stratum": "tail",
+  "raw": {
+   "title": "Electronics exports from India to cross $60 bn in FY27: Meity official",
+   "body": "India's electronics exports have crossed $38.4 billion in the first seven months of FY27, with the government expecting shipments to exceed $60 billion by the end of the fiscal year.",
+   "source": "Business Standard",
+   "url": "https://www.business-standard.com/economy/news/electronics-exports-from-india-to-cross-60-bn-in-fy27-meity-official-126112501247_1.html",
+   "publishedAt": "2026-11-25T18:41:36.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 60000,
+   "amountRaw": "$60 bn",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 26,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s149",
+  "stratum": "tail",
+  "raw": {
+   "title": "PNGRB proposes 14% assured returns to attract investment in natural gas pipelines",
+   "body": "The proposed framework seeks to reduce investment risks in gas transmission infrastructure while encouraging cost efficiency and greater pipeline utilisation",
+   "source": "BusinessLine",
+   "url": "https://www.thehindubusinessline.com/markets/commodities/pngrb-proposes-14-assured-returns-to-attract-investment-in-natural-gas-pipelines/article71738560.ece",
+   "publishedAt": "2026-11-24T13:26:30.000Z",
+   "sector": null,
+   "trust": 0.78
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 4,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s150",
+  "stratum": "tail",
+  "raw": {
+   "title": "Transline Technologies IPO, BEL, HAL and Bharat Dynamics in spotlight as Defence Capex rises",
+   "body": "",
+   "source": "News24Online",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd0FYWlp2UnMzQlBxcWxMeEtMc01VcFdDbC1ZRl83UGdPcDRicWJRVEwxRlhZbWVQWnFVOC14WEhvWnNsTUVvTEZ1VmFUNlBYNFJlUmo5S2VfU2VfQm9iN3hOR1doQkp2a3h6b1BxMzZnbkhfVDBOTjJEVmZ6T0lxbEt1QmZmcjFFOW5vOHVoZGw3Q2_SAZcBQVVfeXFMTndVNkpKM3ZWazA0N0JiNkZHVVBVanFCNmRmb1Bjc0hJR2c0Vm5nTXA4NTdIVmhIejg2VVhYT1VodTFELUQ2cTQ2dzd3dnUwUWtzVXlWekJfVTlWUmVzVXlpQjludkpacjkyZjlsTHdfc1lwTVdQRnpIekUyVThxYlRSd2lBNVQtbElCYUw2RVI2VXg0cXlmVQ?oc=5",
+   "publishedAt": "2026-11-20T06:31:07.000Z",
+   "sector": "Defence",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "fundraise",
+   "trigger": "IPO",
+   "primary": [],
+   "mentioned": [
+    "BDL.NS",
+    "BEL.NS",
+    "HAL.NS"
+   ],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": true,
+   "materiality": 18,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s151",
+  "stratum": "tail",
+  "raw": {
+   "title": "Private Investment Surges 58.5% to Rs 26.6 Lakh Cr in H1 FY27: CII",
+   "body": "",
+   "source": "Rediff MoneyWiz",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORV9hRVROOXlQWWZoMlNTQmtTY0UtZzhHdGNtN1ctNTZaWVJwQlBwQWhaLWdRVUg1N3B2dzRpLXNJSC0zeDBReVNoOUFkUjZaUUVyOUtFNU1wQnJ3ci1MRUt3OWxWdy1jTkxON1VKcHJjU2VZX09HN1cxY0xJTlBTb2dZNktwcEc2X01iQnhKSE1jb3hPZVNRZXF6RXhYMXJpeDJwV1dNWHhGQUNBTGc1OEF6dHJPYlZzR1pWd9IBvAFBVV95cUxORV9hRVROOXlQWWZoMlNTQmtTY0UtZzhHdGNtN1ctNTZaWVJwQlBwQWhaLWdRVUg1N3B2dzRpLXNJSC0zeDBReVNoOUFkUjZaUUVyOUtFNU1wQnJ3ci1MRUt3OWxWdy1jTkxON1VKcHJjU2VZX09HN1cxY0xJTlBTb2dZNktwcEc2X01iQnhKSE1jb3hPZVNRZXF6RXhYMXJpeDJwV1dNWHhGQUNBTGc1OEF6dHJPYlZzR1pWdw?oc=5",
+   "publishedAt": "2026-11-24T06:38:56.000Z",
+   "sector": "Policy",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "expansion",
+   "trigger": "Investment Surges 58,5% to Rs 26,6 Lakh Cr",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 0.03,
+   "amountRaw": "Rs 26.6 Lakh",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 26,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s152",
+  "stratum": "tail",
+  "raw": {
+   "title": "Saudi national in OpenAI bugging case is out on bond after DOJ tries to block release",
+   "body": "Abdulrahman Alfozan, a former OpenAI engineer, is expected to be fitted with an ankle monitor, his attorney, David Rizk, previously told CNBC.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/25/openai-bugging-aflozan-bond-release-saudi.html",
+   "publishedAt": "2026-11-25T19:11:53.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 4,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s153",
+  "stratum": "tail",
+  "raw": {
+   "title": "Sterling and Wilson secures 350 MW of solar orders and a BESS deal",
+   "body": "",
+   "source": "Solarbytes",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVUp1NlEyZWZhakE0SHlPbnVBOHpZS3pJeHk2QzE1emRmSjFRYnl1aGNVSVByand5SVo4eXpqZFB2dnNiWS1kdGlyOURBWllkd3N2Z3VzMDA3SnhUVGN6YTJWWFBZUUl1V2lLb3dpendCZFAxVksyN1htSkw4bk5CZWJtbUh5OEV6OFk1QkRER2RjM3E2YTJDcHFxRGFqWkNYMENWRFpKUDhhYVVjRlVmXw?oc=5",
+   "publishedAt": "2026-11-24T12:26:38.000Z",
+   "sector": "Energy & Power",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "secures 350 MW of solar orders",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 34,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s154",
+  "stratum": "tail",
+  "raw": {
+   "title": "Poultry body seeks stock limits on maize, soyabean; warns of Rs 40-50/kg rise in chicken price",
+   "body": "The All India Poultry Breeders Association is urging the government to impose stock limits on maize and soyabean. Rising feed prices have caused significant distress for poultry farmers amid claims of artificial scarcity. Many poultry farms are shutting down as production costs exceed earnings from chicken sales. The association estimates that chicken prices could increase significantly if conditi",
+   "source": "Economic Times",
+   "url": "https://economictimes.indiatimes.com/news/economy/agriculture/poultry-body-seeks-stock-limits-on-maize-soyabean-warns-of-rs-40-50/kg-rise-in-chicken-price/articleshow/136155176.cms",
+   "publishedAt": "2026-11-25T09:19:25.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 4,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s155",
+  "stratum": "tail",
+  "raw": {
+   "title": "Defence stocks take off! Bharat Dynamics, BEL, Bharat Forge rally; 3 key triggers driving the gains",
+   "body": "",
+   "source": "Upstox",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOQkZwSHZZTEFLSXB4QW9tRWgwQ0ZwMmUzaVloTU5vTVNaYS1fYjJHQWhmWHJpdFZVSXZ1Z3QyTUdLaFF0N0FZbG8wWGFZQzEzQ0NLMzhFbDlndnJMRVhMS1dUdS1yaUFxTEpWYTNEYlc0Vm9xMV9vbnNZT3E3X1R3M1p0SE5MNlN5NmE4emJjOEkyMzZOZXE3dmFiUXVjRTNna0NGa09tTFhTRW5nQ0FtbGxIQUtUeGJrWEpIWHJQek5WNHNSR2NYZnUta21oang2bEFJXzRoeVpONnhMX2Z1dFlqMWVKZU4xaGxlNDBGaXVPcTZs?oc=5",
+   "publishedAt": "2026-11-19T02:23:12.000Z",
+   "sector": "Defence",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [
+    "BDL.NS",
+    "BHARATFORG.NS",
+    "BEL.NS",
+    "TAKE.NS"
+   ],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": true,
+   "materiality": 0,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s156",
+  "stratum": "tail",
+  "raw": {
+   "title": "Infrastructure Projects Worth Rs 38 Lakh Crore Under Active Monitoring: Govt",
+   "body": "",
+   "source": "Ommcom News",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbFF4Z3Z2c2NDZTBHc1RxbElvX0N3WnJQbDlOUlJqS2xvcEdCNzlhX3Z1cDBodmZaVmN0bGlpTmtUenBqUW1tb0RfTGJvanVIWVpqSmJnNTAyaENtc0I2d1c3OXY0UUllM0pmelZXRERGelVvdTBxT3FmUEtWNHNKbmxxamlReVhmQThCX1RQbVAyNXBVOWhZQmlheUpJYldLZXZOYUpHR1pET2JIQ19B?oc=5",
+   "publishedAt": "2026-11-25T12:28:13.000Z",
+   "sector": "Auto & EV",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 431818.18,
+   "amountRaw": "Rs 38 Lakh Crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 22,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s157",
+  "stratum": "tail",
+  "raw": {
+   "title": "Indian stocks rebound as AI selloff deepens across Asia",
+   "body": "",
+   "source": "PRESS Insider",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSmp3OHNjLVYxUkRfcHJONTdmX28xXzI4QWlnTG9raVhiS2ROWU12cEZIc3hWZXZ1b19CQ3lKeGI4aF9fQjdNdW5vZlVRQXdfUnhIalZqNk4xX3gtRkVsd3pkZlgxNm9DclVBX0xMUS1jNC1zUmhFQ0x2VWJFVzZNMG1MaEIzak5nM3dCX2R0SQ?oc=5",
+   "publishedAt": "2026-11-25T04:21:30.000Z",
+   "sector": null,
+   "trust": 0.6
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 1,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s158",
+  "stratum": "tail",
+  "raw": {
+   "title": "GE Power India Q2 orders rise 38% as core services gain",
+   "body": "",
+   "source": "Multibagg AI",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbUNpU0FzZXd6bDJrZnk3ZkthMXM5TFpYTl9LQUNEdWEyVWFDVzRHbmhib0VfLTBwRzJvMHRMc2hCNzltSElrRHhtb0Z4alotNXBkb09LYU1RcUQ1ZVM5MWg3VHotV3hsZVo4OVBTczVqX2Q4Rk85SDR6bmtWUkZDbFN2WnFndTZkQTdrbWticm9nZ3EtZmxZbDNUc0xXZl9kR2ltd0tzVUE?oc=5",
+   "publishedAt": "2026-11-20T13:31:40.000Z",
+   "sector": "Energy & Power",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [
+    "GVPIL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 16,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s159",
+  "stratum": "tail",
+  "raw": {
+   "title": "Anthropic's ₹7 Crore Lobbying Payment In Washington To India's Electoral Bonds, The Revolving Door Of Money And Power And How Lobbyists, Billionaire Business Houses And Political Funding Are Reshaping Democracies",
+   "body": "",
+   "source": "Inventiva",
+   "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxOSkt3dWFjQUVwcUpFem0xU05URGc4X29FTzJKRzFjdElweF9zeDVxUFpLSEpjbEtITGtSb0xOQXhfMzhWRmpXWFFnX0lxNHphc1ZZUm9uVjd4VjdVVDAxdWVrU1o1Zl9fZWxrRGpjeWZ2dzlDaXlpSHRuaGwyWi0xTU1GdVpaM1hJb3FNdkxKWXQ1MnJWQzd4NkJRUDBsTWxhSGNtclh0NDlHZDBuaXRnUVFqVENVeWhXcEFGVEJRZU9WMzVab0h5emtEN2lhRi12MEJkSU9VMDRmU2I4M0FjUFBqU08zQmZjSXRDZTJ0QWRDZncyT3djUTN0SWpOcUdldmE4cjJLZ2lsQllkNlN4aHNDVm1nMHdmd1Y3V2g1NWI2TVk4Z2JKSGFYbjNBTFZ1MUJnQTJRejFmYWlSN3ZyTWZSOTRndmVoUkRXOFYwaw?oc=5",
+   "publishedAt": "2026-11-19T09:33:14.000Z",
+   "sector": "Defence",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 0.8,
+   "amountRaw": "₹7 Crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 1,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s160",
+  "stratum": "tail",
+  "raw": {
+   "title": "LG Electronics to sell up to 2% stake in Indian arm to meet MPS norms",
+   "body": "",
+   "source": "The Financial Express",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOU9GNW8xVTNXSGRyT083Qnotdy1ucE1GZTFWWXFkRVU3a3piT0NTZzFnNG1YbC1xbjRZMnlWZzFOc2pwQmJGSDZtX1B0ejZwNnhFV0p2ajBscVRDajlESGFIYmFhZWttTWJZTWVJM2kxQXBRU0lBdU9SWTJMMXhWRVBLQ1V4Z0dZUHlmVnMzU1ZSMjI1alZSam9FcDhXdGZQcENrc1VOZ3RYRGdocTJZQnZoRFFtYk00YVFTSjNVbkRUeXJUVV840gHOAUFVX3lxTE5fcS1nMjV4TEdsQ0M3LXU3dGVtRW9Dam4xNHItY19Yanlua1U4cHBJbUZxV2VDUjNVV1A1WDZVUzdTUHBLbk80dm40QWFVYW1fNEhmUF8yRlhPWTIycndwNU1UTHdiRURvV0Y3T3BIUmZMSXgtNDNKYUlFMEFteWphNmJ5YlFlaEo1SktQUVk3T2QwTnVhdjUwZ1BpRTMwQ2hSaEJUenlMZnZJSnBrWURCOWp3QV9ZYzZHX1lsRnNRUHFuRlAxNHB1ZUxPWjZR?oc=5",
+   "publishedAt": "2026-11-25T14:18:47.000Z",
+   "sector": "Energy & Power",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "stake-change",
+   "trigger": "sell up to 2% stake",
+   "primary": [
+    "LGEINDIA.NS",
+    "MPSLTD.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 34,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s161",
+  "stratum": "tail",
+  "raw": {
+   "title": "Zelio E-Mobility gets BSE nod for ₹168 crore preferential issue, warrants",
+   "body": "",
+   "source": "ET Auto",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPVlhOZHFNdXZMNkdvekhXX3NkVkxtNjJlS1VtTlhKalRJOTMtazlISE44R2dMM0tHcDdmN3BkYktieTNrZFpEbFdZb2tVNURwX083UFh6emtiN0tzNk5ZZnJrbFM2bWxNLVB5RU14aUN3ZnI1WGdDQjlqTjFrOVpDa3pabDFHUmpiOEZUS2pzZ3hHWUN0RzBNSGhWNUxDdmdKRFhsbEh5eXFrNFR5RXJWZzhYSXN5VkVVMXBKVGZzcHN5UGs0RU5vdjc1RElIZlpaVW9V0gHXAUFVX3lxTE92N0c4T1FiQ2p3cVFjcm9SYkRtS1ZBVXVxcnN2RGVkRWctNGZIRGF5N1pDWi1WZ09yMVJXbU16OUwtb1FkdEgyY0t3TmNQdXN5QlNQdW84aW1DcXc2S3VVM2VQQTZOaUV2TXd1Mng3SDdWb3o2bi1iQnJlWVJ2UGk5T0UwZnNEc0NwdjlIam0zNWg5TzRPNks3cU50MkNFRW1yT3c1Mms2U3VwTWJyV3Y3MGMxcXpaZU4yXzhqZHBrOWRwS2xQdEdiQUR4ZzJhTVlGZmpySHcw?oc=5",
+   "publishedAt": "2026-11-20T15:16:56.000Z",
+   "sector": "Capital markets",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "approval",
+   "trigger": "gets BSE nod",
+   "primary": [
+    "BSE.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 39,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s162",
+  "stratum": "tail",
+  "raw": {
+   "title": "Tata Steel-APL Apollo deal under governance, valuation lens",
+   "body": "Corporate observers also describe the transaction ‘hostile to shareholder interests’",
+   "source": "BusinessLine",
+   "url": "https://www.thehindubusinessline.com/companies/minority-shareholder-concerns-intensify-over-tata-steel-apl-apollo-deal/article71739426.ece",
+   "publishedAt": "2026-11-24T16:34:56.000Z",
+   "sector": null,
+   "trust": 0.78
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [
+    "TATASTEEL.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 26,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s163",
+  "stratum": "tail",
+  "raw": {
+   "title": "Can India Build the Machines Behind Its $1.2 Trillion Industrial Boom by 2047? Data Centres, Semiconductors Drive Demand",
+   "body": "",
+   "source": "Open Magazine",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQbkhsdkdaTzdLUVhfbkJTODFHMnBNMmRtSEJXZXJmWEF6Z0FCQUM3WGhaVFZPbWpKNUVWX3RZbE0xb0w4UmZ5T09MdFpFY2NsUGxxSGNlZFZibWd4cHByV1VMZXktS3g0dTUtTlZUd1dQRXh1VzVXR3NxLVhncjlTTW9iYnNBQ0VfRjVPOWxXRnlxc3B3anRRQWVzMUpRN0tIWUEwdUd5ZWFTTFNQVFZlQ3ZzZGpEWGpSVlZSR1BGQUVGNGJXUDhQdi1BSTJRek9SZjVWeS0xRFR1V3JzNER0TjZUTXBrX3FOcTBv?oc=5",
+   "publishedAt": "2026-11-20T10:42:52.000Z",
+   "sector": "Technology",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 1200000,
+   "amountRaw": "$1.2 Trillion",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 16,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s164",
+  "stratum": "tail",
+  "raw": {
+   "title": "Anthropic's IPO caps explosive growth period for AI startup, filled with contradictions",
+   "body": "Today, the company that dedicated itself to prioritising safety, building the Claude chatbot along the way, has been one of the loudest voices raising warnings about how the same technology could bring catastrophe. It's one of the contradictions that mark the brief, colourful history of Anthropic, which emerged Thursday from its first day of trading on Wall Street with a market value of $1.75 tril",
+   "source": "Economic Times",
+   "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/anthropics-ipo-caps-explosive-growth-period-for-ai-startup-filled-with-contradictions/articleshow/136017308.cms",
+   "publishedAt": "2026-11-20T07:03:48.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": "fundraise",
+   "trigger": "IPO",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 21,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s165",
+  "stratum": "tail",
+  "raw": {
+   "title": "Sensex Plunges 1,484 Pts, Nifty Below 25,350: Worst Fall in 4 Months",
+   "body": "",
+   "source": "Rediff MoneyWiz",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQk1faHV3WVNPSEVVNG9xQ3kySjFHX3prc0pwUUVJUlRpenNySV82dHd4TUZyZGFiRGFlSDZBTWJEcU5YYVBSRUQwd3kzX0thbFpVazBxb1gxVDhYZ1N2SHNkdUlrWVFEQWVPUFcwZVMxX3pfeFp1R0R4bHlrS0J2NFEtaEVTM1gwcnNvbF9OT0JyWlgzdjBROVBpV3I0dmpHaENNaHRMUEp3WnJxcFRjTWU5NjFyTU94blHSAb8BQVVfeXFMTjhndnZjazZ2cHMydXNfWWhpNUIzUEJ3NWJybDNRdEMzRVhsUDFaeVc3Q0F5RldnYU5NSDNNNTM5OGtYdE9lR0lRZHpycXN2N2luQ2k1bFA3NjZzZkRqQ2piTWIyUEdVT2FxQ3VFY1lGamhNWXlNeWxYd1lPQnRCbm1rNFRKYjZFOHowWEE5NTRXSEZPMkZMTVU1Wko2VHpxam90eE1ZaEw4MTZaWDJUdlFEUmszeWJXdVdDcEdVdUU?oc=5",
+   "publishedAt": "2026-11-23T11:36:15.000Z",
+   "sector": null,
+   "trust": 0.6
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 1,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s166",
+  "stratum": "tail",
+  "raw": {
+   "title": "RBI warns Yes Bank AT1 bond ruling could weaken future bank rescue framework",
+   "body": "The case relates to Yes Bank's rescue in 2020, when authorities wrote off Rs 8,415 crore worth of additional Tier-1 (AT1) bonds. These securities are designed to absorb losses when banks face financial distress.",
+   "source": "Economic Times",
+   "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/rbi-warns-yes-bank-at1-bond-ruling-could-weaken-future-bank-rescue-framework/articleshow/135963509.cms",
+   "publishedAt": "2026-11-18T12:48:43.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [
+    "YESBANK.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 956.25,
+   "amountRaw": "Rs 8,415 crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 24,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s167",
+  "stratum": "tail",
+  "raw": {
+   "title": "Dabur India Ltd. Downgraded to Sell Amid Valuation and Performance Concerns",
+   "body": "",
+   "source": "MarketsMojo",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPX3hubXBWcnZBTzcxcnRkMkFsaVlzWHJJbENmS2ZZZWYxR0c5UG5OREZQdWlBUWVUMXg2Rmg2V2k2VlQyUkV0d185VFFWODB5Q3hJa2tER0JoTzExRU1GVzBZdE9tcjhHUWQ4enJIRWN2ZlVBX1pIbWVfT3hncWZOTzQzVC1teDlWY25BWDJ4U2Z5cTNwckwtSHR4ZlhGeVlEemtYMFlpZkgwSHd4Q0ZtTWN6ZDRILUgzbXdkcnVsazBfWFFaeEVPc3ZsSkZvQWVUanc?oc=5",
+   "publishedAt": "2026-11-23T13:16:56.000Z",
+   "sector": "Consumer",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [
+    "DABUR.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 20,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s168",
+  "stratum": "tail",
+  "raw": {
+   "title": "CtrlS partners Bihar for ₹10,000 crore AI data center",
+   "body": "",
+   "source": "ET Datacenters",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONzEtM1J4WHRWaWVsd1BwMHl5NTYyZlBUNVVrc1BuWm1nWHVyRVA3eG1DODRpcEZ6NEN3X2xBWHlkdk9WNENsVnNMd1o0WkgzNV9SenBJdV9JbWtXZzUxVTUzR2lIRXQ1c09jWmlrNnlZS2NYejM3RWdkeUV3RkRseU1tRkV6WGNzSXVXUzNxcUR1VHFXdlduNDVpaXZYaG1rcm01eHZyNmkzWU03Z0lnRm13R0J6OFA3cjByaHVCNU5BNkM4R3VPaDVGSm5JUdIB0wFBVV95cUxQQS1rX0FDOG9Oc1dUVERWTDFJYkxIVWlETjU4ZGJLSXNSVmNVdEd5cmp4WWVPSGdZVS10dnhaS0RIQ0pobkdEbXRLTktTTHd4eEZLYTFkNndfS3M1Q0d4X3k1RzJFbTIyQklXNXVySTFpRXdMMFJ6ZjV6WVZQQmZxTUM1dGwzV0lMb3IyOV9ibjNfUDBZdUNxVVNDTFlpakV2ODBBYXNPUDBNUXhzeVJqSEtJZ3g5VVVHWTFHR1k2c3pyQkJ0c1kwRzZidUROR0xGX2kw?oc=5",
+   "publishedAt": "2026-11-20T19:25:39.000Z",
+   "sector": "Technology",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 1136.36,
+   "amountRaw": "₹10,000 crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 16,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s169",
+  "stratum": "tail",
+  "raw": {
+   "title": "Multibagger Alert! Up 102% in 1 year, more rally seen in this small-cap power stock - here's why | Check target, upside",
+   "body": "",
+   "source": "Livemint",
+   "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOcnExUTNQVGg2NERtdE1JcnJGUlYzbWVqZVFkS0RvNVMyLWZteUw0cHcxNUlnT19YZURHa3NLenpsLWJfZWlQM1BGeEN5dHI1dXY1TkdaVWJxWW1YV3dqODZycS1DSlRUc0FuQU9kSkxGZ3AxeDBwWXVkLTJjMUtmRURFV053VXNYdlYwUG42cXkxeEJtRk96cUJES3JGTU5hV050eGVvMVAyemdZd01SQlRMcGxpQVlBZjVIcUZHQmQyREVtZEhfTko2STBtekRnSDlUWHh5VFZ3dzB6RldINU9OSGo3MHF4aHcwbGI3Z29vcm80NHRWMTdmU0c1bGVidk42NFVOVVlyZV9a0gGSAkFVX3lxTE5LcFFGdXlDb1pLVFM2YlBFM2dFX0h6bEx0aXhXdzltNWhhbTlLSFpHNUdFUkRrWEFIc3hmbXR1V1diQU5XeWlDR0tPSnUxYmFUcmc1Yy16R3ZpNU9ncGFaWnRyVGVBVEZpNDUyZ1lnMTBoRU44NXh2Z2VORU9WT0lZdmJoMVEtMDY4d0hEM0RzMUJ5aVlrN0xEaEJscTk5SVdIdmx6bkFxV2JGSkNVOHFpdGNrVHE2QVlHZV9KNzFPRjJ0OXFmdGlLTHRGRHN1b2xVWG56c0dibnU2aU5vTGF0ajBQRUFYQXlXMDdrMEtieXZESzFYVERRQi1POVJWdTNFODlVb3BaZ09raGpzVkVSY3c?oc=5",
+   "publishedAt": "2026-11-25T09:15:52.000Z",
+   "sector": "Metals & Mining",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 0,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s170",
+  "stratum": "tail",
+  "raw": {
+   "title": "AI fails to deliver significant earnings gains for most banks despite productivity boost: McKinsey",
+   "body": "Banks are yet to convert widespread productivity gains from artificial intelligence (AI) into significant financial returns, with only 6 per cent of surveyed organisations attributing a substantial share of their earnings to the technology, highlighting the need to redesign business processes rather than simply introduce AI tools, according to a McKinsey report.",
+   "source": "Economic Times",
+   "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-fails-to-deliver-significant-earnings-gains-for-most-banks-despite-productivity-boost-mckinsey/articleshow/136148515.cms",
+   "publishedAt": "2026-11-25T04:48:54.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 4,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s171",
+  "stratum": "tail",
+  "raw": {
+   "title": "Five pharma CDMO stocks with robust revenue growth in Q2FY27",
+   "body": "",
+   "source": "Livemint",
+   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOSmFrNTFNSktyWk5oNlNVWmxHVGtxUTdEVjJid3E4ZU1kUG55SER4aXBLU1VGWkdueTR3eWFYaUthZDlqNmd5VmRqWVZZMG8zUlFsVm4wNnZ2enBRZ01GQUluNTVubUVNQUhNZjFoVjFPYmRfZmJDUDEtZGU5eUtYNXduX0plYkgzb28wU2U0enhqMWdMeTc0MVQzTEZXN2d6T3oyZmdVUS1SZGlHb3Z6RlNMS0Z3UFBOVTh0RzBCZkFlUnNEUlZ6TmVtU3ZpM1A5TmJUSWtyeTE5MUhtYzBDdURNS2t3S2pqRGNqd1QtSnlYMk1hVWg1X9IB_gFBVV95cUxOM1VRcHktWlg0VDBJaHktcFhEeVNpdE1fajcyYUZ4TDF0YjVQcGpfUW9pUVpVWFllaVlpYy1FYkp5bU5IcjNCZWhoRV9EU3BxR2JzTXFfVHhhaXZmaFBWVHdHZVZqX1UyelhWczVNMWtweDZiSVlfZjVjSEdpR09HRTg5c2prcFNIZi1LMWt6QXZiMmtWY3FzeC1CRF84a2tLQ3I2Vk1xbjVOemJVbkpSY3o1OUl2UTlnaWxHaTlGeWRhMkMzREJhT0F2NFNrZHZOaGY3LTNOa0k5d2tIRzl5UHl5OXZ5VmgxYTFvZXBHVHV6eExvQUZHeXctWUM0dw?oc=5",
+   "publishedAt": "2026-11-21T01:30:28.000Z",
+   "sector": "Pharma & Health",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "earnings",
+   "trigger": "revenue growth in Q2FY27",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 21,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s172",
+  "stratum": "tail",
+  "raw": {
+   "title": "Economic Times – Leadership & Wellness Feature",
+   "body": "With over 14 years of experience as a neurosurgeon, Dr. Sai launched Vaidya Healthtech to revolutionize healthcare efficiency. He aims to build a connected healthcare ecosystem for secure patient information management. Understanding the significance of personal health, he highlights fitness practices as vital for well-being and encourages individuals to view fitness as a necessary commitment amid",
+   "source": "Economic Times",
+   "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/economic-times-leadership-wellness-feature/articleshow/136147782.cms",
+   "publishedAt": "2026-11-25T04:14:27.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 4,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s173",
+  "stratum": "tail",
+  "raw": {
+   "title": "One Point One Solutions: A press release dated November 23, 2026, titled \"Intimation of Press Release regarding securing a four-year contract from Costa Rica's National Training Institute (INA)\".",
+   "body": "",
+   "source": "NSE filing",
+   "url": "https://nsearchives.nseindia.in/corporate/ONEPOINT_23112026091000_ONEPOINT.pdf",
+   "publishedAt": "2026-11-23T03:40:53.000Z",
+   "sector": null,
+   "trust": 0.95
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "securing a four-year contract",
+   "primary": [
+    "ONEPOINT.NS",
+    "INA.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": "Costa Rica's National Training Institute",
+   "isRoundup": false,
+   "materiality": 46,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s174",
+  "stratum": "tail",
+  "raw": {
+   "title": "Kheria Autocomp wins Rs 12 crore work order from Yanfeng India for MG Hector Project",
+   "body": "",
+   "source": "scanx.trade",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcGFoM2NYd2g0WVZsOEo3TnFOWDdkcHgwY1ZTTFZXTDQwYURXRGFVNzNDc1dOVDlxS096eEF4azFfNTVHOGUtNFVMbkRYRXZkZTZjdmVmY2JQUFNzRHR0Qk9XS3F4QkRRSDZDNnl6a0RIazNwZ21uUnB3dHFlMUFIY204VG1wbVFmN2sxNW55OFI5ZEgwQURZQXcxOTBmaWt4SU1XRThIcTN3eG5CMkxwOGhadTllc0FqdEVUN2ZvVS1JUQ?oc=5",
+   "publishedAt": "2026-11-25T18:48:20.000Z",
+   "sector": "Auto & EV",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "order-win",
+   "trigger": "wins Rs 12 crore work order from Yanfeng India for MG Hector Project",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 1.36,
+   "amountRaw": "Rs 12 crore",
+   "counterparty": "Yanfeng India",
+   "isRoundup": false,
+   "materiality": 37,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s175",
+  "stratum": "tail",
+  "raw": {
+   "title": "FPIs inject $16 bn into Indian equities since Oct 16; five reasons behind foreign inflow surge",
+   "body": "",
+   "source": "Fortune India",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQeVpyN1A3bkdEVmNzSXMxM3laQmMwNGt6c0JtQU9LOERkZlF5WnJ1ZUFJR1MyQnVYZl9wUjdhd0hFWWt0djY4eDZ4SnhtYTlxc2VnMF9RZlQ5YkVQZXFMS2pGdGl6d3d3SHdhTUZQUWF4TVUzQ1p1X0NsVHU5b3MtZEs2VUM0TWhxNTFVQ3Q1LWdWbTJWSjE3YmthZVBQcXhSMTBCS0sxRGtrakJiNW5iYy1reVBQN2hPYzlZSElLRzhwcmxtb3J5SzVOYXVCdHRSZV9PQWlPQ09lVjRuczlJ0gHfAUFVX3lxTFB5WnI3UDduR0RWY3NJczEzeVpCYzA0a3pzQm1BT0s4RGRmUXlacnVlQUlHUzJCdVhmX3BSN2F3SEVZa3R2Njh4NnhKeG1hOXFzZWcwX1FmVDliRVBlcUxLakZ0aXp3d3dId2FNRlBRYXhNVTNDWnVfQ2xUdTlvcy1kSzZVQzRNaHE1MVVDdDUtZ1ZtMlZKMTdia2FlUFBxeFIxMEJLSzFEa2tqQmI1bmJjLWt5UFA3aE9jOVlISUtHOHBybG1vcnlLNU5hdUJ0dFJlX09BaU9DT2VWNG5zOUk?oc=5",
+   "publishedAt": "2026-11-23T08:23:29.000Z",
+   "sector": "Technology",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 16000,
+   "amountRaw": "$16 bn",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 20,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s176",
+  "stratum": "tail",
+  "raw": {
+   "title": "Gift Nifty Signals Flat Open for Sensex, Nifty on Wednesday",
+   "body": "",
+   "source": "HDFC Sky",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPODZhS1BrQmxndVh6ZmhENklMMTA1Z2Rybl9mN3VXVnhDTmF6U2NKU2FoaTE4SlpFcmtseXBnZS1uVlJfZ3FpMHBqNEFWeVBWZjVGTm52OWQ0ZU1rRFBnVnV5UkNvTWF6Q3hwbkhMVHVPX21QX0h5aEFyNGhadFZWUFVxYmFnMXlpRnU1b29B?oc=5",
+   "publishedAt": "2026-11-23T11:19:37.000Z",
+   "sector": null,
+   "trust": 0.6
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 1,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s177",
+  "stratum": "tail",
+  "raw": {
+   "title": "GPTINFRA arm declared L1 for Order Valued at Rs. 120.95 Crore",
+   "body": "",
+   "source": "EquityBulls",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTnVoOXR0LUI5QTBGbkhpX3pwVm9HdUVZUlU3SkdrUEpnck9kQnU1U0FkcU16blp2T0RGVTZ3blV0VHdBc1QwaEFTWERjb0M4RkVjWUNxSUJtR0V4N0x2U1UyQXhkUDA1WjcwU2xINlUxYVlLTzZ0bjF2N01zcDVCeTVTdWdiQWxZeGhIRA?oc=5",
+   "publishedAt": "2026-11-22T14:35:55.000Z",
+   "sector": "Railways",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [
+    "GPTINFRA.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": 13.74,
+   "amountRaw": "Rs. 120.95 Crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 28,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s178",
+  "stratum": "tail",
+  "raw": {
+   "title": "Grasim Inds Share Price Live Updates: Grasim Inds. Stock Price History",
+   "body": "",
+   "source": "Economic Times",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/stock-liveblog/grasim-inds-stock-price-today-live-25-nov-2026/liveblog/136151488.cms",
+   "publishedAt": "2026-11-25T06:49:20.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [
+    "GRASIM.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 26,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s179",
+  "stratum": "tail",
+  "raw": {
+   "title": "India’s semiconductor ambitions move beyond the factory floor",
+   "body": "",
+   "source": "Tech Observer Magazine",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQkJ2T1M4SUZldTdoRk5yNERIeW1rQ1Fqa3hVeW9MV3RFT3JLeXpwRGlXN2hTdG95S1hrUXVwT3d1MmtwMHJWNWpwTGV0TGdLUWdwV0ZJQ2MzMUdYTTVHd05SMXRsM092akNxOEotSFRlbGhvUkk2TDUtZ3ZBZHlnaF9pQ3lVOEFqVnlMNEExRkZVT2NCNzVoRjRsQktDSkd2RnVkeENxZkYtUnc0Zkc5TVpQSXExVzhuZEtrM9IBwgFBVV95cUxQWWJRVVlTR2FTTFg4cVN2ZXlzbEIydTlydjFMRlI2Q3B6QWxSTmxEYXYycUVSRjlDWFNqQnBsQkRUZ053a2kycDdOWW92V25KODdlNkZUWVZGQnptS0xTZDJTQmxHSGVxVm9DdTRtUUtFWFRBMENHTVg4N3FNS1ZQR1htTWxXSHowVE9VUGRaeGFRbWF2bFNyUVdaZmdLZldjZk9uSzdVRTE1Mmp0djYyUWdMYmRaS0pmQ2xEOGhkWDRMdw?oc=5",
+   "publishedAt": "2026-11-24T05:37:48.000Z",
+   "sector": "Technology",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 0,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s180",
+  "stratum": "tail",
+  "raw": {
+   "title": "CtrlS to invest ₹10,000 cr to set up 150 MW data centre in Bihar",
+   "body": "",
+   "source": "ET EnergyWorld",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcnk3eEtQSEhMbGJyNHMxVDNQUFoyTUluYVJvbTdtLWVQNzRKblhWeGdJWEFZTUoxUlhxQ2dNbElaOXZOTk12aUN2NDlLRFBIVldRd2JZMl9RLUFaMm9aOHJBRjRJdi1UUWRDUW5aZlFHckZ2ZkVNWFRpT2ZoSTlYbzRjYXF6b3h6T3VmZGVYXzJsLWVNM3V5WUkxYkxrYjVSSm9mZXg5am1nb0VBc29DejdUZlVLSzYtUDZ3NFY0UE1GUVRaTWfSAcsBQVVfeXFMTk9RX280NlhTaW5jVmpDNnlKTkE2QzlmRUFPVTR1VlFwN0xHMXJoYW1qVUZlTnNjakp4MmFWYkxsbV8yN1hDSk9rZTcydmRkdlg2WGNyV0h5ZmxQb1RFY2p4dXctMEQzUUlwb045dGJkUUZlbGRaSGI0amJWZHpwLWU1TTdkZG1wS2pMdXltZUFycERGbzV2WEx5V1RpYlJya1lPaGlFdWIyWUtzN0JheHgtLWRjOU5aV3NTRFlXdEhvSHhXV2hXOGxkQk0?oc=5",
+   "publishedAt": "2026-11-21T10:31:29.000Z",
+   "sector": "Technology",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "expansion",
+   "trigger": "invest ₹10,000 cr to set up 150 MW",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 1136.36,
+   "amountRaw": "₹10,000 cr",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 36,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s181",
+  "stratum": "tail",
+  "raw": {
+   "title": "Crystal Crop Protection IPO allotment finalised, listing set for November 26",
+   "body": "",
+   "source": "Elets BFSI",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQTZQSkFKT1d4UFg1X1JEUHhtZ2x5ZjR4TkNUeHNUUXE1dTE2dzlxUWs5TUFvUVRydnRxWm9jUUtYNlQ0UFZaeFBFclNSRUZPbTFEY3pjc21NeDdQNk5BWlNvRWJMSVBOWDFpMXBpNXBBbXh0QnNJcnBsUWtGMTJIcEl1cnBxN0tNY2t1UnNiOU9abFJCNkN1YQ?oc=5",
+   "publishedAt": "2026-11-21T21:15:12.000Z",
+   "sector": "Financials",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "fundraise",
+   "trigger": "IPO",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 22,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s182",
+  "stratum": "tail",
+  "raw": {
+   "title": "Aeravti Ventures launches Fund 2; targets corpus of ₹300 crore",
+   "body": "These investments will span opportunities across agriculture and allied sectors, biosciences, life sciences, advanced manufacturing, waste management and energy",
+   "source": "BusinessLine",
+   "url": "https://www.thehindubusinessline.com/markets/aeravti-ventures-launches-fund-2-targets-corpus-of-300-crore/article71738695.ece",
+   "publishedAt": "2026-11-24T14:22:19.000Z",
+   "sector": null,
+   "trust": 0.78
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 34.09,
+   "amountRaw": "₹300 crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 16,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s183",
+  "stratum": "tail",
+  "raw": {
+   "title": "Beyond the Buyout: SE Asia’s data centre boom faces its first test at the financing table",
+   "body": "",
+   "source": "DealStreetAsia",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQd21sbzQzcVJ5X0Y2NWhGZEhOcmlZTWVYbTlzMmJNdTlaeWY3TG1tcVlEYTFIRS1mY3JzTmJMR3VsS2VHU1VsWEl5U3M2YTBITE5PdkQwUUllRXZMQkstSTRCa09vY3B3NVprd1FqYWhFTlA2LThrZU5wcXNOUFdXb3lrNThXUFk?oc=5",
+   "publishedAt": "2026-11-20T02:33:01.000Z",
+   "sector": "Technology",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 0,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s184",
+  "stratum": "tail",
+  "raw": {
+   "title": "Royal Enfield investing ₹1,000 cr in Tamil Nadu EV plan",
+   "body": "",
+   "source": "NewsBytes",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRDhTYzlKaWU3ZF9Bc3BJTk91aHlnM2kyejAtN21WVXFId1NFaVRyVVdwcG9VczlnbmpRdERGb05qNUs0RkFsTndueXV4aGdNa19CSEc1OTZ0Zmk5TGI5QmRDQXZOMmF2Y25TVC1kX25XOXhiTl92YUpFcnBaeENnUXRfekFqQl9FSUZfNUNLRzNrRDZVMlpGdjV6b2Q2Qy1kSjBIR3FB?oc=5",
+   "publishedAt": "2026-11-25T09:46:22.000Z",
+   "sector": "Auto & EV",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "expansion",
+   "trigger": "investing ₹1,000 cr",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 113.64,
+   "amountRaw": "₹1,000 cr",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 42,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s185",
+  "stratum": "tail",
+  "raw": {
+   "title": "From AI ambition to enterprise action: Key takeaways from ET’s AI Business Transformation Masterclass",
+   "body": "The Economic Times AI Business Transformation Masterclass & Awards 2026 served as a pivotal gathering for industry leaders to delve into the transformative role of artificial intelligence across diverse sectors. Engaging discussions highlighted AI's applications in finance, supply chain management, and consumer experience while showcasing remarkable products that exemplify the tangible advantages ",
+   "source": "Economic Times",
+   "url": "https://economictimes.indiatimes.com/industry/services/education/from-ai-ambition-to-enterprise-action-key-takeaways-from-ets-ai-business-transformation-masterclass/articleshow/136157930.cms",
+   "publishedAt": "2026-11-25T10:42:03.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [
+    "ACE.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 26,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s186",
+  "stratum": "tail",
+  "raw": {
+   "title": "India's IPO market set for bumper December as 6 firms prepare listings",
+   "body": "",
+   "source": "The Economic Times",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOODM2a1lyTTYybHhsbWgyWlRxbXFZcTZaRVVjcVlkenBwX0lhVFpCWTJUQjFqYzdaTFk3Snp0NEZScHNtX1NTZWw4enpjREZ4bU40QnBrZy02bWxnMFhyTlVHU1Q0UUV4dlRCenFNT0UtMWFjLVpYUEJZZmF4NWN0TERXT0ZWX2F1S2NEU01XNHM4bUpkVXRRbWIwbk5TQTBlQ3Vub0JLNG84TkFzZDAxUlRyclRKazJBUWNaQ2FEcThBX085YjF4NDVaYTk2eXNjdlJoMnFiUdIB3AFBVV95cUxQMDh1YVBqd2dxbHFKQ01KcGpJQlR0c1dtVFlhdnNMOTdONzdyTEdnZVNEbFFrV1dNbFhzcHE3Tml2bXdyUWFrTUhYVXVTSjBqUldtVE1RMS1nZjRuX3JackJTRzh0cFBGQVk5NTJMRW1hVXRXbXVQSHVaeW9fa2Fidk9sNkFreTBQTEFQQWZYYS1FWXplVE5QVEMyMjhLeEJIZEFwakZMc3RLdGhyTzRkdVBEQkZLSU5sTm9pb1VZbkkzeUFVcUxRaWF0cUlFUUh3OEwyUm85STNhQUt4?oc=5",
+   "publishedAt": "2026-11-19T00:34:33.000Z",
+   "sector": "Capital markets",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "fundraise",
+   "trigger": "IPO",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 18,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s187",
+  "stratum": "tail",
+  "raw": {
+   "title": "US Tariffs on India: Fresh Levies Loom as Trade Deal Awaits Clarity",
+   "body": "",
+   "source": "NiftyTrader",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWEI2cVVtTnkydUpSQy1VbEJyR1dwZl9rc1VLZVA4SFpoYWJMbkx1OUlGS2lpOXRqcGVPMzZRV2FPSGpITkVEc2JINndGWTczbHpLM1dPWkYyV2RaWUpYYzEwbkl2VlRaS053VmNVY1pLMFNDY3A5ZFdaTUkzU3pnSHhxOA?oc=5",
+   "publishedAt": "2026-11-24T14:56:08.000Z",
+   "sector": "Policy",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 0,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s188",
+  "stratum": "tail",
+  "raw": {
+   "title": "Share Market Today: This Smallcap Stock Plans Rs 648 Crore Fundraise: Do You Own?",
+   "body": "",
+   "source": "شبكة تواصل الإخبارية",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XV1VRMmRHUTl5Rms2NjVSOU9lU3E4RjVZa1N1WDdmcTdFdThRM2E2N0dqSDNRNjQtQkE1SmJZbUdiT3ZYXzFzVHFwX1RVLTd3SE1n?oc=5",
+   "publishedAt": "2026-11-25T09:19:01.000Z",
+   "sector": "Capital markets",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 73.64,
+   "amountRaw": "Rs 648 Crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 15,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s189",
+  "stratum": "tail",
+  "raw": {
+   "title": "NISE Offers INR 2 Crore Aid for DISCOM DERMS Pilots",
+   "body": "",
+   "source": "Energetica India Magazine",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRFU5SW1sQXBEY2dWN1RjOFE3eUVsX3ZqOS0yekdBY3dDdlFXSWpqZVhzLVV0LUVwd2wyMm9iOGJxbTBGeWMyY1V0a3pEdDJFeTMzUEVmcjdHanFLcWU2bkd6NW9UNHh3RVdneHktemdiRWNZd21Ea19SSVVUczlreEdqSGxydUF4ZUFObktSUUoyMjA?oc=5",
+   "publishedAt": "2026-11-25T10:49:29.000Z",
+   "sector": "Auto & EV",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 0.23,
+   "amountRaw": "INR 2 Crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 1,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s190",
+  "stratum": "tail",
+  "raw": {
+   "title": "Cabinet approves Rs 4,288 crore second container terminal at Kamarajar Port; Rs 2,014 crore airport in Assam",
+   "body": "",
+   "source": "ANI News",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOVExhMHZsMXpVNUpQNHZfNFVrOHduYTlPU1dRVlFEcW8xTE5VWmNBOTlENXRkT1NfaWhrSWYzTU9fdng5SUJvT3ItRGJPX24yNkg4QWhlX09wdkRrQjd0RGlFbnM3U2kwTFNzdWdFa1lVb3FjSnBOVTQzWGZvWDBkcUpSaDNrOW5wS1pZdFJ6OS1tb0pUdWlKamxuRmFESW1ETGNWZnNaSm5qb0o3TFk4ZzBLdGlhS3hObzQyeDZlMkF3UGZyWWZkZVhjdmVaczV2STFQUXg3STRZQnBnUWEzeVdqUWxNWUpFQXk0MXh3YUV2azRoSXlST1hCZHZIdw?oc=5",
+   "publishedAt": "2026-11-25T10:16:00.000Z",
+   "sector": "Infrastructure",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "policy",
+   "trigger": "Cabinet approves",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 487.27,
+   "amountRaw": "Rs 4,288 crore",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 41,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s191",
+  "stratum": "tail",
+  "raw": {
+   "title": "Indian Startups Shine at L’Oréal Big Bang 2026: Intrinsic Foundries Wins, Hector Earns Special Mention",
+   "body": "",
+   "source": "Indianweb2.com",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcTJUaFgxalJJbTBMNlVmVEhtSDNSYVlWTGRWZGdkaGRwQ3Fvd2pGbzRFZWoyX3Bwc1JrdGVkU2x0Q3MwLURKUVZQWVEtVURBMHF5aGN4N3ZQWl9iMEQ0Z1hrOEFkQ3RKNG45Rm1mOHRvdlVzbVdaelU2MzVMQXRaeg?oc=5",
+   "publishedAt": "2026-11-24T11:15:00.000Z",
+   "sector": "Consumer",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 0,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s192",
+  "stratum": "tail",
+  "raw": {
+   "title": "RBI eases export paperwork for individuals, sets cap for service exporters",
+   "body": "The clarification is expected to ease compliance for smaller service exporters and provide banks greater clarity on processing overseas payments.",
+   "source": "Mint",
+   "url": "https://www.livemint.com/economy/rbi-eases-export-paperwork-for-individuals-sets-cap-for-service-exporters-11795172948824.html",
+   "publishedAt": "2026-11-20T12:11:56.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 3,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s193",
+  "stratum": "tail",
+  "raw": {
+   "title": "Budget 2027: Nasscom seeks 3-year AI innovation scheme, ESOP tax relief & higher hiring incentives for IT sector",
+   "body": "Nasscom highlighted that smaller IT service providers face greater difficulties in financing technology development, hiring specialised professionals and releasing employees from ongoing projects for training",
+   "source": "Mint",
+   "url": "https://www.livemint.com/industry/infotech/budget-2027-28-nasscom-seeks-three-year-ai-innovation-scheme-esop-tax-relief-and-higher-hiring-incentives-for-it-secto-11795451042516.html",
+   "publishedAt": "2026-11-23T17:33:58.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": "policy",
+   "trigger": "Budget 2027: Nasscom seeks 3-year AI innovation scheme",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 22,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s194",
+  "stratum": "tail",
+  "raw": {
+   "title": "From weapons deals to military drills, how India and US deepened defence ties in 2026",
+   "body": "",
+   "source": "The Times of India",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOYnRzTEF2NmY1QmdQdHljTnNROE1iaE9wR1hyeFFXTE12RkMtR3FaY0dfcXoyNzNLeVE5WjJSN1oxRm5BTFBpdDE0MlM3UDhPTUxXWjE4NDZnN2JhRlR4SGhsQmVMTnAyYUJZMGxlM196OVNYSjRyRGxwT3VlXzRPSTFBcTJ0NjZmc1UtdWxBR3JaS0JEY3IzbzlncG53eGVlOTFQbmFmTFBoSE9VbnJLZW1DWWkzWEt3SVV4ZFIyRl9IeWtHTnJYMkpWZDFIaEg2ZWFZNjZfVmktZVh1OEZ1VWtDd09OOTVZRzVlTmxXYm3SAfYBQVVfeXFMTm5LMmk2NzJ3alpnUFVnSVBWZ0VpNDhKdXBhMXRtdG5obFhUNkxlZjU3dmlpUnIwankxRDYzQVpvcElxRUQxR0FjME9YWjVjUU1YbVNlcFVvZXZNNVV0SmZBOXUzb3prdDUxLVJJVlI4dDgwQXVZbWstTmNsdU1oZ3o4cG9ScFRNUmIxUTZENFBSUzZKWm9Mdkh0eFRlSll4RHg1bWNiRERWelpNdk5CUERoWk5VLXh5bTVXUGc0aWcyQW0ySWxRVUxxaTlIdzZ3Zlpscm9NbnNkYUNFRVFwSDRjQURGZUtFNjVEOXhSVE5JbXBBcGtB?oc=5",
+   "publishedAt": "2026-11-23T09:35:00.000Z",
+   "sector": "Defence",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 0,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s195",
+  "stratum": "tail",
+  "raw": {
+   "title": "Mahanadi Coalfields IPO GMP today, subscription status so far, allotment date and other details",
+   "body": "",
+   "source": "India TV News",
+   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPc183c01aZWNvTjZDLXJzX2JYcmRhVUxzbjVEWmFhYVFDdkVJbmI1UEpSTDVKaGRmeEdwN1dmTUZYSkc4UjNwci1xVXpKRUVqNVBrOGItQWRYWFNkeDc1NGU1QTRRNV9uZ2RoVkpKZV9idjdQVTFoYmkyUnVJSmoxQkM1dThYcHZ3YnNMblp6WjdtdG9NU2lkRHlUM1Etem9hdGFUVUN0elFoZnFMU3F4ZzNkaXp2OExaLWYyQUs4LW5ReTZwYUJFZ3BFYTE1eGt5OVA2eWN1ODhJaGxkN1A2N2RtT1otSktwNlVZMF9PUXRVbUZ1SzVJcGJ3djJZaEdnYlczLUI1V2RrRUNQV0HSAZMCQVVfeXFMTWFZcXpOelVqRXdmX1NWd0JVOWM3TFhReF9YYkVibG41Mk9DWk9YQ1U3U3UwbGtIRzBiTVN0SGlEN3hRLUQtQWFLUnRHaDJXSmhwY2JLN2w5dmk5ZTkzOUVYcVFVMC1sUGhZaDk0UzhsQ0phUzhNMmJnc2lpTnh3WGVCVmZSU3hVZGFIVnNyVU1XUV85YUF4OTJ4MTdYQnVUN2ZoMFNxcVo3SjN6U3NucXZRWnR6V1daamRSUHphV29ubXVTUXJfbjI2ZzNQQmc4cnR2ZWNwRVVpUmlmMXFWMWZXa1JGcnI4YWUxZ1lyRzBCVjdLLWtHZzRkR2dfRkN5YUFwUzZuWTFpMko5UHJJRzlnTHc?oc=5",
+   "publishedAt": "2026-11-23T03:25:16.000Z",
+   "sector": "Capital markets",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "fundraise",
+   "trigger": "IPO",
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 22,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s196",
+  "stratum": "tail",
+  "raw": {
+   "title": "We're buying more of a stock down big from its July highs",
+   "body": "We're dipping into our large cash position as the market remains oversold.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/investingclub/2026/11/25/were-buying-more-of-a-stock-down-big-from-its-july-highs.html",
+   "publishedAt": "2026-11-25T19:55:18.000Z",
+   "sector": null,
+   "trust": 0.8
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 4,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s197",
+  "stratum": "tail",
+  "raw": {
+   "title": "Mahanadi Coalfields IPO LIVE Updates: Is this Coal India arm a ‘Subscribe’? Check GMP",
+   "body": "",
+   "source": "IndiaIPO",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYk5sTUlnR2FPVWw4LWZRTU41OUpPaUc3OEdCYnVaUWYyUm9RNXpjeWYwV3dTTm80QjVOZWFEU2xtUTFqelNDV09qNWhtdjQyd0hMZWI1ZExVYXRYX2xoVlp1ZzlSY0NvYmVBN1N4OHphSUk1OGVyR1FhUkJMTm9SNnM0cjhsX2RfbmVqM2Z2NFk1Q1ZScHhmVC1yd2NhUUNlZnBpVExCaHNXZW1kY0pON1RZaExaN2xX?oc=5",
+   "publishedAt": "2026-11-19T02:33:10.000Z",
+   "sector": "Capital markets",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": "fundraise",
+   "trigger": "IPO",
+   "primary": [
+    "COALINDIA.NS"
+   ],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 34,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s198",
+  "stratum": "tail",
+  "raw": {
+   "title": "Will Softer Palm Tariff Values Cool India's Edible Oil Costs?",
+   "body": "",
+   "source": "ALCHEMPro",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQc0licGF2c0tCdHdETk5JaHpOOFQya3JvV2ZaWUFDcDZVMGU5LTRXYmZpaWpNWURKVnAzSkJDbFR6VGtkNVpqelJVX3p3SGQ3OUNnWWJfRDlZWmtRZ0F4bTBUSXZ4ZmFhTjVNWWo3T01TbC1tVUh3SjZhY3ZOQzlVRVUxVTV4X3dlMnkyX1ExbjFyWUlrd2lOYko2T29LZ0Roa2J5dHNPbXYyRFZa?oc=5",
+   "publishedAt": "2026-11-20T16:06:59.000Z",
+   "sector": "Policy",
+   "trust": 0.55
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": null,
+   "amountRaw": null,
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 0,
+   "sizeVsMcapPct": null
+  }
+ },
+ {
+  "sid": "s199",
+  "stratum": "tail",
+  "raw": {
+   "title": "Gold price drops to ₹1.21 lakh/10 gram",
+   "body": "Analysts attribute decline to weak spot demand",
+   "source": "BusinessLine",
+   "url": "https://www.thehindubusinessline.com/markets/gold/gold-price-drops-to-121-lakh10-gram/article71741380.ece",
+   "publishedAt": "2026-11-25T07:07:52.000Z",
+   "sector": null,
+   "trust": 0.78
+  },
+  "engine": {
+   "event": null,
+   "trigger": null,
+   "primary": [],
+   "mentioned": [],
+   "amountUsdM": 0,
+   "amountRaw": "₹1.21 lakh",
+   "counterparty": null,
+   "isRoundup": false,
+   "materiality": 4,
+   "sizeVsMcapPct": null
+  }
+ }
+]

@@ -1,0 +1,21 @@
+{
+ "kind": "audit",
+ "seed": 20261127,
+ "engineVersion": "9a11e41",
+ "generatedAt": "2026-11-25T20:32:01.749Z",
+ "stats": {
+  "feedsTried": 85,
+  "feedsOk": 85,
+  "feedsFailed": 0,
+  "rawHeadlines": 2695,
+  "uniqueHeadlines": 2373,
+  "understood": 2373,
+  "withEvent": 792,
+  "withCompany": 780,
+  "highMateriality": 69,
+  "staleDropped": 28,
+  "rescoredWithMarketCap": 0,
+  "elapsedMs": 4879,
+  "failures": []
+ }
+}
