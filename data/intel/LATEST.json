@@ -1,21 +1,21 @@
 {
- "at": "2026-11-27T00:39:44.416Z",
+ "at": "2026-11-27T13:58:03.857Z",
  "engineVersion": "d2e69d5",
- "relevant": 1517,
- "new": 1132,
+ "relevant": 1436,
+ "new": 459,
  "sweep": {
   "feedsTried": 85,
   "feedsOk": 85,
   "feedsFailed": 0,
-  "rawHeadlines": 3141,
-  "uniqueHeadlines": 2747,
-  "understood": 2747,
-  "withEvent": 1010,
-  "withCompany": 986,
-  "highMateriality": 68,
-  "staleDropped": 27,
-  "rescoredWithMarketCap": 60,
-  "elapsedMs": 5162,
+  "rawHeadlines": 2969,
+  "uniqueHeadlines": 2619,
+  "understood": 2619,
+  "withEvent": 897,
+  "withCompany": 992,
+  "highMateriality": 53,
+  "staleDropped": 57,
+  "rescoredWithMarketCap": 57,
+  "elapsedMs": 5093,
   "failures": []
  }
 }
