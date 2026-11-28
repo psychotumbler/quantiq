@@ -4,8 +4,11 @@ name: intel-collect
 # Run manually with kind=audit to snapshot a labelled-evaluation sample.
 
 on:
+  # GitHub drops scheduled runs when it is busy (only ~2 of 6 fired per day),
+  # so ask twice as often at quiet minutes; the collector de-duplicates.
   schedule:
     - cron: "17 */4 * * *"
+    - cron: "43 2-23/4 * * *"
   workflow_dispatch:
     inputs:
       kind:
@@ -64,4 +67,4 @@ jobs:
           git add -A
           if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
           git commit -q -m "data: $KIND $(date -u +%Y-%m-%dT%H:%MZ)"
-          git push -q origin data
+          for i in 1 2 3; do git pull -q --rebase origin data && git push -q origin data && break; sleep 5; done

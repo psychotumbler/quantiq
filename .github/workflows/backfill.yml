@@ -1,0 +1,49 @@
+name: backfill
+
+# One-off historical pulls for the Tier 2 backtest. Writes to the `data` branch.
+on:
+  workflow_dispatch:
+    inputs:
+      part:
+        description: "news | prices | bhav"
+        required: true
+        default: news
+      weeks:
+        description: "weeks of news to pull (news only)"
+        required: false
+        default: "26"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: backfill-${{ github.event.inputs.part }}
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      PART: ${{ github.event.inputs.part }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Prepare data branch
+        run: |
+          git config --global user.name "quantiq-collector"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch --depth=1 origin data
+          git worktree add databranch origin/data
+          cd databranch && git checkout -q -B data
+      - name: Backfill
+        run: python3 scripts/backfill.py --out databranch --weeks "${{ github.event.inputs.weeks }}"
+      - name: Commit
+        if: always()
+        run: |
+          cd databranch
+          git add -A
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          git commit -q -m "data: backfill $PART $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do git pull -q --rebase origin data && git push -q origin data && break; sleep 5; done
